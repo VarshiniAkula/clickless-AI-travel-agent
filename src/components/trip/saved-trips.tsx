@@ -1,13 +1,14 @@
 "use client";
 
-import { useSyncExternalStore, useCallback } from "react";
+import { useState } from "react";
 import type { TripBrief } from "@/lib/types";
 import { History, MapPin, Trash2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 type SavedTrip = TripBrief & { savedAt: string };
 
-function getSavedTrips(): SavedTrip[] {
+function loadTrips(): SavedTrip[] {
+  if (typeof window === "undefined") return [];
   try {
     return JSON.parse(localStorage.getItem("clickless_saved_trips") || "[]");
   } catch {
@@ -15,26 +16,18 @@ function getSavedTrips(): SavedTrip[] {
   }
 }
 
-function subscribeSavedTrips(cb: () => void) {
-  window.addEventListener("storage", cb);
-  return () => window.removeEventListener("storage", cb);
-}
-
-const emptyTrips: SavedTrip[] = [];
-
 interface SavedTripsProps {
   onSelect: (brief: TripBrief) => void;
 }
 
 export function SavedTrips({ onSelect }: SavedTripsProps) {
-  const trips = useSyncExternalStore(subscribeSavedTrips, getSavedTrips, () => emptyTrips);
+  const [trips, setTrips] = useState<SavedTrip[]>(loadTrips);
 
-  const removeTrip = useCallback((id: string) => {
-    const current = getSavedTrips();
-    const updated = current.filter((t) => t.id !== id);
+  const removeTrip = (id: string) => {
+    const updated = trips.filter((t) => t.id !== id);
+    setTrips(updated);
     localStorage.setItem("clickless_saved_trips", JSON.stringify(updated));
-    window.dispatchEvent(new StorageEvent("storage"));
-  }, []);
+  };
 
   if (trips.length === 0) return null;
 
