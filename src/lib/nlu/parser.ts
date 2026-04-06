@@ -1,4 +1,7 @@
 import { TravelIntent, TravelIntentSchema } from "@/lib/types";
+import { Groq } from 'groq-sdk';
+
+const groq_key = process.env.GROQ_API_KEY ?? "";
 
 const CITY_ALIASES: Record<string, string> = {
   tokyo: "Tokyo",
@@ -155,6 +158,65 @@ function extractDates(text: string, duration?: number): { start: string; end: st
   }
 
   return undefined;
+}
+
+
+const VALID_ACTIVITIES = [
+  "temples", "food tours", "hiking", "museums", "beaches",
+  "nightlife", "shopping", "sightseeing", "adventure", "culture",
+];
+
+const GROQ_EXTRACTION_PROMPT = `You are a travel intent extractor. Extract structured data from the user's travel query.
+Return ONLY valid JSON — no markdown, no explanation, no extra keys.
+
+Schema:
+{
+  "destination": string,     // city name e.g. "Tokyo". Use "Unknown" if not mentioned
+  "origin": string | null,   // departure city, null if not mentioned
+  "duration": number | null, // trip length in NIGHTS as integer, null if not mentioned. Weeks × 7, days − 1
+  "budget": number | null,   // total budget in USD as integer, null if not mentioned
+  "travelers": number,       // number of people (default 1; "couple"/"two of us"=2, "family"=4)
+  "activities": string[],    // subset of: ["temples","food tours","hiking","museums","beaches","nightlife","shopping","sightseeing","adventure","culture"]
+  "dates": { "start": "YYYY-MM-DD", "end": "YYYY-MM-DD" } | null  // null if not mentioned; "in April" → use 15th as start
+}`;
+
+export async function parseIntentWithGroq(query: string): Promise<TravelIntent> {
+
+  if (groq_key == ""){
+    return parseIntent(query);
+  }
+  try {
+    const client = new Groq({ apiKey: groq_key });
+
+    const completion = await client.chat.completions.create({
+      model: "llama-3.1-8b-instant",
+      messages: [
+        { role: "system", content: GROQ_EXTRACTION_PROMPT },
+        { role: "user", content: query },
+      ],
+      temperature: 0,
+      response_format: { type: "json_object" },
+    });
+
+    const parsed = JSON.parse(completion.choices[0].message.content ?? "{}");
+
+    const activities = Array.isArray(parsed.activities)
+      ? parsed.activities.filter((a: unknown) => typeof a === "string" && VALID_ACTIVITIES.includes(a))
+      : [];
+
+    return TravelIntentSchema.parse({
+      destination: parsed.destination ?? "Unknown",
+      origin: parsed.origin ?? undefined,
+      duration: typeof parsed.duration === "number" ? parsed.duration : undefined,
+      budget: typeof parsed.budget === "number" ? parsed.budget : undefined,
+      travelers: typeof parsed.travelers === "number" ? parsed.travelers : 1,
+      activities,
+      dates: parsed.dates ?? undefined,
+      rawQuery: query,
+    });
+  } catch {
+    return parseIntent(query);
+  }
 }
 
 export function parseIntent(query: string): TravelIntent {

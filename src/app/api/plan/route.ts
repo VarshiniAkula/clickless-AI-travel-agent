@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { parseIntent } from "@/lib/nlu/parser";
+import { parseIntent, parseIntentWithGroq } from "@/lib/nlu/parser";
 import { getFlights, getHotels, getWeather, getCulturalTips, getActivities } from "@/lib/providers/demo-data";
 import { normalizePayload } from "@/lib/extraction/normalize";
 import { buildKnowledgeGraph } from "@/lib/knowledge/graph";
@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
     }
 
     // 1. NLU — parse intent
-    const intent = parseIntent(query);
+    const intent = (await parseIntentWithGroq(query));
 
     if (intent.destination === "Unknown") {
       return NextResponse.json(
