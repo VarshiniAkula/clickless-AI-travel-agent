@@ -3,7 +3,7 @@ import { parseIntent } from "@/lib/nlu/parser";
 import { getFlights, getHotels, getWeather, getCulturalTips, getActivities } from "@/lib/providers/demo-data";
 import { normalizePayload } from "@/lib/extraction/normalize";
 import { buildKnowledgeGraph } from "@/lib/knowledge/graph";
-import { synthesizeTripBrief, synthesizeWithLLM } from "@/lib/synthesis/brief";
+import { synthesizeTripBrief, synthesizeWithGemini, synthesizeWithLLM } from "@/lib/synthesis/brief";
 import { getSupabase } from "@/lib/supabase/client";
 
 export async function POST(req: NextRequest) {
@@ -26,11 +26,10 @@ export async function POST(req: NextRequest) {
     }
 
     // 2. Provider orchestration — fetch demo data
-    const month = intent.dates ? new Date(intent.dates.start).getMonth() : new Date().getMonth();
     const nights = intent.duration || 5;
     const rawFlights = getFlights(intent.destination);
     const rawHotels = getHotels(intent.destination);
-    const rawWeather = getWeather(intent.destination, nights, month);
+    const rawWeather = getWeather(intent.destination, nights);
     const rawCultural = getCulturalTips(intent.destination);
     const rawActivities = getActivities(intent.destination, intent.activities);
 
@@ -56,9 +55,12 @@ export async function POST(req: NextRequest) {
     // 5. Synthesis
     const brief = synthesizeTripBrief(graph);
 
-    // Try LLM-enhanced summary if API key available
+    // Try LLM-enhanced summary: Gemini (primary) → OpenRouter (fallback)
+    const geminiKey = process.env.GEMINI_API_KEY;
     const openrouterKey = process.env.OPENROUTER_API_KEY;
-    if (openrouterKey) {
+    if (geminiKey) {
+      brief.summary = await synthesizeWithGemini(graph, geminiKey);
+    } else if (openrouterKey) {
       brief.summary = await synthesizeWithLLM(graph, openrouterKey);
     }
 

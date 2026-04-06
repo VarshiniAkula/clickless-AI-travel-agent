@@ -71,29 +71,69 @@ function generateSummary(graph: TripKnowledgeGraph): string {
   return parts.join(" ");
 }
 
-// LLM-enhanced summary (calls OpenRouter free tier)
+// Build the LLM prompt for trip summarization
+function buildTripPrompt(graph: TripKnowledgeGraph): string {
+  const { intent, nodes, derived } = graph;
+  return `You are a concise, warm travel advisor for ClickLess AI. Summarize this trip plan in 3-4 sentences. Be specific about value, highlight unique experiences, and mention practical tips.
+
+Destination: ${intent.destination}
+Duration: ${intent.duration || 5} nights
+Budget: $${intent.budget || "flexible"}
+Top flight: ${nodes.flights[0]?.airline} at $${nodes.flights[0]?.price} (${nodes.flights[0]?.stops === 0 ? "nonstop" : nodes.flights[0]?.stops + " stop"}, ${nodes.flights[0]?.duration})
+Hotel: ${nodes.hotels[0]?.name} in ${nodes.hotels[0]?.neighborhood} at $${nodes.hotels[0]?.pricePerNight}/night (${nodes.hotels[0]?.rating}★)
+Activities: ${nodes.activities.map((a) => a.name).slice(0, 6).join(", ")}
+Weather: ${nodes.weather.slice(0, 3).map((w) => `${w.condition} ${w.tempHighF}°F`).join(", ")}
+Cultural tips: ${nodes.cultural.slice(0, 2).map((c) => c.tip).join("; ")}
+Total budget estimate: $${derived.budget.total}
+
+Be warm, specific, and actionable. Mention the best value proposition.`;
+}
+
+// LLM-enhanced summary using Google Gemini (free tier)
+export async function synthesizeWithGemini(
+  graph: TripKnowledgeGraph,
+  apiKey: string
+): Promise<string> {
+  const prompt = buildTripPrompt(graph);
+
+  try {
+    const res = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: {
+            maxOutputTokens: 250,
+            temperature: 0.7,
+          },
+        }),
+      }
+    );
+
+    if (!res.ok) {
+      console.warn("Gemini API call failed:", res.status, await res.text().catch(() => ""));
+      return generateSummary(graph);
+    }
+
+    const data = await res.json();
+    const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+    return text?.trim() || generateSummary(graph);
+  } catch (e) {
+    console.warn("Gemini call error:", e);
+    return generateSummary(graph);
+  }
+}
+
+// LLM-enhanced summary using OpenRouter (fallback)
 export async function synthesizeWithLLM(
   graph: TripKnowledgeGraph,
   apiKey?: string
 ): Promise<string> {
-  // Fallback to deterministic template if no API key
-  if (!apiKey) {
-    return generateSummary(graph);
-  }
+  if (!apiKey) return generateSummary(graph);
 
-  const { intent, nodes, derived } = graph;
-
-  const prompt = `You are a concise travel advisor. Summarize this trip plan in 3-4 sentences:
-Destination: ${intent.destination}
-Duration: ${intent.duration || 5} nights
-Budget: $${intent.budget || "flexible"}
-Top flight: ${nodes.flights[0]?.airline} at $${nodes.flights[0]?.price}
-Hotel: ${nodes.hotels[0]?.name} at $${nodes.hotels[0]?.pricePerNight}/night
-Activities: ${nodes.activities.map((a) => a.name).slice(0, 5).join(", ")}
-Weather: ${nodes.weather.slice(0, 3).map((w) => `${w.condition} ${w.tempHighF}°F`).join(", ")}
-Total budget: $${derived.budget.total}
-
-Be warm, specific, and actionable. Mention the best value proposition.`;
+  const prompt = buildTripPrompt(graph);
 
   try {
     const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
@@ -105,13 +145,13 @@ Be warm, specific, and actionable. Mention the best value proposition.`;
       body: JSON.stringify({
         model: "openrouter/auto",
         messages: [{ role: "user", content: prompt }],
-        max_tokens: 200,
+        max_tokens: 250,
         temperature: 0.7,
       }),
     });
 
     if (!res.ok) {
-      console.warn("LLM call failed, using template summary");
+      console.warn("OpenRouter call failed, using template summary");
       return generateSummary(graph);
     }
 

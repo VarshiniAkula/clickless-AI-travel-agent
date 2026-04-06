@@ -13,7 +13,7 @@ describe("Trip Synthesis Pipeline", () => {
     const normalized = normalizePayload({
       flights: getFlights(intent.destination),
       hotels: getHotels(intent.destination),
-      weather: getWeather(intent.destination, intent.duration || 5, 3),
+      weather: getWeather(intent.destination, intent.duration || 5),
       cultural: getCulturalTips(intent.destination),
       activities: getActivities(intent.destination, intent.activities),
     });
@@ -51,7 +51,7 @@ describe("Trip Synthesis Pipeline", () => {
       intent,
       flights,
       getHotels("Tokyo"),
-      getWeather("Tokyo", 5, 3),
+      getWeather("Tokyo", 5),
       getCulturalTips("Tokyo"),
       getActivities("Tokyo", ["temples"])
     );
@@ -68,7 +68,7 @@ describe("Trip Synthesis Pipeline", () => {
       intent,
       getFlights("Tokyo"),
       getHotels("Tokyo"),
-      getWeather("Tokyo", 5, 3),
+      getWeather("Tokyo", 5),
       getCulturalTips("Tokyo"),
       getActivities("Tokyo", ["temples"])
     );
@@ -94,7 +94,7 @@ describe("Trip Synthesis Pipeline", () => {
       intent,
       getFlights("Tokyo"),
       getHotels("Tokyo"),
-      getWeather("Tokyo", 5, 3),
+      getWeather("Tokyo", 5),
       getCulturalTips("Tokyo"),
       getActivities("Tokyo", ["temples"])
     );
