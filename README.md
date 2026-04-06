@@ -9,15 +9,15 @@ Input (text/voice) → NLU Parser → Provider Orchestration → Semantic Extrac
 → Knowledge Graph → LLM Trip Synthesis → UI Output
 ```
 
-| Module | Path | Description |
-|--------|------|-------------|
-| NLU | `src/lib/nlu/parser.ts` | Deterministic regex+Zod intent parser |
-| Providers | `src/lib/providers/demo-data.ts` | Cached demo adapters for 5 cities |
-| Extraction | `src/lib/extraction/normalize.ts` | Zod-validated normalization layer |
-| Knowledge | `src/lib/knowledge/graph.ts` | In-memory knowledge graph linking trip entities |
-| Synthesis | `src/lib/synthesis/brief.ts` | Template + optional LLM summary generation |
-| API | `src/app/api/plan/route.ts` | POST endpoint orchestrating the full pipeline |
-| UI | `src/components/trip/` | Chat input, flight/hotel cards, itinerary, etc. |
+| Module     | Path                              | Description                                     |
+| ---------- | --------------------------------- | ----------------------------------------------- |
+| NLU        | `src/lib/nlu/parser.ts`           | Deterministic regex+Zod intent parser           |
+| Providers  | `src/lib/providers/demo-data.ts`  | Cached demo adapters for 5 cities               |
+| Extraction | `src/lib/extraction/normalize.ts` | Zod-validated normalization layer               |
+| Knowledge  | `src/lib/knowledge/graph.ts`      | In-memory knowledge graph linking trip entities |
+| Synthesis  | `src/lib/synthesis/brief.ts`      | Template + optional LLM summary generation      |
+| API        | `src/app/api/plan/route.ts`       | POST endpoint orchestrating the full pipeline   |
+| UI         | `src/components/trip/`            | Chat input, flight/hotel cards, itinerary, etc. |
 
 ## Quick Start
 
@@ -36,6 +36,7 @@ Enter this query (or click the example prompt):
 > Plan a 5-night Tokyo trip from Phoenix in April under $2000, I like temples and food tours.
 
 The system will:
+
 1. Parse intent (destination, origin, dates, budget, activities)
 2. Fetch cached demo data for flights, hotels, weather, cultural tips, activities
 3. Normalize all data through Zod schemas
@@ -53,11 +54,12 @@ Tokyo, London, Paris, Cancun, New York — all with flights (from Phoenix), hote
 
 Copy `.env.example` to `.env.local`. **All variables are optional** — the app runs fully in demo mode without any external services.
 
-| Variable | Required | Description |
-|----------|----------|-------------|
-| `NEXT_PUBLIC_SUPABASE_URL` | No | Supabase project URL |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | No | Supabase anonymous key |
-| `OPENROUTER_API_KEY` | No | OpenRouter API key for LLM summaries |
+| Variable                        | Required | Description                          |
+| ------------------------------- | -------- | ------------------------------------ |
+| `NEXT_PUBLIC_SUPABASE_URL`      | No       | Supabase project URL                 |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | No       | Supabase anonymous key               |
+| `OPENROUTER_API_KEY`            | No       | OpenRouter API key for LLM summaries |
+| `GROQ_API_KEY`                  | No       | Groq API key for LLM extraction      |
 
 ## Supabase Setup (Optional)
 
