@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import type { TripBrief } from "@/lib/types";
 import { HeroHome } from "@/components/trip/hero-home";
 import { ConversationalPlanning } from "@/components/trip/conversational-planning";
@@ -15,33 +15,36 @@ export default function Home() {
   const [brief, setBrief] = useState<TripBrief | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  const handleSubmit = async (q: string) => {
+  // Step 1: User submits initial query → go to chat/planning page (NOT auto-search)
+  const handleSubmit = (q: string) => {
     setQuery(q);
+    setError(null);
     setState("planning");
-
-    // Short delay to show conversational planning, then search
-    setTimeout(async () => {
-      setState("searching");
-      try {
-        const res = await fetch("/api/plan", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ query: q }),
-        });
-        const data = await res.json();
-        if (!res.ok) {
-          setError(data.error || "Something went wrong");
-          setState("home");
-          return;
-        }
-        setBrief(data);
-        setState("results");
-      } catch {
-        setError("Failed to connect. Please try again.");
-        setState("home");
-      }
-    }, 3000);
   };
+
+  // Step 2: User explicitly triggers search from the planning page (after reviewing/editing)
+  const handleSearch = useCallback(async (finalQuery: string) => {
+    setQuery(finalQuery);
+    setState("searching");
+    try {
+      const res = await fetch("/api/plan", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ query: finalQuery }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setError(data.error || "Something went wrong");
+        setState("planning");
+        return;
+      }
+      setBrief(data);
+      setState("results");
+    } catch {
+      setError("Failed to connect. Please try again.");
+      setState("planning");
+    }
+  }, []);
 
   const handleNewTrip = () => {
     setState("home");
@@ -55,11 +58,18 @@ export default function Home() {
   }
 
   if (state === "planning") {
-    return <ConversationalPlanning query={query} onSearchStart={() => setState("searching")} />;
+    return (
+      <ConversationalPlanning
+        query={query}
+        onSearch={handleSearch}
+        onNewTrip={handleNewTrip}
+        error={error}
+      />
+    );
   }
 
   if (state === "searching") {
-    return <SearchProgress />;
+    return <SearchProgress query={query} />;
   }
 
   if (state === "results" && brief) {

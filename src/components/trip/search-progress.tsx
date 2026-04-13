@@ -1,11 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { parseIntent } from "@/lib/nlu/parser";
 
 const STAGES = [
   { icon: "flight", label: "Flights", sublabel: "Searching 5 global sources...", status: "FOUND BEST PRICES", pct: 100 },
   { icon: "hotel", label: "Accommodations", sublabel: "Analyzing 45 listings...", status: "85% MATCH SCORE", pct: 85 },
-  { icon: "cloud", label: "Weather Insights", sublabel: "Retrieving April forecast...", status: "COMPLETE", pct: 100 },
+  { icon: "cloud", label: "Weather Insights", sublabel: "Retrieving forecast...", status: "COMPLETE", pct: 100 },
   { icon: "explore", label: "Local Guides", sublabel: "Sourcing local highlights...", status: "CURATING EXPERIENCE", pct: 40 },
 ];
 
@@ -15,9 +16,34 @@ const STEPS = [
   "Synthesizing your itinerary architecture...",
 ];
 
-export function SearchProgress() {
+interface SearchProgressProps {
+  query?: string;
+}
+
+const DESTINATION_IMAGES: Record<string, string> = {
+  Tokyo: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=60",
+  London: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=60",
+  Paris: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=60",
+  "Cancún": "https://images.unsplash.com/photo-1510097467424-192d713fd8b2?w=800&q=60",
+  "New York": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800&q=60",
+};
+
+const DESTINATION_INSIGHTS: Record<string, string> = {
+  Tokyo: "April in Tokyo offers cherry blossoms and pleasant weather. We're prioritizing cultural experiences and food tours to match your preferences.",
+  London: "Spring in London brings mild weather and fewer crowds. We're finding the best museum passes and historic walking tours for you.",
+  Paris: "Paris in spring is magical — pleasant temperatures and outdoor café season. We're curating art, food, and Seine-side experiences.",
+  "Cancún": "Perfect beach weather awaits. We're finding the best snorkeling spots, cenote tours, and authentic local food experiences.",
+  "New York": "NYC in spring is vibrant — Central Park in bloom, outdoor dining, and Broadway season. We're finding the best deals for you.",
+};
+
+export function SearchProgress({ query }: SearchProgressProps) {
   const [activeStage, setActiveStage] = useState(0);
   const [activeStep, setActiveStep] = useState(0);
+
+  const intent = query ? parseIntent(query) : null;
+  const destination = intent?.destination && intent.destination !== "Unknown" ? intent.destination : "your destination";
+  const image = DESTINATION_IMAGES[destination] || "https://images.unsplash.com/photo-1488646472114-61fc8bca5cbb?w=800&q=60";
+  const insight = DESTINATION_INSIGHTS[destination] || "We're analyzing your preferences to build the perfect trip brief.";
 
   useEffect(() => {
     const i1 = setInterval(() => setActiveStage((p) => Math.min(p + 1, STAGES.length - 1)), 700);
@@ -27,24 +53,22 @@ export function SearchProgress() {
 
   return (
     <div className="min-h-screen bg-[#f7f9fb]">
-      {/* Header */}
       <header className="flex justify-between items-center px-8 md:px-12 py-6 bg-[#f7f9fb]/80 backdrop-blur-md sticky top-0 z-50">
         <div className="flex items-center gap-2">
           <span className="material-symbols-outlined text-[#002542]" style={{ fontVariationSettings: "'FILL' 1" }}>auto_awesome</span>
           <span className="text-lg font-extrabold text-[#002542]" style={{ fontFamily: "Manrope, sans-serif" }}>ClickLess AI</span>
         </div>
         <nav className="hidden md:flex space-x-8">
-          <a className="font-bold text-[#002542]" href="#">New Trip</a>
-          <a className="text-[#43474d] font-medium" href="#">Saved Trips</a>
+          <span className="font-bold text-[#002542]">New Trip</span>
+          <span className="text-[#43474d] font-medium">Saved Trips</span>
         </nav>
         <div className="flex items-center gap-4">
-          <span className="material-symbols-outlined text-[#002542]">account_circle</span>
-          <span className="material-symbols-outlined text-[#002542]">settings</span>
+          <span className="material-symbols-outlined text-[#002542]" aria-label="Account">account_circle</span>
+          <span className="material-symbols-outlined text-[#002542]" aria-label="Settings">settings</span>
         </div>
       </header>
 
       <main className="max-w-5xl mx-auto px-6 py-12">
-        {/* Title */}
         <div className="text-center mb-12">
           <div className="w-20 h-20 premium-gradient rounded-[1.5rem] flex items-center justify-center mx-auto mb-6">
             <span className="material-symbols-outlined text-white text-4xl">hub</span>
@@ -57,7 +81,6 @@ export function SearchProgress() {
           </p>
         </div>
 
-        {/* Progress Cards */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
           {STAGES.map((stage, i) => {
             const isDone = i <= activeStage;
@@ -81,7 +104,6 @@ export function SearchProgress() {
           })}
         </div>
 
-        {/* Steps */}
         <div className="space-y-4 mb-12 max-w-xl mx-auto">
           {STEPS.map((step, i) => (
             <div key={step} className={`flex items-center gap-3 transition-opacity ${i <= activeStep ? "opacity-100" : "opacity-30"}`}>
@@ -94,18 +116,13 @@ export function SearchProgress() {
           ))}
         </div>
 
-        {/* Expert Insight */}
         <div className="flex flex-col md:flex-row gap-6">
           <div className="flex-1 relative h-64 rounded-2xl overflow-hidden shadow-lg">
-            <img
-              alt="Destination preview"
-              className="w-full h-full object-cover"
-              src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=60"
-            />
+            <img alt={`${destination} preview`} className="w-full h-full object-cover" src={image} />
             <div className="absolute inset-0 bg-gradient-to-t from-[#002542]/80 to-transparent flex items-end p-6">
               <div>
                 <p className="text-[10px] font-bold uppercase tracking-widest text-[#86f2e4]">Current Selection</p>
-                <p className="text-white font-extrabold text-2xl" style={{ fontFamily: "Manrope, sans-serif" }}>Tokyo, Japan</p>
+                <p className="text-white font-extrabold text-2xl" style={{ fontFamily: "Manrope, sans-serif" }}>{destination}</p>
               </div>
             </div>
           </div>
@@ -116,9 +133,7 @@ export function SearchProgress() {
               </div>
               <h3 className="font-bold text-[#002542]" style={{ fontFamily: "Manrope, sans-serif" }}>Expert Insight</h3>
             </div>
-            <p className="text-sm text-[#43474d] leading-relaxed">
-              April in Tokyo offers cherry blossoms and pleasant weather. We&apos;re prioritizing cultural experiences and food tours to match your preferences, with temple visits scheduled for morning hours.
-            </p>
+            <p className="text-sm text-[#43474d] leading-relaxed">{insight}</p>
           </div>
         </div>
       </main>
