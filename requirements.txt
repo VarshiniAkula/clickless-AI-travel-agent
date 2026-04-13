@@ -1,0 +1,8 @@
+playwright
+spacy
+beautifulsoup4
+requests
+scikit-learn
+openai
+fastapi
+uvicorn
