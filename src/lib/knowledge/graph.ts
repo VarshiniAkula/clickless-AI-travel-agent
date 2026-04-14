@@ -52,7 +52,8 @@ export function buildKnowledgeGraph(
   });
 
   // Link intent -> best hotel (within budget)
-  const nights = intent.duration || 5;
+  const totalDays = intent.duration || 5;
+  const nights = Math.max(totalDays - 1, 1);
   const budgetForHotel = intent.budget ? (intent.budget - (topFlights[0]?.price || 0)) * 0.5 : Infinity;
   const affordableHotels = hotels
     .filter((h) => h.pricePerNight * nights <= budgetForHotel)
@@ -62,8 +63,8 @@ export function buildKnowledgeGraph(
     edges.push({ from: "intent", to: `hotel:${bestHotel.id}`, relation: "recommends" });
   }
 
-  // Link activities -> itinerary days (pick most relevant, cap at nights*2+2)
-  const activityCap = nights * 2 + 2;
+  // Link activities -> itinerary days (pick most relevant, cap at totalDays*2)
+  const activityCap = totalDays * 2;
   const relevantActivities = pickRelevantActivities(activities, intent.activities, activityCap);
   relevantActivities.forEach((a, i) => {
     const day = Math.floor(i / 2) + 1;
@@ -80,10 +81,12 @@ export function buildKnowledgeGraph(
     edges.push({ from: "intent", to: `cultural:${i}`, relation: "tip" });
   });
 
-  // Derive itinerary
+  // Derive itinerary — duration is in days, nights = days - 1
+  const days = intent.duration || 5;
+  const actualNights = Math.max(days - 1, 1);
   const itinerary = buildItinerary(intent, relevantActivities, weather);
   const packingList = buildPackingList(weather, intent.activities);
-  const budget = buildBudget(topFlights[0], bestHotel, relevantActivities, nights);
+  const budget = buildBudget(topFlights[0], bestHotel, relevantActivities, actualNights, intent.budget);
 
   return {
     intent,
@@ -123,15 +126,37 @@ function pickRelevantActivities(
   return scored.slice(0, cap).sort((x, y) => x.i - y.i).map((x) => x.a);
 }
 
+// Humanize raw Wikivoyage category slugs into readable titles
+const CATEGORY_TITLES: Record<string, string> = {
+  see: "Sightseeing & Landmarks",
+  do: "Activities & Experiences",
+  eat: "Culinary Discoveries",
+  buy: "Shopping & Markets",
+  temples: "Temples & Shrines",
+  "food tours": "Food & Culinary Tours",
+  hiking: "Hiking & Nature",
+  museums: "Museums & Art",
+  beaches: "Beach & Water Activities",
+  nightlife: "Nightlife & Entertainment",
+  shopping: "Shopping & Markets",
+  sightseeing: "Sightseeing",
+  adventure: "Adventure Activities",
+  culture: "Cultural Exploration",
+};
+
+function humanizeCategory(category: string): string {
+  return CATEGORY_TITLES[category.toLowerCase()] || category.charAt(0).toUpperCase() + category.slice(1);
+}
+
 function buildItinerary(
   intent: TravelIntent,
   activities: ActivityOption[],
   weather: WeatherForecast[]
 ): ItineraryDay[] {
-  const nights = intent.duration || 5;
+  const totalDays = intent.duration || 5; // duration = total days of the trip
   const days: ItineraryDay[] = [];
 
-  for (let d = 1; d <= nights + 1; d++) {
+  for (let d = 1; d <= totalDays; d++) {
     const dayActivities = activities.filter((_, i) => Math.floor(i / 2) + 1 === d);
     const w = weather[d - 1];
 
@@ -153,16 +178,16 @@ function buildItinerary(
       });
     });
 
-    if (daySchedule.length === 0 && d <= nights) {
+    if (daySchedule.length === 0 && d < totalDays) {
       daySchedule.push({ time: "10:00 AM", activity: `Free exploration day in ${intent.destination}`, notes: "Wander, shop, or revisit favorites" });
     }
 
-    if (d === nights + 1) {
+    if (d === totalDays) {
       daySchedule.push({ time: "10:00 AM", activity: "Check out & head to airport", notes: "Allow 3 hours before flight" });
     }
 
-    // Add dinner suggestion
-    if (d <= nights) {
+    // Add dinner suggestion for all days except departure
+    if (d < totalDays) {
       daySchedule.push({
         time: "7:00 PM",
         activity: `Dinner — local ${intent.destination} cuisine`,
@@ -171,10 +196,16 @@ function buildItinerary(
       });
     }
 
+    const dayTitle = d === 1
+      ? "Arrival Day"
+      : d === totalDays
+        ? "Departure Day"
+        : `Day ${d} — ${humanizeCategory(dayActivities[0]?.category || "Exploration")}`;
+
     days.push({
       day: d,
       date: w?.date,
-      title: d === 1 ? "Arrival Day" : d === nights + 1 ? "Departure Day" : `Day ${d} — ${dayActivities[0]?.category || "Exploration"}`,
+      title: dayTitle,
       activities: daySchedule,
     });
   }
@@ -232,14 +263,33 @@ function buildBudget(
   flight: FlightOption | undefined,
   hotel: HotelOption | undefined,
   activities: ActivityOption[],
-  nights: number
+  nights: number,
+  userBudget?: number
 ): BudgetSummary {
   const flightCost = (flight?.price || 600) * 2; // round trip
-  const hotelCost = (hotel?.pricePerNight || 100) * nights;
+  let hotelCost = (hotel?.pricePerNight || 100) * nights;
   const activityCost = activities.reduce((sum, a) => sum + (a.estimatedCost || 0), 0);
-  const foodCost = nights * 45; // ~$45/day estimate
-  const transportCost = nights * 15; // ~$15/day local transport
+  let foodCost = nights * 45; // ~$45/day estimate
+  let transportCost = nights * 15; // ~$15/day local transport
+
+  // If user specified a budget, scale down to fit
+  if (userBudget && userBudget > 0) {
+    const rawTotal = flightCost + hotelCost + activityCost + foodCost + transportCost;
+    if (rawTotal > userBudget) {
+      // Flights are fixed; scale hotel, food, transport to fit remaining budget
+      const remaining = userBudget - flightCost - activityCost;
+      if (remaining > 0) {
+        const flexTotal = hotelCost + foodCost + transportCost;
+        const scale = Math.min(1, remaining / flexTotal);
+        hotelCost = Math.round(hotelCost * scale);
+        foodCost = Math.round(foodCost * scale);
+        transportCost = Math.round(transportCost * scale);
+      }
+    }
+  }
+
   const miscCost = Math.round((flightCost + hotelCost) * 0.05); // 5% buffer
+  const total = flightCost + hotelCost + activityCost + foodCost + transportCost + miscCost;
 
   return {
     flights: flightCost,
@@ -248,7 +298,7 @@ function buildBudget(
     food: foodCost,
     transport: transportCost,
     misc: miscCost,
-    total: flightCost + hotelCost + activityCost + foodCost + transportCost + miscCost,
+    total,
     currency: "USD",
   };
 }

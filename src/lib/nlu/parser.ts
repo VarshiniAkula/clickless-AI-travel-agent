@@ -94,9 +94,9 @@ function matchCity(text: string): string | undefined {
 function extractDuration(text: string): number | undefined {
   const lower = text.toLowerCase();
   const nightMatch = lower.match(/(\d+)\s*(?:-\s*)?night/);
-  if (nightMatch) return parseInt(nightMatch[1]);
+  if (nightMatch) return parseInt(nightMatch[1]) + 1; // nights + 1 = days
   const dayMatch = lower.match(/(\d+)\s*(?:-\s*)?day/);
-  if (dayMatch) return parseInt(dayMatch[1]) - 1; // days to nights
+  if (dayMatch) return parseInt(dayMatch[1]); // days as-is
   const weekMatch = lower.match(/(\d+)\s*week/);
   if (weekMatch) return parseInt(weekMatch[1]) * 7;
   return undefined;
@@ -142,9 +142,9 @@ function extractDates(text: string, duration?: number): { start: string; end: st
     if (match) {
       const year = match[1] ? parseInt(match[1]) : new Date().getFullYear();
       const start = new Date(year, monthIdx, 15); // mid-month default
-      const nights = duration || 5;
+      const totalDays = duration || 5;
       const end = new Date(start);
-      end.setDate(end.getDate() + nights);
+      end.setDate(end.getDate() + totalDays - 1);
       return { start: start.toISOString().split("T")[0], end: end.toISOString().split("T")[0] };
     }
   }
@@ -181,7 +181,7 @@ Schema:
 {
   "destination": string,     // city name e.g. "Tokyo". Use "Unknown" if not mentioned
   "origin": string | null,   // departure city, null if not mentioned
-  "duration": number | null, // trip length in NIGHTS as integer, null if not mentioned. Weeks × 7, days − 1
+  "duration": number | null, // trip length in DAYS as integer, null if not mentioned. "5-day trip" = 5. "1 week" = 7
   "budget": number | null,   // total budget in USD as integer, null if not mentioned
   "travelers": number,       // number of people (default 1; "couple"/"two of us"=2, "family"=4)
   "activities": string[],    // subset of: ["temples","food tours","hiking","museums","beaches","nightlife","shopping","sightseeing","adventure","culture"]

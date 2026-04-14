@@ -74,6 +74,12 @@ export default function Home() {
 
   const handleNewTrip = () => {
     setState("home");
+    // Don't clear brief/query — user can return to last trip via "Back to Trip"
+    setError(null);
+  };
+
+  const handleStartFresh = () => {
+    setState("home");
     setBrief(null);
     setQuery("");
     setError(null);
@@ -96,7 +102,16 @@ export default function Home() {
   };
 
   if (state === "home") {
-    return <HeroHome onSubmit={handleSubmit} onShowSaved={handleShowSaved} onShowProfile={handleShowProfile} error={error} />;
+    return (
+      <HeroHome
+        onSubmit={handleSubmit}
+        onShowSaved={handleShowSaved}
+        onShowProfile={handleShowProfile}
+        onBackToTrip={brief ? () => setState("results") : undefined}
+        hasExistingTrip={!!brief}
+        error={error}
+      />
+    );
   }
 
   if (state === "planning") {
@@ -107,6 +122,8 @@ export default function Home() {
         onNewTrip={handleNewTrip}
         onShowSaved={handleShowSaved}
         onShowProfile={handleShowProfile}
+        onBackToResults={brief ? () => setState("results") : undefined}
+        hasExistingTrip={!!brief}
         error={error}
       />
     );
@@ -117,7 +134,15 @@ export default function Home() {
   }
 
   if (state === "results" && brief) {
-    return <TripBriefView brief={brief} onNewTrip={handleNewTrip} onShowSaved={handleShowSaved} onShowProfile={handleShowProfile} />;
+    return (
+      <TripBriefView
+        brief={brief}
+        onNewTrip={handleNewTrip}
+        onShowSaved={handleShowSaved}
+        onShowProfile={handleShowProfile}
+        onRefineTrip={() => setState("planning")}
+      />
+    );
   }
 
   if (state === "saved") {

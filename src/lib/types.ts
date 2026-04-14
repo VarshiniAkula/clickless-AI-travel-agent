@@ -123,7 +123,7 @@ export const TravelIntentSchema = z.object({
   origin: z.string().optional(),
   destination: z.string(),
   dates: DateRangeSchema.optional(),
-  duration: z.number().optional(), // nights
+  duration: z.number().optional(), // total days
   budget: z.number().optional(),
   travelers: z.number().default(1),
   activities: z.array(z.string()),

@@ -97,8 +97,8 @@ function parseActivities(wikitext: string, sectionName: string, city: string, st
       id: `wv-${id++}`,
       name: cleanText(name),
       category: sectionName,
-      description: cleanText(description).slice(0, 200) || `Notable ${sectionName} spot in ${city}`,
-      estimatedCost: parseCost(props["price"] || ""),
+      description: trimAtSentence(cleanText(description), 200) || `Notable ${sectionName} spot in ${city}`,
+      estimatedCost: parseCost(props["price"] || "", city),
       duration: props["hours"] ? undefined : "2h",
       location: props["address"] || city,
     });
@@ -173,11 +173,58 @@ function cleanText(text: string): string {
     .trim();
 }
 
-function parseCost(price: string): number | undefined {
+function trimAtSentence(text: string, maxLen: number): string {
+  if (text.length <= maxLen) return text;
+  const trimmed = text.slice(0, maxLen);
+  const lastPeriod = trimmed.lastIndexOf(".");
+  if (lastPeriod > maxLen * 0.4) return trimmed.slice(0, lastPeriod + 1);
+  const lastSpace = trimmed.lastIndexOf(" ");
+  return lastSpace > 0 ? trimmed.slice(0, lastSpace) + "..." : trimmed + "...";
+}
+
+// Approximate exchange rates to USD for common travel currencies
+const CURRENCY_TO_USD: Record<string, number> = {
+  "¥": 0.0067, "JPY": 0.0067,   // Japanese Yen
+  "€": 1.08, "EUR": 1.08,       // Euro
+  "£": 1.27, "GBP": 1.27,       // British Pound
+  "MXN": 0.058, "MX$": 0.058,   // Mexican Peso
+  "THB": 0.028, "฿": 0.028,     // Thai Baht
+  "IDR": 0.000063, "Rp": 0.000063, // Indonesian Rupiah
+};
+
+// Map destination cities to their likely local currency symbol
+const CITY_CURRENCY: Record<string, string> = {
+  tokyo: "¥", kyoto: "¥", osaka: "¥",
+  paris: "€", rome: "€", barcelona: "€", berlin: "€", amsterdam: "€",
+  london: "£", edinburgh: "£",
+  cancún: "MXN", cancun: "MXN",
+  bangkok: "THB",
+  bali: "IDR", jakarta: "IDR",
+};
+
+function parseCost(price: string, city?: string): number | undefined {
+  if (!price) return undefined;
   const match = price.match(/[\d,]+/);
   if (!match) return undefined;
   const val = parseInt(match[0].replace(",", ""), 10);
-  return isNaN(val) ? undefined : val;
+  if (isNaN(val)) return undefined;
+
+  // Detect currency from the price string or fall back to city default
+  const currencyMatch = price.match(/([¥€£$฿]|JPY|EUR|GBP|MXN|THB|IDR|Rp)/i);
+  let currencyKey = currencyMatch?.[0];
+
+  // If no currency symbol in the price string, infer from city
+  if (!currencyKey && city) {
+    currencyKey = CITY_CURRENCY[city.toLowerCase()];
+  }
+
+  // Convert to USD if non-USD currency detected
+  if (currencyKey && currencyKey !== "$" && currencyKey !== "USD") {
+    const rate = CURRENCY_TO_USD[currencyKey];
+    if (rate) return Math.round(val * rate);
+  }
+
+  return val;
 }
 
 // ── Main export ──
