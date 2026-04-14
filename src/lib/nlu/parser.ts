@@ -83,7 +83,12 @@ function extractDestination(text: string): { origin?: string; destination?: stri
 
 function matchCity(text: string): string | undefined {
   const lower = text.toLowerCase().trim();
-  return CITY_ALIASES[lower];
+  if (CITY_ALIASES[lower]) return CITY_ALIASES[lower];
+  // Accept any multi-char word as a city (capitalize each word)
+  if (lower.length >= 3 && /^[a-z\s]+$/.test(lower)) {
+    return lower.replace(/\b\w/g, (c) => c.toUpperCase());
+  }
+  return undefined;
 }
 
 function extractDuration(text: string): number | undefined {
