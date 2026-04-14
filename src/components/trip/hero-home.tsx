@@ -4,10 +4,11 @@ import { useState, useRef } from "react";
 
 interface HeroHomeProps {
   onSubmit: (query: string) => void;
+  onShowSaved: () => void;
   error: string | null;
 }
 
-export function HeroHome({ onSubmit, error }: HeroHomeProps) {
+export function HeroHome({ onSubmit, onShowSaved, error }: HeroHomeProps) {
   const [query, setQuery] = useState("");
   const [isListening, setIsListening] = useState(false);
   const recognitionRef = useRef<SpeechRecognition | null>(null);
@@ -51,7 +52,7 @@ export function HeroHome({ onSubmit, error }: HeroHomeProps) {
         </div>
         <nav className="hidden md:flex space-x-10">
           <a className="font-bold text-[#002542] hover:text-[#006a61] transition-colors" href="#">New Trip</a>
-          <a className="text-[#43474d] font-medium hover:text-[#006a61] transition-colors" href="#">Saved Trips</a>
+          <button className="text-[#43474d] font-medium hover:text-[#006a61] transition-colors" onClick={onShowSaved}>Saved Trips</button>
           <a className="text-[#43474d] font-medium hover:text-[#006a61] transition-colors" href="#">Preferences</a>
         </nav>
         <div className="flex items-center gap-6">
@@ -141,7 +142,7 @@ export function HeroHome({ onSubmit, error }: HeroHomeProps) {
                   <div className="h-2 w-2/3 bg-[#002542]/5 rounded-full" />
                 </div>
               </div>
-              <div className="absolute right-0 bottom-0 glass-morphism p-6 rounded-[2rem] shadow-xl border border-white/50 w-80 translate-y-8">
+              <div className="absolute right-0 bottom-0 glass-morphism p-6 rounded-[2rem] shadow-xl border border-white/50 w-80 animate-bounce" style={{ animationDuration: "5s" }}>
                 <div className="flex items-center gap-4 mb-4">
                   <div className="w-12 h-12 rounded-full bg-[#d1e4ff] flex items-center justify-center text-[#002542]">
                     <span className="material-symbols-outlined">hotel</span>

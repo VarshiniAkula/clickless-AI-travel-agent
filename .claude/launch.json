@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "dev",
-      "runtimeExecutable": "/opt/homebrew/Cellar/node/24.4.0/bin/node",
-      "runtimeArgs": ["/Users/anishkuttetira/Desktop/CSE/CSE573/clickless-AI-travel-agent/node_modules/next/dist/bin/next", "dev", "--webpack"],
+      "runtimeExecutable": "/bin/bash",
+      "runtimeArgs": ["/Users/varshini/Clickless-AI/.claude/start-dev.sh"],
       "port": 3000,
       "autoPort": true
     }

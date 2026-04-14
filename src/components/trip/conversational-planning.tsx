@@ -7,6 +7,7 @@ interface ConversationalPlanningProps {
   query: string;
   onSearch: (finalQuery: string) => void;
   onNewTrip: () => void;
+  onShowSaved: () => void;
   error: string | null;
 }
 
@@ -16,7 +17,7 @@ interface ChatMessage {
   chips?: string[];
 }
 
-export function ConversationalPlanning({ query, onSearch, onNewTrip, error }: ConversationalPlanningProps) {
+export function ConversationalPlanning({ query, onSearch, onNewTrip, onShowSaved, error }: ConversationalPlanningProps) {
   const [currentQuery, setCurrentQuery] = useState(query);
   const [inputValue, setInputValue] = useState("");
   const [messages, setMessages] = useState<ChatMessage[]>([]);
@@ -102,8 +103,11 @@ export function ConversationalPlanning({ query, onSearch, onNewTrip, error }: Co
             aria-current={activeNav === "new-trip" ? "page" : undefined}>
             <span className="material-symbols-outlined">add_circle</span><span>New Trip</span>
           </button>
+          <button onClick={onShowSaved}
+            className={`flex items-center gap-3 px-4 py-3 w-full text-left rounded-r-full transition-colors ${activeNav === "saved" ? "text-[#002542] font-bold bg-white" : "text-[#43474d] hover:bg-white/50"}`}>
+            <span className="material-symbols-outlined">bookmark</span><span>Saved Trips</span>
+          </button>
           {[
-            { id: "saved", icon: "bookmark", label: "Saved Trips" },
             { id: "profile", icon: "person", label: "Profile" },
             { id: "prefs", icon: "tune", label: "Preferences" },
           ].map((item) => (
@@ -114,15 +118,6 @@ export function ConversationalPlanning({ query, onSearch, onNewTrip, error }: Co
             </button>
           ))}
         </nav>
-        <div className="px-6 mb-6">
-          <div className="w-full py-3 px-4 bg-gradient-to-r from-[#002542] to-[#006a61] text-white rounded-xl text-sm font-semibold shadow-md border border-white/10">
-            <div className="flex items-center gap-2 mb-1">
-              <span className="material-symbols-outlined text-[#86f2e4] text-sm">auto_awesome</span>
-              <span className="font-bold">Upgrade to Premium</span>
-            </div>
-            <p className="text-[10px] text-white/60">Unlock real-time flights & hotels</p>
-          </div>
-        </div>
         <div className="px-4 pt-4 border-t border-[#c3c6ce]/15 space-y-1">
           <button className="flex items-center gap-3 px-4 py-2 text-[#43474d] text-sm hover:text-[#002542] w-full text-left" aria-label="Help">
             <span className="material-symbols-outlined text-sm">help</span><span>Help</span>
