@@ -6,21 +6,22 @@ import { loadCityCache } from "@/lib/cache";
 const memCache = new Map<string, { data: WeatherForecast[]; fetchedAt: number }>();
 const CACHE_TTL_MS = 3 * 60 * 60 * 1000; // 3 hours
 
-export async function getWeatherLive(city: string, nights: number): Promise<WeatherForecast[]> {
+export async function getWeatherLive(city: string, nights: number, startDate?: string): Promise<WeatherForecast[]> {
   // 1. Static git-committed cache (90 days of real dated forecasts)
   const staticCache = loadCityCache(city);
   if (staticCache?.weather90Days?.length) {
     const today = new Date().toISOString().split("T")[0];
-    // Find entries from today onwards
-    const fromToday = staticCache.weather90Days.filter((w) => w.date >= today);
-    if (fromToday.length >= nights) {
-      console.log(`[weather] Serving "${city}" from 90-day static cache (${fromToday.length} days available)`);
-      return fromToday.slice(0, nights + 1);
+    // Use requested start date if it's in the future, otherwise default to today
+    const from = startDate && startDate > today ? startDate : today;
+    const fromDate = staticCache.weather90Days.filter((w) => w.date >= from);
+    if (fromDate.length >= nights) {
+      console.log(`[weather] Serving "${city}" from static cache starting ${from} (${fromDate.length} days available)`);
+      return fromDate.slice(0, nights + 1);
     }
     // If cache has some but not enough days, serve what's available
-    if (fromToday.length > 0) {
-      console.log(`[weather] Partial static cache for "${city}" — ${fromToday.length} days`);
-      return fromToday;
+    if (fromDate.length > 0) {
+      console.log(`[weather] Partial static cache for "${city}" — ${fromDate.length} days from ${from}`);
+      return fromDate;
     }
   }
 

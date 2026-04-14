@@ -19,6 +19,7 @@ export function TripBriefView({ brief, onNewTrip }: TripBriefViewProps) {
   const budgetRef = useRef<HTMLDivElement>(null);
 
   const nights = brief.intent.duration || 5;
+  const totalDays = nights + 1; // nights + arrival/departure days
   const topFlight = brief.flights[0];
   const topHotel = brief.hotels[0];
   const travelers = brief.intent.travelers || 1;
@@ -185,7 +186,7 @@ export function TripBriefView({ brief, onNewTrip }: TripBriefViewProps) {
               <h1 className="text-4xl md:text-5xl font-extrabold text-[#002542] leading-tight" style={{ fontFamily: "Manrope, sans-serif", textWrap: "balance" }}>
                 {brief.intent.destination}
               </h1>
-              <p className="text-xl text-[#43474d] mt-1">A {nights}-Day Cultural Adventure</p>
+              <p className="text-xl text-[#43474d] mt-1">A {totalDays}-Day Cultural Adventure</p>
             </div>
             <button onClick={scrollToBudget}
               className="bg-white p-6 rounded-2xl shadow-sm text-right hover:shadow-md transition-shadow cursor-pointer group"
@@ -250,7 +251,7 @@ export function TripBriefView({ brief, onNewTrip }: TripBriefViewProps) {
                     <span className="text-[10px] text-[#43474d]">Historical average</span>
                   </div>
                   <div className="flex gap-3 overflow-x-auto pb-2">
-                    {brief.weather.slice(0, 5).map((w) => {
+                    {brief.weather.map((w) => {
                       const d = new Date(w.date + "T12:00:00");
                       const dayLabel = d.toLocaleDateString("en-US", { weekday: "short" }).toUpperCase();
                       const dateLabel = d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
