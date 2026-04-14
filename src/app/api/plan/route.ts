@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
     const rawFlights = getFlights(intent.destination);
     const rawHotels = getHotels(intent.destination);
     const [rawWeather, wikivoyage] = await Promise.all([
-      getWeatherLive(intent.destination, nights),           // live OWM
+      getWeatherLive(intent.destination, nights, intent.dates?.start),  // live OWM
       getWikivoyageData(intent.destination, intent.activities), // live Wikivoyage
     ]);
     const rawCultural = wikivoyage.cultural;
