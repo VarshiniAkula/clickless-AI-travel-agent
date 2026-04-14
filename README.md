@@ -175,31 +175,30 @@ Or connect the GitHub repo at [vercel.com/new](https://vercel.com/new). Add all 
 
 ---
 
-## Project Structure
+## Repository Structure
 
 ```
-src/
-├── app/
-│   ├── api/
-│   │   ├── plan/          # Trip planning pipeline endpoint
-│   │   ├── speech-token/  # Speechmatics JWT endpoint
-│   │   └── trips/         # Saved trips CRUD
-│   ├── layout.tsx
-│   └── page.tsx           # Main app state machine
-├── components/trip/
-│   ├── hero-home.tsx      # Landing page with voice input
-│   ├── conversational-planning.tsx  # Chat refinement UI
-│   ├── trip-brief-view.tsx          # Results display
-│   ├── saved-trips-view.tsx         # Saved trips gallery
-│   ├── login-page.tsx     # Auth page
-│   └── profile-page.tsx   # User profile
-├── lib/
-│   ├── nlu/               # Intent parsing (Groq + regex)
-│   ├── providers/         # Data fetchers (demo, weather, wiki)
-│   ├── extraction/        # Zod normalization
-│   ├── knowledge/         # Knowledge graph
-│   ├── synthesis/         # Trip brief generation
-│   ├── cache/             # Static + in-memory cache
-│   └── supabase/          # Auth context + client
-└── tests/                 # Unit tests
+├── CODE/                      # Application source code
+│   ├── src/
+│   │   ├── app/               # Next.js App Router (pages + API routes)
+│   │   ├── components/trip/   # UI components (hero, chat, results, auth)
+│   │   └── lib/               # Core logic (NLU, providers, knowledge graph, synthesis)
+│   ├── public/                # Static assets
+│   └── scripts/               # Build scripts (cache seeding)
+│
+├── DATA/                      # Datasets and data sources
+│   ├── supabase/              # Database schema and migrations
+│   └── scrapers/              # Python scrapers for live data collection
+│
+├── EVALUATIONS/               # Tests and evaluation results
+│   ├── tests/                 # Vitest unit + integration tests (16 tests)
+│   ├── nlu/                   # spaCy NER baseline evaluation
+│   ├── extraction/            # TF-IDF extraction baseline
+│   ├── synthesis/             # Trip synthesis baseline
+│   ├── run_feasibility.py     # Full feasibility test runner
+│   └── feasibility_results.json  # Evaluation metrics
+│
+├── README.md                  # This file
+├── package.json               # Dependencies and scripts
+└── tsconfig.json              # TypeScript configuration
 ```
