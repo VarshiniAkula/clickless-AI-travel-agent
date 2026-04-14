@@ -1,0 +1,14 @@
+{
+  "nlu_spacy_f1": 0.892857142857143,
+  "nlu_spacy_pass": true,
+  "weather_success_rate": 1.0,
+  "weather_pass": true,
+  "wikivoyage_success_rate": 1.0,
+  "wikivoyage_avg_extraction": 0.6153846153846153,
+  "flight_live_scraping": "BLOCKED",
+  "flight_mock_available": true,
+  "extraction_tfidf_f1": 0.8607742584213174,
+  "extraction_tfidf_pass": "True",
+  "synthesis_time_s": 0.0002079010009765625,
+  "synthesis_pass": true
+}
