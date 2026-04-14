@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
-import type { TripBrief } from "@/lib/types";
+import type { TripBrief, TravelIntent } from "@/lib/types";
 import { HeroHome } from "@/components/trip/hero-home";
 import { ConversationalPlanning } from "@/components/trip/conversational-planning";
 import { SearchProgress } from "@/components/trip/search-progress";
@@ -12,6 +12,7 @@ type AppState = "home" | "planning" | "searching" | "results";
 export default function Home() {
   const [state, setState] = useState<AppState>("home");
   const [query, setQuery] = useState("");
+  const [searchIntent, setSearchIntent] = useState<TravelIntent | null>(null);
   const [brief, setBrief] = useState<TripBrief | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -23,14 +24,15 @@ export default function Home() {
   };
 
   // Step 2: User explicitly triggers search from the planning page (after reviewing/editing)
-  const handleSearch = useCallback(async (finalQuery: string) => {
+  const handleSearch = useCallback(async (finalQuery: string, refinedIntent: TravelIntent) => {
     setQuery(finalQuery);
+    setSearchIntent(refinedIntent);
     setState("searching");
     try {
       const res = await fetch("/api/plan", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query: finalQuery }),
+        body: JSON.stringify({ query: finalQuery, intent: refinedIntent }),
       });
       const data = await res.json();
       if (!res.ok) {
@@ -50,6 +52,7 @@ export default function Home() {
     setState("home");
     setBrief(null);
     setQuery("");
+    setSearchIntent(null);
     setError(null);
   };
 
@@ -69,7 +72,7 @@ export default function Home() {
   }
 
   if (state === "searching") {
-    return <SearchProgress query={query} />;
+    return <SearchProgress query={query} intent={searchIntent} />;
   }
 
   if (state === "results" && brief) {

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { parseIntent } from "@/lib/nlu/parser";
+import type { TravelIntent } from "@/lib/types";
 
 const STAGES = [
   { icon: "flight", label: "Flights", sublabel: "Searching 5 global sources...", status: "FOUND BEST PRICES", pct: 100 },
@@ -18,6 +19,7 @@ const STEPS = [
 
 interface SearchProgressProps {
   query?: string;
+  intent?: TravelIntent | null;
 }
 
 const DESTINATION_IMAGES: Record<string, string> = {
@@ -36,11 +38,16 @@ const DESTINATION_INSIGHTS: Record<string, string> = {
   "New York": "NYC in spring is vibrant — Central Park in bloom, outdoor dining, and Broadway season. We're finding the best deals for you.",
 };
 
-export function SearchProgress({ query }: SearchProgressProps) {
+export function SearchProgress({ query, intent: providedIntent }: SearchProgressProps) {
   const [activeStage, setActiveStage] = useState(0);
   const [activeStep, setActiveStep] = useState(0);
 
-  const intent = query ? parseIntent(query) : null;
+  // Prefer the Groq-refined intent passed from the planning screen; fall back to
+  // re-parsing the query string only if no intent was provided.
+  const intent = providedIntent ?? (() => {
+    if (!query) return null;
+    try { return parseIntent(query); } catch { return null; }
+  })();
   const destination = intent?.destination && intent.destination !== "Unknown" ? intent.destination : "your destination";
   const image = DESTINATION_IMAGES[destination] || "https://images.unsplash.com/photo-1488646472114-61fc8bca5cbb?w=800&q=60";
   const insight = DESTINATION_INSIGHTS[destination] || "We're analyzing your preferences to build the perfect trip brief.";

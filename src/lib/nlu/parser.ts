@@ -100,9 +100,15 @@ function extractDuration(text: string): number | undefined {
 function extractBudget(text: string): number | undefined {
   const lower = text.toLowerCase();
   const match = lower.match(/(?:under|budget|max|less than|up to|around)\s*\$?\s*([\d,]+)/);
-  if (match) return parseInt(match[1].replace(",", ""));
+  if (match) {
+    const n = parseInt(match[1].replace(/,/g, ""));
+    if (!isNaN(n)) return n;
+  }
   const dollarMatch = lower.match(/\$([\d,]+)/);
-  if (dollarMatch) return parseInt(dollarMatch[1].replace(",", ""));
+  if (dollarMatch) {
+    const n = parseInt(dollarMatch[1].replace(/,/g, ""));
+    if (!isNaN(n)) return n;
+  }
   return undefined;
 }
 
@@ -173,11 +179,11 @@ Schema:
 {
   "destination": string,     // city name e.g. "Tokyo". Use "Unknown" if not mentioned
   "origin": string | null,   // departure city, null if not mentioned
-  "duration": number | null, // trip length in NIGHTS as integer, null if not mentioned. Weeks × 7, days − 1
+  "duration": number | null, // trip length in NIGHTS as integer, null if not mentioned. Weeks x 7, days - 1
   "budget": number | null,   // total budget in USD as integer, null if not mentioned
   "travelers": number,       // number of people (default 1; "couple"/"two of us"=2, "family"=4)
   "activities": string[],    // subset of: ["temples","food tours","hiking","museums","beaches","nightlife","shopping","sightseeing","adventure","culture"]
-  "dates": { "start": "YYYY-MM-DD", "end": "YYYY-MM-DD" } | null  // null if not mentioned; "in April" → use 15th as start
+  "dates": { "start": "YYYY-MM-DD", "end": "YYYY-MM-DD" } | null  // null if not mentioned; if month only (e.g. "in April") use 15th of that month as start; end = start + duration days (or +5 days if duration unknown); use current year if no year given
 }`;
 
 export async function parseIntentWithGroq(query: string): Promise<TravelIntent> {

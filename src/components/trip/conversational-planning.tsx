@@ -2,10 +2,11 @@
 
 import { useState, useRef, useEffect } from "react";
 import { parseIntent } from "@/lib/nlu/parser";
+import type { TravelIntent } from "@/lib/types";
 
 interface ConversationalPlanningProps {
   query: string;
-  onSearch: (finalQuery: string) => void;
+  onSearch: (finalQuery: string, refinedIntent: TravelIntent) => void;
   onNewTrip: () => void;
   error: string | null;
 }
@@ -22,9 +23,10 @@ export function ConversationalPlanning({ query, onSearch, onNewTrip, error }: Co
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [showResponse, setShowResponse] = useState(false);
   const [activeNav, setActiveNav] = useState("new-trip");
+  const [intent, setIntent] = useState<TravelIntent>(() => parseIntent(query));
+  const [isTyping, setIsTyping] = useState(false);
   const chatEndRef = useRef<HTMLDivElement>(null);
 
-  const intent = parseIntent(currentQuery);
   const destination = intent.destination !== "Unknown" ? intent.destination : "your destination";
 
   // Initial AI response with delay for natural feel
@@ -49,43 +51,68 @@ export function ConversationalPlanning({ query, onSearch, onNewTrip, error }: Co
     chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  const handleSendMessage = () => {
+  const handleSendMessage = async () => {
     const trimmed = inputValue.trim();
-    if (!trimmed) return;
+    if (!trimmed || isTyping) return;
 
-    // Append user message
     const updatedQuery = `${currentQuery}, ${trimmed}`;
     setCurrentQuery(updatedQuery);
     setMessages((prev) => [...prev, { role: "user", content: trimmed }]);
     setInputValue("");
+    setIsTyping(true);
 
-    // Parse updated intent and generate AI response
-    const updatedIntent = parseIntent(updatedQuery);
-    const newDest = updatedIntent.destination !== "Unknown" ? updatedIntent.destination : destination;
+    try {
+      // Build history from prior messages so the LLM has full conversational context.
+      // Map "ai" → "assistant" for the Groq API; strip chips (UI-only).
+      const history = messages
+        .filter((m) => m.role === "user" || m.role === "ai")
+        .map((m) => ({
+          role: (m.role === "ai" ? "assistant" : "user") as "user" | "assistant",
+          content: m.content,
+        }));
 
-    setTimeout(() => {
+      const res = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ intent, message: trimmed, history }),
+      });
+
+      if (!res.ok) throw new Error("Chat API error");
+
+      const data = await res.json();
+      setIntent(data.intent);
+      setMessages((prev) => [
+        ...prev,
+        { role: "ai", content: data.reply, chips: data.chips },
+      ]);
+    } catch {
+      // Fallback to local parse when Groq is unavailable
+      const updatedIntent = parseIntent(updatedQuery);
+      setIntent(updatedIntent);
+      const newDest = updatedIntent.destination !== "Unknown" ? updatedIntent.destination : destination;
       let response = `Got it! I've updated your preferences. `;
       if (updatedIntent.budget) response += `Budget set to $${updatedIntent.budget}. `;
       if (updatedIntent.activities.length > 0) response += `Interests: ${updatedIntent.activities.join(", ")}. `;
-      response += `\n\nYour trip to **${newDest}** is looking great. Hit **"Search Now"** when you're ready, or keep refining!`;
-
+      response += `\n\nYour trip to **${newDest}** is looking great. Hit **"Search Now"** when ready!`;
       setMessages((prev) => [
         ...prev,
-        { role: "ai", content: response, chips: ["More budget options", "Add hotel preference", "Search Now"] },
+        { role: "ai", content: response, chips: ["Add hotel preference", "Search Now"] },
       ]);
-    }, 500);
+    } finally {
+      setIsTyping(false);
+    }
   };
 
   const handleChipClick = (chip: string) => {
     if (chip === "Search Now") {
-      onSearch(currentQuery);
+      onSearch(currentQuery, intent);
       return;
     }
     setInputValue(chip.toLowerCase());
   };
 
   const handleSearchClick = () => {
-    onSearch(currentQuery);
+    onSearch(currentQuery, intent);
   };
 
   return (
@@ -207,6 +234,18 @@ export function ConversationalPlanning({ query, onSearch, onNewTrip, error }: Co
                   )}
                 </div>
               ))}
+              {isTyping && (
+                <div className="flex gap-4 animate-in fade-in slide-in-from-bottom-4 duration-300">
+                  <div className="w-8 h-8 rounded-full premium-gradient flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="material-symbols-outlined text-white text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>auto_awesome</span>
+                  </div>
+                  <div className="bg-white px-6 py-4 rounded-2xl rounded-tl-none shadow-[0_8px_40px_rgba(0,0,0,0.04)] flex items-center gap-1.5">
+                    <span className="w-2 h-2 rounded-full bg-[#006a61] animate-bounce [animation-delay:0ms]" />
+                    <span className="w-2 h-2 rounded-full bg-[#006a61] animate-bounce [animation-delay:150ms]" />
+                    <span className="w-2 h-2 rounded-full bg-[#006a61] animate-bounce [animation-delay:300ms]" />
+                  </div>
+                </div>
+              )}
               <div ref={chatEndRef} />
             </div>
           </section>
@@ -298,10 +337,10 @@ export function ConversationalPlanning({ query, onSearch, onNewTrip, error }: Co
               onKeyDown={(e) => { if (e.key === "Enter") handleSendMessage(); }}
             />
             <div className="flex items-center gap-2 pr-2">
-              <button onClick={handleSendMessage}
-                className="w-12 h-12 premium-gradient rounded-full flex items-center justify-center text-white shadow-md hover:scale-105 active:scale-95 transition-transform"
+              <button onClick={handleSendMessage} disabled={isTyping}
+                className="w-12 h-12 premium-gradient rounded-full flex items-center justify-center text-white shadow-md hover:scale-105 active:scale-95 transition-transform disabled:opacity-50 disabled:scale-100"
                 aria-label="Send message">
-                <span className="material-symbols-outlined">send</span>
+                <span className="material-symbols-outlined">{isTyping ? "hourglass_empty" : "send"}</span>
               </button>
             </div>
           </div>

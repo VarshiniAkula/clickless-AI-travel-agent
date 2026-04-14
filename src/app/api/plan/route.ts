@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { parseIntent, parseIntentWithGroq } from "@/lib/nlu/parser";
+import { TravelIntentSchema } from "@/lib/types";
 import { getFlights, getHotels, getWeather, getCulturalTips, getActivities } from "@/lib/providers/demo-data";
 import { normalizePayload } from "@/lib/extraction/normalize";
 import { buildKnowledgeGraph } from "@/lib/knowledge/graph";
@@ -15,8 +16,10 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Query is required" }, { status: 400 });
     }
 
-    // 1. NLU — parse intent
-    const intent = (await parseIntentWithGroq(query));
+    // 1. NLU — use pre-computed intent from chat refinement if available,
+    //    otherwise parse fresh with Groq (or regex fallback).
+    const precomputed = body.intent ? TravelIntentSchema.safeParse({ ...body.intent, rawQuery: query }) : null;
+    const intent = precomputed?.success ? precomputed.data : await parseIntentWithGroq(query);
 
     if (intent.destination === "Unknown") {
       return NextResponse.json(
