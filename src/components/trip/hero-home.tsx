@@ -5,10 +5,11 @@ import { useState, useRef } from "react";
 interface HeroHomeProps {
   onSubmit: (query: string) => void;
   onShowSaved: () => void;
+  onShowProfile: () => void;
   error: string | null;
 }
 
-export function HeroHome({ onSubmit, onShowSaved, error }: HeroHomeProps) {
+export function HeroHome({ onSubmit, onShowSaved, onShowProfile, error }: HeroHomeProps) {
   const [query, setQuery] = useState("");
   const [isListening, setIsListening] = useState(false);
   const recognitionRef = useRef<SpeechRecognition | null>(null);
@@ -53,12 +54,10 @@ export function HeroHome({ onSubmit, onShowSaved, error }: HeroHomeProps) {
         <nav className="hidden md:flex space-x-10">
           <a className="font-bold text-[#002542] hover:text-[#006a61] transition-colors" href="#">New Trip</a>
           <button className="text-[#43474d] font-medium hover:text-[#006a61] transition-colors" onClick={onShowSaved}>Saved Trips</button>
-          <a className="text-[#43474d] font-medium hover:text-[#006a61] transition-colors" href="#">Preferences</a>
         </nav>
-        <div className="flex items-center gap-6">
-          <span className="material-symbols-outlined text-2xl cursor-pointer text-[#002542] hover:text-[#006a61] transition-colors">account_circle</span>
-          <span className="material-symbols-outlined text-2xl cursor-pointer text-[#002542] hover:text-[#006a61] transition-colors">settings</span>
-        </div>
+        <button onClick={onShowProfile} className="flex items-center gap-2 cursor-pointer text-[#002542] hover:text-[#006a61] transition-colors">
+          <span className="material-symbols-outlined text-2xl" style={{ fontVariationSettings: "'FILL' 1" }}>account_circle</span>
+        </button>
       </header>
 
       <main>
