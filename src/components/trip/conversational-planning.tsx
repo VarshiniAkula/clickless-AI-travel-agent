@@ -94,7 +94,7 @@ export function ConversationalPlanning({ query, onSearch, onNewTrip, onShowSaved
         response = `Got it! Here's what I updated:\n\n${changes.map((c) => `• ${c}`).join("\n")}\n\nYour trip to **${newDest}** is shaping up nicely. Hit **"Search Now"** when you're ready!`;
       } else {
         // Treat the input as a general preference keyword — it'll be in the cumulative query sent to the API
-        response = `Noted — I'll factor "${trimmed}" into your trip search.\n\nAll your preferences for **${newDest}** will be used when building your trip brief. Hit **"Search Now"** when ready!`;
+        response = `Noted - I'll factor "${trimmed}" into your trip search.\n\nAll your preferences for **${newDest}** will be used when building your trip brief. Hit **"Search Now"** when ready!`;
       }
 
       setMessages((prev) => [

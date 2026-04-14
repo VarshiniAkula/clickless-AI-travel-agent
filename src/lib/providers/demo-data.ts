@@ -6,7 +6,7 @@ import type { FlightOption, HotelOption, WeatherForecast, CulturalNorm, Activity
 // Booking.com, Expedia, and local tourism boards.
 // ══════════════════════════════════════════════════════════
 
-// ── Flights (from PHX — Phoenix Sky Harbor) ──
+// ── Flights (from PHX - Phoenix Sky Harbor) ──
 export const DEMO_FLIGHTS: Record<string, FlightOption[]> = {
   Tokyo: [
     { id: "f1", airline: "ANA (All Nippon Airways)", origin: "PHX", destination: "NRT", departureTime: "10:30 AM", arrivalTime: "3:45 PM +1", duration: "13h 15m", stops: 1, price: 687, currency: "USD", source: "Google Flights" },
@@ -144,7 +144,7 @@ export function getWeather(city: string, nights: number): WeatherForecast[] {
 export const DEMO_CULTURAL: Record<string, CulturalNorm[]> = {
   Tokyo: [
     { category: "Etiquette", tip: "Bow when greeting. A slight bow is fine for tourists.", importance: "high" },
-    { category: "Dining", tip: "Never tip at restaurants — it can be considered rude.", importance: "high" },
+    { category: "Dining", tip: "Never tip at restaurants - it can be considered rude.", importance: "high" },
     { category: "Transport", tip: "Keep quiet on trains. Phone calls are frowned upon.", importance: "medium" },
     { category: "Temples", tip: "Remove shoes before entering temple buildings.", importance: "high" },
     { category: "Customs", tip: "Don't eat or drink while walking in public.", importance: "medium" },
@@ -156,7 +156,7 @@ export const DEMO_CULTURAL: Record<string, CulturalNorm[]> = {
     { category: "Transport", tip: "Stand on the right side of escalators on the Tube. Walk on the left.", importance: "medium" },
     { category: "Dining", tip: "Tipping 10-15% is standard at sit-down restaurants. Check if service is included.", importance: "medium" },
     { category: "Customs", tip: "The British love understatement. Avoid being too loud in public.", importance: "low" },
-    { category: "Transport", tip: "Get an Oyster card or use contactless payment for the Tube — much cheaper than paper tickets.", importance: "high" },
+    { category: "Transport", tip: "Get an Oyster card or use contactless payment for the Tube - much cheaper than paper tickets.", importance: "high" },
   ],
   Paris: [
     { category: "Etiquette", tip: "Always greet with 'Bonjour' when entering any shop or restaurant.", importance: "high" },
@@ -167,7 +167,7 @@ export const DEMO_CULTURAL: Record<string, CulturalNorm[]> = {
   ],
   "Cancún": [
     { category: "Safety", tip: "Stick to the Hotel Zone and well-known areas at night.", importance: "high" },
-    { category: "Tipping", tip: "Tip 10-20% at restaurants. Tip in pesos when possible — better exchange rate for staff.", importance: "medium" },
+    { category: "Tipping", tip: "Tip 10-20% at restaurants. Tip in pesos when possible - better exchange rate for staff.", importance: "medium" },
     { category: "Water", tip: "Drink bottled water only. Avoid ice at street vendors (restaurants use purified ice).", importance: "high" },
     { category: "Bargaining", tip: "Haggling is expected at markets (Mercado 28) but not in fixed-price shops.", importance: "medium" },
     { category: "Sun", tip: "Equatorial sun is intense. Wear reef-safe sunscreen (regular sunscreen damages the cenotes).", importance: "high" },
@@ -176,7 +176,7 @@ export const DEMO_CULTURAL: Record<string, CulturalNorm[]> = {
     { category: "Transport", tip: "Walk fast and stay right on sidewalks. Don't stop suddenly in pedestrian flow.", importance: "medium" },
     { category: "Tipping", tip: "Tip 18-20% at restaurants; $1-2 per drink at bars; $2-5 per bag for hotel bellhops.", importance: "high" },
     { category: "Safety", tip: "Keep belongings close in crowds. The subway is safe but stay aware late at night.", importance: "medium" },
-    { category: "Etiquette", tip: "New Yorkers are direct. Don't take bluntness personally — it's just efficiency.", importance: "low" },
+    { category: "Etiquette", tip: "New Yorkers are direct. Don't take bluntness personally - it's just efficiency.", importance: "low" },
     { category: "Transport", tip: "Get a 7-day unlimited MetroCard ($34) if you'll ride the subway 13+ times.", importance: "high" },
   ],
 };
@@ -187,10 +187,10 @@ export const DEMO_ACTIVITIES: Record<string, ActivityOption[]> = {
     { id: "a1", name: "Senso-ji Temple Visit", category: "temples", description: "Tokyo's oldest temple (645 AD) in Asakusa. Walk through Kaminarimon (Thunder Gate) and browse Nakamise shopping street.", estimatedCost: 0, duration: "2h", location: "Asakusa" },
     { id: "a2", name: "Meiji Shrine Walk", category: "temples", description: "Serene Shinto shrine in a 170-acre forest. Dedicated to Emperor Meiji and Empress Shoken.", estimatedCost: 0, duration: "1.5h", location: "Harajuku" },
     { id: "a3", name: "Tsukiji Outer Market Food Tour", category: "food tours", description: "Sample fresh sushi, tamagoyaki, matcha desserts, and street food. Over 400 stalls and shops.", estimatedCost: 45, duration: "3h", location: "Tsukiji" },
-    { id: "a4", name: "Akihabara District Exploration", category: "shopping", description: "Electric Town — electronics, anime, manga, and gaming paradise. Visit multi-story arcades.", estimatedCost: 20, duration: "2h", location: "Akihabara" },
+    { id: "a4", name: "Akihabara District Exploration", category: "shopping", description: "Electric Town - electronics, anime, manga, and gaming paradise. Visit multi-story arcades.", estimatedCost: 20, duration: "2h", location: "Akihabara" },
     { id: "a5", name: "Shibuya Crossing & Hachiko", category: "sightseeing", description: "World's busiest pedestrian crossing. Visit the Hachiko statue and Shibuya Sky observation deck ($18).", estimatedCost: 0, duration: "1h", location: "Shibuya" },
     { id: "a6", name: "Ramen Tasting in Shinjuku", category: "food tours", description: "Visit Tokyo Ramen Street in the station basement. Try Fuunji (tsukemen) or Ichiran (tonkotsu).", estimatedCost: 15, duration: "1.5h", location: "Shinjuku" },
-    { id: "a7", name: "teamLab Planets Tokyo", category: "culture", description: "Immersive digital art museum — walk barefoot through water installations and interactive light shows.", estimatedCost: 25, duration: "2h", location: "Toyosu" },
+    { id: "a7", name: "teamLab Planets Tokyo", category: "culture", description: "Immersive digital art museum - walk barefoot through water installations and interactive light shows.", estimatedCost: 25, duration: "2h", location: "Toyosu" },
     { id: "a8", name: "Shinjuku Gyoen National Garden", category: "sightseeing", description: "Beautiful garden with 1,000+ cherry trees. Peak sakura season in early-to-mid April.", estimatedCost: 5, duration: "1.5h", location: "Shinjuku" },
     { id: "a9", name: "Izakaya Hopping in Yurakucho", category: "food tours", description: "Explore tiny bars and eateries under the JR train tracks. Yakitori, beer, and atmosphere.", estimatedCost: 30, duration: "2h", location: "Yurakucho" },
     { id: "a10", name: "Harajuku & Takeshita Street", category: "shopping", description: "Youth fashion capital. Colorful crepes, kawaii shops, and Omotesando luxury boutiques.", estimatedCost: 15, duration: "2h", location: "Harajuku" },
@@ -208,19 +208,19 @@ export const DEMO_ACTIVITIES: Record<string, ActivityOption[]> = {
     { id: "a18", name: "Eiffel Tower Visit", category: "sightseeing", description: "Iconic iron tower (1889). Summit access via elevator. Book tickets 2 months ahead.", estimatedCost: 26, duration: "2h", location: "7th Arr." },
     { id: "a19", name: "Montmartre Food Walk", category: "food tours", description: "Crêpes at Le Consulat, cheese at La Fermette, wine tasting. Sacré-Cœur views.", estimatedCost: 35, duration: "3h", location: "18th Arr." },
     { id: "a20", name: "Seine River Cruise", category: "sightseeing", description: "See Notre-Dame, Louvre, and Musée d'Orsay from the water. Especially beautiful at sunset.", estimatedCost: 16, duration: "1h", location: "Seine" },
-    { id: "a21", name: "Musée d'Orsay", category: "museums", description: "Impressionist masterpieces — Monet, Renoir, Van Gogh, Degas. Housed in a stunning Beaux-Arts train station.", estimatedCost: 16, duration: "3h", location: "7th Arr." },
+    { id: "a21", name: "Musée d'Orsay", category: "museums", description: "Impressionist masterpieces - Monet, Renoir, Van Gogh, Degas. Housed in a stunning Beaux-Arts train station.", estimatedCost: 16, duration: "3h", location: "7th Arr." },
     { id: "a22", name: "Le Marais Neighborhood Walk", category: "culture", description: "Historic Jewish quarter, Place des Vosges, falafel on Rue des Rosiers, boutique shopping.", estimatedCost: 10, duration: "2.5h", location: "3rd-4th Arr." },
   ],
   "Cancún": [
     { id: "a23", name: "Chichén Itzá Day Trip", category: "sightseeing", description: "UNESCO World Heritage Mayan ruins. El Castillo pyramid is one of the New Seven Wonders.", estimatedCost: 65, duration: "Full day", location: "Yucatán" },
     { id: "a24", name: "Snorkeling at Isla Mujeres", category: "beaches", description: "Ferry to island paradise. MUSA underwater sculpture museum. Sea turtles and tropical fish.", estimatedCost: 45, duration: "Half day", location: "Isla Mujeres" },
-    { id: "a25", name: "Cenote Swimming", category: "adventure", description: "Swim in Gran Cenote or Cenote Ik-Kil — natural limestone sinkholes with crystal-clear turquoise water.", estimatedCost: 25, duration: "3h", location: "Riviera Maya" },
+    { id: "a25", name: "Cenote Swimming", category: "adventure", description: "Swim in Gran Cenote or Cenote Ik-Kil - natural limestone sinkholes with crystal-clear turquoise water.", estimatedCost: 25, duration: "3h", location: "Riviera Maya" },
     { id: "a26", name: "Tacos & Street Food Tour", category: "food tours", description: "Authentic tacos al pastor at Parque de las Palapas, elote, marquesitas. Downtown local experience.", estimatedCost: 25, duration: "3h", location: "Downtown" },
     { id: "a27", name: "Xcaret Eco-Archaeological Park", category: "adventure", description: "Underground rivers, snorkeling, butterfly pavilion, and Mayan village. All-inclusive day pass.", estimatedCost: 120, duration: "Full day", location: "Playa del Carmen" },
   ],
   "New York": [
     { id: "a28", name: "Metropolitan Museum of Art", category: "museums", description: "5,000 years of art across 2 million sq ft. Egyptian Temple of Dendur. Pay-what-you-wish for NY residents.", estimatedCost: 30, duration: "4h", location: "Upper East Side" },
-    { id: "a29", name: "Central Park Walk", category: "sightseeing", description: "843 acres of urban paradise — Bethesda Fountain, Bow Bridge, Strawberry Fields, the Great Lawn.", estimatedCost: 0, duration: "2h", location: "Central Park" },
+    { id: "a29", name: "Central Park Walk", category: "sightseeing", description: "843 acres of urban paradise - Bethesda Fountain, Bow Bridge, Strawberry Fields, the Great Lawn.", estimatedCost: 0, duration: "2h", location: "Central Park" },
     { id: "a30", name: "Brooklyn Pizza & Dumpling Tour", category: "food tours", description: "Di Fara Pizza, Juliana's, Dumbo waterfront, Chinatown dumplings. Walk across Brooklyn Bridge.", estimatedCost: 45, duration: "3h", location: "Brooklyn" },
     { id: "a31", name: "Statue of Liberty & Ellis Island", category: "sightseeing", description: "Ferry to Lady Liberty and the immigration museum. Book pedestal/crown tickets in advance.", estimatedCost: 24, duration: "4h", location: "Liberty Island" },
     { id: "a32", name: "High Line & Chelsea Market", category: "sightseeing", description: "Elevated park on a former rail line. Pair with Chelsea Market for artisan food and shopping.", estimatedCost: 0, duration: "2h", location: "Chelsea" },

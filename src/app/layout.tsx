@@ -14,7 +14,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "ClickLess AI — Your AI Travel Concierge",
+  title: "ClickLess AI - Your AI Travel Concierge",
   description: "One utterance to a complete trip brief. Experience the future of intelligent travel planning.",
 };
 

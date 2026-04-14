@@ -190,7 +190,7 @@ function buildItinerary(
     if (d < totalDays) {
       daySchedule.push({
         time: "7:00 PM",
-        activity: `Dinner — local ${intent.destination} cuisine`,
+        activity: `Dinner - local ${intent.destination} cuisine`,
         cost: 20,
         notes: w ? `Weather: ${w.condition}, ${w.tempHighF}°F` : undefined,
       });
@@ -200,7 +200,7 @@ function buildItinerary(
       ? "Arrival Day"
       : d === totalDays
         ? "Departure Day"
-        : `Day ${d} — ${humanizeCategory(dayActivities[0]?.category || "Exploration")}`;
+        : `Day ${d} - ${humanizeCategory(dayActivities[0]?.category || "Exploration")}`;
 
     days.push({
       day: d,
