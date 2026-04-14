@@ -3132,5 +3132,744 @@
       "tip": "Public trash cans are rare. Carry your garbage until you find one at a convenience store.",
       "importance": "medium"
     }
+  ],
+  "hotels": [
+    {
+      "id": "h-tok-1",
+      "name": "Park Hyatt Tokyo",
+      "rating": 4.8,
+      "pricePerNight": 520,
+      "currency": "USD",
+      "neighborhood": "Shinjuku",
+      "amenities": [
+        "Pool",
+        "Spa",
+        "Restaurant",
+        "Gym",
+        "Concierge"
+      ],
+      "location": "3-7-1-2 Nishi Shinjuku, Shinjuku, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Park+Hyatt+Tokyo",
+      "source": "demo"
+    },
+    {
+      "id": "h-tok-2",
+      "name": "Shinjuku Granbell Hotel",
+      "rating": 4.2,
+      "pricePerNight": 130,
+      "currency": "USD",
+      "neighborhood": "Shinjuku",
+      "amenities": [
+        "Bar",
+        "Restaurant",
+        "WiFi"
+      ],
+      "location": "2-14-5 Kabukicho, Shinjuku, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Shinjuku+Granbell+Hotel+Tokyo",
+      "source": "demo"
+    },
+    {
+      "id": "h-tok-3",
+      "name": "Dormy Inn Asakusa",
+      "rating": 4.3,
+      "pricePerNight": 90,
+      "currency": "USD",
+      "neighborhood": "Asakusa",
+      "amenities": [
+        "Onsen",
+        "WiFi",
+        "Breakfast"
+      ],
+      "location": "2-26-12 Kaminarimon, Taito, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Dormy+Inn+Asakusa+Tokyo",
+      "source": "demo"
+    },
+    {
+      "id": "h-tok-4",
+      "name": "Aman Tokyo",
+      "rating": 4.9,
+      "pricePerNight": 1100,
+      "currency": "USD",
+      "neighborhood": "Otemachi",
+      "amenities": [
+        "Spa",
+        "Pool",
+        "Restaurant",
+        "Gym",
+        "Concierge"
+      ],
+      "location": "1-5-6 Otemachi, Chiyoda, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Aman+Tokyo",
+      "source": "demo"
+    },
+    {
+      "id": "h-tok-5",
+      "name": "Khaosan Tokyo Kabuki",
+      "rating": 3.9,
+      "pricePerNight": 35,
+      "currency": "USD",
+      "neighborhood": "Asakusa",
+      "amenities": [
+        "WiFi",
+        "Shared Kitchen",
+        "Lockers",
+        "Bar"
+      ],
+      "location": "2-16-2 Asakusa, Taito, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Khaosan+Tokyo+Kabuki",
+      "source": "demo"
+    },
+    {
+      "id": "wv-h-1",
+      "name": "Manboo Internet & Comic Cafe",
+      "rating": 3.5,
+      "pricePerNight": 12,
+      "currency": "JPY",
+      "neighborhood": "Tokyo",
+      "amenities": [
+        "WiFi",
+        "Café"
+      ],
+      "location": "Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Manboo%20Internet%20%26%20Comic%20Cafe%2C%20Tokyo",
+      "bookingUrl": "https://manboo.co.jp/index.html",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-2",
+      "name": "Tokyo Central Youth Hostel",
+      "rating": 3.5,
+      "pricePerNight": 27,
+      "currency": "JPY",
+      "neighborhood": "1-1 Kagurakashi, Shinjuku-ku",
+      "amenities": [
+        "Hostel"
+      ],
+      "location": "1-1 Kagurakashi, Shinjuku-ku, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Tokyo%20Central%20Youth%20Hostel%2C%20Tokyo",
+      "bookingUrl": "http://www.jyh.gr.jp/tcyh/e/top.html",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-3",
+      "name": "Imperial Hotel Tokyo",
+      "rating": 4.5,
+      "pricePerNight": 288,
+      "currency": "JPY",
+      "neighborhood": "Uchisaiwaicho 1-1-1",
+      "amenities": [],
+      "location": "Uchisaiwaicho 1-1-1, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Imperial%20Hotel%20Tokyo%2C%20Tokyo",
+      "bookingUrl": "http://www.imperialhotel.co.jp/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-4",
+      "name": "The New Otani",
+      "rating": 4.5,
+      "pricePerNight": 241,
+      "currency": "JPY",
+      "neighborhood": "Kioicho 4-1",
+      "amenities": [
+        "Restaurant"
+      ],
+      "location": "Kioicho 4-1, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=The%20New%20Otani%2C%20Tokyo",
+      "bookingUrl": "http://www.newotani.co.jp/en/tokyo/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-5",
+      "name": "Tokyo Station Hotel",
+      "rating": 4.5,
+      "pricePerNight": 596,
+      "currency": "JPY",
+      "neighborhood": "Marunouchi 1-chome 9-1",
+      "amenities": [],
+      "location": "Marunouchi 1-chome 9-1, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Tokyo%20Station%20Hotel%2C%20Tokyo",
+      "bookingUrl": "https://www.thetokyostationhotel.jp/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-6",
+      "name": "Sumisho Hotel",
+      "rating": 3.5,
+      "pricePerNight": 47,
+      "currency": "JPY",
+      "neighborhood": "9-14 Nihonbashi Kobunacho",
+      "amenities": [
+        "Ryokan"
+      ],
+      "location": "9-14 Nihonbashi Kobunacho, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Sumisho%20Hotel%2C%20Tokyo",
+      "bookingUrl": "http://www.sumisho-hotel.co.jp/english/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-7",
+      "name": "Hotel Kazusaya",
+      "rating": 4,
+      "pricePerNight": 54,
+      "currency": "JPY",
+      "neighborhood": "4-7-15 Nihombashi-Honcho",
+      "amenities": [],
+      "location": "4-7-15 Nihombashi-Honcho, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Kazusaya%2C%20Tokyo",
+      "bookingUrl": "http://www.h-kazusaya.co.jp/english/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-8",
+      "name": "Tokyu Stay Nihombashi",
+      "rating": 4,
+      "pricePerNight": 63,
+      "currency": "JPY",
+      "neighborhood": "4-7-9 Nihombashi-Honcho",
+      "amenities": [
+        "Kitchen"
+      ],
+      "location": "4-7-9 Nihombashi-Honcho, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Tokyu%20Stay%20Nihombashi%2C%20Tokyo",
+      "bookingUrl": "http://www.tokyustay.co.jp/e/hotel/NI/index.html",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-9",
+      "name": "Tokyu Stay Tsukiji",
+      "rating": 4,
+      "pricePerNight": 63,
+      "currency": "JPY",
+      "neighborhood": "Tsukiji 4-11-5",
+      "amenities": [
+        "WiFi",
+        "Kitchen"
+      ],
+      "location": "Tsukiji 4-11-5, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Tokyu%20Stay%20Tsukiji%2C%20Tokyo",
+      "bookingUrl": "http://www.tokyustay.co.jp/e/hotel/HIG/index.html",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-10",
+      "name": "Hotel Okura",
+      "rating": 4.5,
+      "pricePerNight": 382,
+      "currency": "JPY",
+      "neighborhood": "2-10-4 Toranomon",
+      "amenities": [],
+      "location": "2-10-4 Toranomon, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Okura%2C%20Tokyo",
+      "bookingUrl": "http://www.hotelokura.co.jp/tokyo/en/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-11",
+      "name": "Tokyo Prince Hotel",
+      "rating": 4.5,
+      "pricePerNight": 90,
+      "currency": "JPY",
+      "neighborhood": "3-3-1 Shibakoen",
+      "amenities": [],
+      "location": "3-3-1 Shibakoen, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Tokyo%20Prince%20Hotel%2C%20Tokyo",
+      "bookingUrl": "https://www.princehotels.com/tokyo/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-12",
+      "name": "Akasaka Yoko Hotel",
+      "rating": 4.5,
+      "pricePerNight": 87,
+      "currency": "JPY",
+      "neighborhood": "6 Chome-14-12 Akasaka",
+      "amenities": [],
+      "location": "6 Chome-14-12 Akasaka, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Akasaka%20Yoko%20Hotel%2C%20Tokyo",
+      "bookingUrl": "http://www.yokohotel.co.jp/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-13",
+      "name": "Cerulean Tower Tokyu Hotel",
+      "rating": 4,
+      "pricePerNight": 221,
+      "currency": "JPY",
+      "neighborhood": "26-1 Sakuragaoka-cho",
+      "amenities": [
+        "WiFi",
+        "Pool",
+        "Gym",
+        "Restaurant"
+      ],
+      "location": "26-1 Sakuragaoka-cho, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Cerulean%20Tower%20Tokyu%20Hotel%2C%20Tokyo",
+      "bookingUrl": "http://www.ceruleantower-hotel.com/en/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-14",
+      "name": "Tokyu Stay Shibuya",
+      "rating": 4,
+      "pricePerNight": 63,
+      "currency": "JPY",
+      "neighborhood": "8-14 Shinsen-cho",
+      "amenities": [
+        "Kitchen"
+      ],
+      "location": "8-14 Shinsen-cho, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Tokyu%20Stay%20Shibuya%2C%20Tokyo",
+      "bookingUrl": "http://www.tokyustay.co.jp/e/hotel/SIB/index.html",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-15",
+      "name": "Guesthouse Shinagawa-shuku",
+      "rating": 3.5,
+      "pricePerNight": 20,
+      "currency": "JPY",
+      "neighborhood": "1-22-16 Kita-Shinagawa",
+      "amenities": [],
+      "location": "1-22-16 Kita-Shinagawa, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Guesthouse%20Shinagawa-shuku%2C%20Tokyo",
+      "bookingUrl": "http://bp-shinagawashuku.com/en/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-16",
+      "name": "Toyoko Inn Shinagawa Aomono-yokocho-eki",
+      "rating": 3.5,
+      "pricePerNight": 45,
+      "currency": "JPY",
+      "neighborhood": "Tokyo",
+      "amenities": [],
+      "location": "Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Toyoko%20Inn%20Shinagawa%20Aomono-yokocho-eki%2C%20Tokyo",
+      "bookingUrl": "http://www.toyoko-inn.com/e_hotel/00049/index.html",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-17",
+      "name": "Toyoko Inn Shinagawa-eki Takanawa-guchi",
+      "rating": 3.5,
+      "pricePerNight": 45,
+      "currency": "JPY",
+      "neighborhood": "Takanawa exit",
+      "amenities": [],
+      "location": "Takanawa exit, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Toyoko%20Inn%20Shinagawa-eki%20Takanawa-guchi%2C%20Tokyo",
+      "bookingUrl": "http://www.toyoko-inn.com/e_hotel/00029/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-18",
+      "name": "Grand Prince Hotel Shin-Takanawa",
+      "rating": 4,
+      "pricePerNight": 104,
+      "currency": "JPY",
+      "neighborhood": "near the Takanawa exit",
+      "amenities": [],
+      "location": "near the Takanawa exit, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Grand%20Prince%20Hotel%20Shin-Takanawa%2C%20Tokyo",
+      "bookingUrl": "http://www.princehotels.com/en/newtakanawa/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-19",
+      "name": "Shinagawa Prince Hotel",
+      "rating": 4,
+      "pricePerNight": 104,
+      "currency": "JPY",
+      "neighborhood": "near the Takanawa exit",
+      "amenities": [],
+      "location": "near the Takanawa exit, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Shinagawa%20Prince%20Hotel%2C%20Tokyo",
+      "bookingUrl": "http://www.princehotels.com/en/shinagawa/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-20",
+      "name": "Keikyu EX Hotel Takanawa",
+      "rating": 4,
+      "pricePerNight": 80,
+      "currency": "JPY",
+      "neighborhood": "Tokyo",
+      "amenities": [
+        "WiFi"
+      ],
+      "location": "Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Keikyu%20EX%20Hotel%20Takanawa%2C%20Tokyo",
+      "bookingUrl": "https://www.keikyu-exhotel.jp/hotel/takanawa/languages/en.html",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-21",
+      "name": "Hotel La Foret",
+      "rating": 4.5,
+      "pricePerNight": 201,
+      "currency": "JPY",
+      "neighborhood": "品川区北品川4-7-36 Kita Shinagawa 4-7-36",
+      "amenities": [],
+      "location": "品川区北品川4-7-36 Kita Shinagawa 4-7-36, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20La%20Foret%2C%20Tokyo",
+      "bookingUrl": "http://www.laforethotels.com/tokyo/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-22",
+      "name": "The Strings Hotel",
+      "rating": 4.5,
+      "pricePerNight": 208,
+      "currency": "JPY",
+      "neighborhood": "Konan exit",
+      "amenities": [],
+      "location": "Konan exit, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=The%20Strings%20Hotel%2C%20Tokyo",
+      "bookingUrl": "http://www.stringshotel.com/english/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-23",
+      "name": "Sakura Hotel Ikebukuro",
+      "rating": 3.5,
+      "pricePerNight": 46,
+      "currency": "JPY",
+      "neighborhood": "2-40-7 Ikebukuro",
+      "amenities": [],
+      "location": "2-40-7 Ikebukuro, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Sakura%20Hotel%20Ikebukuro%2C%20Tokyo",
+      "bookingUrl": "http://www.sakura-hotel.co.jp/ikebukuro",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-24",
+      "name": "Westin Hotel Tokyo",
+      "rating": 4,
+      "pricePerNight": 221,
+      "currency": "JPY",
+      "neighborhood": "1-4-1 Mita",
+      "amenities": [
+        "Spa"
+      ],
+      "location": "1-4-1 Mita, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Westin%20Hotel%20Tokyo%2C%20Tokyo",
+      "bookingUrl": "https://www.marriott.com/ja/hotels/tyowi-the-westin-tokyo/overview/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-25",
+      "name": "Tokyu Stay Meguro-Yutenji",
+      "rating": 4,
+      "pricePerNight": 63,
+      "currency": "JPY",
+      "neighborhood": "2-15-7 Yutenji",
+      "amenities": [
+        "Kitchen"
+      ],
+      "location": "2-15-7 Yutenji, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Tokyu%20Stay%20Meguro-Yutenji%2C%20Tokyo",
+      "bookingUrl": "http://www.tokyustay.co.jp/e/hotel/YU/index.html",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-26",
+      "name": "Hotel Pulitzer Jiyugaoka",
+      "rating": 4,
+      "pricePerNight": 101,
+      "currency": "JPY",
+      "neighborhood": "Jiyugaoka 2-11-18",
+      "amenities": [],
+      "location": "Jiyugaoka 2-11-18, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Pulitzer%20Jiyugaoka%2C%20Tokyo",
+      "bookingUrl": "http://www.pulitzerjiyugaoka.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-27",
+      "name": "New Koyo",
+      "rating": 3.5,
+      "pricePerNight": 19,
+      "currency": "JPY",
+      "neighborhood": "2-26-13 Nihonzutsumi",
+      "amenities": [],
+      "location": "2-26-13 Nihonzutsumi, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=New%20Koyo%2C%20Tokyo",
+      "bookingUrl": "http://www.newkoyo.jp/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-28",
+      "name": "Tsukuba Hotel Ueno",
+      "rating": 3.5,
+      "pricePerNight": 35,
+      "currency": "JPY",
+      "neighborhood": "Moto-Asakusa 2-7-8",
+      "amenities": [
+        "Laundry"
+      ],
+      "location": "Moto-Asakusa 2-7-8, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Tsukuba%20Hotel%20Ueno%2C%20Tokyo",
+      "bookingUrl": "http://www.hotelink.co.jp/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-29",
+      "name": "Hotel Villa Fontaine Tokyo Ueno Okachimachi",
+      "rating": 3.5,
+      "pricePerNight": 53,
+      "currency": "JPY",
+      "neighborhood": "2-4-4 Kojima",
+      "amenities": [
+        "WiFi",
+        "Breakfast"
+      ],
+      "location": "2-4-4 Kojima, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Villa%20Fontaine%20Tokyo%20Ueno%20Okachimachi%2C%20Tokyo",
+      "bookingUrl": "https://www.hvf.jp/ueno/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-30",
+      "name": "Andon Ryokan",
+      "rating": 4,
+      "pricePerNight": 55,
+      "currency": "JPY",
+      "neighborhood": "2-34-10 Nihonzutsumi",
+      "amenities": [
+        "Ryokan"
+      ],
+      "location": "2-34-10 Nihonzutsumi, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Andon%20Ryokan%2C%20Tokyo",
+      "bookingUrl": "http://www.andon.co.jp/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-31",
+      "name": "Sawanoya Ryokan",
+      "rating": 4,
+      "pricePerNight": 33,
+      "currency": "JPY",
+      "neighborhood": "2-3-11 Yanaka",
+      "amenities": [
+        "WiFi",
+        "Laundry",
+        "Ryokan",
+        "Tatami"
+      ],
+      "location": "2-3-11 Yanaka, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Sawanoya%20Ryokan%2C%20Tokyo",
+      "bookingUrl": "http://www.sawanoya.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-32",
+      "name": "Hotel Kizankan",
+      "rating": 4,
+      "pricePerNight": 53,
+      "currency": "JPY",
+      "neighborhood": "4-37-20 Hongo",
+      "amenities": [
+        "Restaurant"
+      ],
+      "location": "4-37-20 Hongo, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Kizankan%2C%20Tokyo",
+      "bookingUrl": "https://kizankan.co.jp/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-33",
+      "name": "Toyoko Inn Korakuen Bunkyokuyakusho-mae",
+      "rating": 4,
+      "pricePerNight": 67,
+      "currency": "JPY",
+      "neighborhood": "nearest stations: Korakuen on the Namboku and Marunouchi Lin",
+      "amenities": [],
+      "location": "nearest stations: Korakuen on the Namboku and Marunouchi Lines; Kasuga on the Oedo and Mita Lines, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Toyoko%20Inn%20Korakuen%20Bunkyokuyakusho-mae%2C%20Tokyo",
+      "bookingUrl": "http://www.toyoko-inn.com/eng/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-34",
+      "name": "Forest Hongo",
+      "rating": 4.5,
+      "pricePerNight": 68,
+      "currency": "JPY",
+      "neighborhood": "6-16-4 Hongo",
+      "amenities": [],
+      "location": "6-16-4 Hongo, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Forest%20Hongo%2C%20Tokyo",
+      "bookingUrl": "https://forest-hongo.jp/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-35",
+      "name": "Tokyo Dome Hotel",
+      "rating": 4.5,
+      "pricePerNight": 161,
+      "currency": "JPY",
+      "neighborhood": "1-3-61 Koraku",
+      "amenities": [
+        "Restaurant"
+      ],
+      "location": "1-3-61 Koraku, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Tokyo%20Dome%20Hotel%2C%20Tokyo",
+      "bookingUrl": "http://www.tokyodome-hotels.co.jp/e/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-36",
+      "name": "Hotel Chinzanso Tokyo",
+      "rating": 4.5,
+      "pricePerNight": 369,
+      "currency": "JPY",
+      "neighborhood": "2-10-8 Sekiguchi",
+      "amenities": [],
+      "location": "2-10-8 Sekiguchi, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Chinzanso%20Tokyo%2C%20Tokyo",
+      "bookingUrl": "http://www.hotel-chinzanso-tokyo.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-37",
+      "name": "First Cabin Akihabara",
+      "rating": 3.5,
+      "pricePerNight": 32,
+      "currency": "JPY",
+      "neighborhood": "3-38 Sakuma, Chiyoda-ku",
+      "amenities": [
+        "Spa",
+        "Bar",
+        "Breakfast",
+        "Capsule",
+        "Luggage Storage"
+      ],
+      "location": "3-38 Sakuma, Chiyoda-ku, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=First%20Cabin%20Akihabara%2C%20Tokyo",
+      "bookingUrl": "http://www.first-cabin.jp/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-38",
+      "name": "Akihabara Washington Hotel",
+      "rating": 4,
+      "pricePerNight": 87,
+      "currency": "JPY",
+      "neighborhood": "1-8-3 Sakuma, Chiyoda-ku",
+      "amenities": [
+        "Bar"
+      ],
+      "location": "1-8-3 Sakuma, Chiyoda-ku, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Akihabara%20Washington%20Hotel%2C%20Tokyo",
+      "bookingUrl": "http://akihabara.washington-hotels.jp",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-39",
+      "name": "Remm Akihabara Hotel",
+      "rating": 4,
+      "pricePerNight": 96,
+      "currency": "JPY",
+      "neighborhood": "1-6-5 Sakuma, Chiyoda-ku",
+      "amenities": [
+        "Bar"
+      ],
+      "location": "1-6-5 Sakuma, Chiyoda-ku, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Remm%20Akihabara%20Hotel%2C%20Tokyo",
+      "bookingUrl": "http://www.hankyu-hotel.com/cgi-bin2/cms2/index_en.cgi?hid=51remmakihabara",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-40",
+      "name": "Mercure Hotel Ginza",
+      "rating": 4,
+      "pricePerNight": 80,
+      "currency": "JPY",
+      "neighborhood": "2-9-4 Ginza",
+      "amenities": [],
+      "location": "2-9-4 Ginza, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Mercure%20Hotel%20Ginza%2C%20Tokyo",
+      "bookingUrl": "https://all.accor.com/hotel/5701/index.en.shtml",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-41",
+      "name": "Hotel Asia Center of Japan",
+      "rating": 4,
+      "pricePerNight": 54,
+      "currency": "JPY",
+      "neighborhood": "Akasaka 8-10-32",
+      "amenities": [
+        "WiFi",
+        "Spa",
+        "Gym",
+        "Restaurant",
+        "Laundry"
+      ],
+      "location": "Akasaka 8-10-32, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Asia%20Center%20of%20Japan%2C%20Tokyo",
+      "bookingUrl": "http://www.asiacenter.or.jp/eng/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-42",
+      "name": "Ritz-Carlton Tokyo",
+      "rating": 4,
+      "pricePerNight": 402,
+      "currency": "JPY",
+      "neighborhood": "9-7-1 Akasaka",
+      "amenities": [
+        "Pool",
+        "Spa",
+        "Restaurant"
+      ],
+      "location": "9-7-1 Akasaka, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Ritz-Carlton%20Tokyo%2C%20Tokyo",
+      "bookingUrl": "http://www.ritzcarlton.com/en/hotels/japan/tokyo",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-43",
+      "name": "Check In Shinbashi",
+      "rating": 4,
+      "pricePerNight": 50,
+      "currency": "JPY",
+      "neighborhood": "2-15-17 Shinbashi",
+      "amenities": [],
+      "location": "2-15-17 Shinbashi, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Check%20In%20Shinbashi%2C%20Tokyo",
+      "bookingUrl": "http://www.checkin.co.jp/shinbashi/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-44",
+      "name": "Tokyu Stay Shinbashi",
+      "rating": 4,
+      "pricePerNight": 63,
+      "currency": "JPY",
+      "neighborhood": "4-23-1 Shinbashi",
+      "amenities": [
+        "Kitchen"
+      ],
+      "location": "4-23-1 Shinbashi, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Tokyu%20Stay%20Shinbashi%2C%20Tokyo",
+      "bookingUrl": "https://www.tokyustay.co.jp/e/hotel/SHI/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-45",
+      "name": "Hotel 1899 Tokyo",
+      "rating": 4.5,
+      "pricePerNight": 114,
+      "currency": "JPY",
+      "neighborhood": "6-4-1 Shinbashi",
+      "amenities": [
+        "Café"
+      ],
+      "location": "6-4-1 Shinbashi, Tokyo",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%201899%20Tokyo%2C%20Tokyo",
+      "bookingUrl": "https://1899.jp/hotels/tokyo/en/",
+      "source": "wikivoyage"
+    }
   ]
 }

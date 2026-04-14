@@ -6119,5 +6119,1287 @@
       "tip": "Get an Oyster card or use contactless payment for the Tube — much cheaper than paper tickets.",
       "importance": "high"
     }
+  ],
+  "hotels": [
+    {
+      "id": "h-lon-1",
+      "name": "The Savoy",
+      "rating": 4.8,
+      "pricePerNight": 650,
+      "currency": "USD",
+      "neighborhood": "Strand",
+      "amenities": [
+        "Spa",
+        "Pool",
+        "Restaurant",
+        "Bar",
+        "Concierge"
+      ],
+      "location": "Strand, London WC2R 0EZ",
+      "googleMapsUrl": "https://maps.google.com/?q=The+Savoy+London",
+      "source": "demo"
+    },
+    {
+      "id": "h-lon-2",
+      "name": "citizenM Tower of London",
+      "rating": 4.4,
+      "pricePerNight": 160,
+      "currency": "USD",
+      "neighborhood": "Tower Hill",
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Gym"
+      ],
+      "location": "40 Trinity Square, London EC3N 4DJ",
+      "googleMapsUrl": "https://maps.google.com/?q=citizenM+Tower+of+London",
+      "source": "demo"
+    },
+    {
+      "id": "h-lon-3",
+      "name": "Premier Inn London City",
+      "rating": 4.1,
+      "pricePerNight": 110,
+      "currency": "USD",
+      "neighborhood": "Aldgate",
+      "amenities": [
+        "Restaurant",
+        "WiFi",
+        "Bar"
+      ],
+      "location": "1 Aldgate High St, London EC3N 1AH",
+      "googleMapsUrl": "https://maps.google.com/?q=Premier+Inn+London+City+Aldgate",
+      "source": "demo"
+    },
+    {
+      "id": "h-lon-4",
+      "name": "The Hoxton Shoreditch",
+      "rating": 4.5,
+      "pricePerNight": 200,
+      "currency": "USD",
+      "neighborhood": "Shoreditch",
+      "amenities": [
+        "Restaurant",
+        "Bar",
+        "WiFi",
+        "Gym"
+      ],
+      "location": "81 Great Eastern St, London EC2A 3HU",
+      "googleMapsUrl": "https://maps.google.com/?q=The+Hoxton+Shoreditch+London",
+      "source": "demo"
+    },
+    {
+      "id": "h-lon-5",
+      "name": "Generator London",
+      "rating": 3.8,
+      "pricePerNight": 40,
+      "currency": "USD",
+      "neighborhood": "King's Cross",
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Lockers",
+        "Common Room"
+      ],
+      "location": "37 Tavistock Pl, London WC1H 9SE",
+      "googleMapsUrl": "https://maps.google.com/?q=Generator+Hostel+London",
+      "source": "demo"
+    },
+    {
+      "id": "wv-h-1",
+      "name": "YHA London St Paul's",
+      "rating": 3.5,
+      "pricePerNight": 24,
+      "currency": "GBP",
+      "neighborhood": "36 Carter Ln, EC4V 5AB",
+      "amenities": [
+        "Hostel"
+      ],
+      "location": "36 Carter Ln, EC4V 5AB, London",
+      "googleMapsUrl": "https://maps.google.com/?q=YHA%20London%20St%20Paul's%2C%20London",
+      "bookingUrl": "https://www.yha.org.uk/hostel/yha-london-st-pauls",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-2",
+      "name": "Apex City of London Hotel",
+      "rating": 4,
+      "pricePerNight": 164,
+      "currency": "GBP",
+      "neighborhood": "1 Seething Lane, EC3N 4AX",
+      "amenities": [
+        "WiFi",
+        "Gym",
+        "Restaurant",
+        "Bar"
+      ],
+      "location": "1 Seething Lane, EC3N 4AX, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Apex%20City%20of%20London%20Hotel%2C%20London",
+      "bookingUrl": "https://www.apexhotels.co.uk/destinations/london/apex-city-of-london-hotel/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-3",
+      "name": "Apex Temple Court Hotel",
+      "rating": 4,
+      "pricePerNight": 192,
+      "currency": "GBP",
+      "neighborhood": "1-2 Serjeants' Inn, Fleet Street, EC4Y 1LL",
+      "amenities": [
+        "WiFi",
+        "Spa",
+        "Gym",
+        "Restaurant",
+        "Bar",
+        "Lounge"
+      ],
+      "location": "1-2 Serjeants' Inn, Fleet Street, EC4Y 1LL, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Apex%20Temple%20Court%20Hotel%2C%20London",
+      "bookingUrl": "https://www.apexhotels.co.uk/destinations/london/apex-temple-court-hotel/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-4",
+      "name": "Queen Street St Paul's Apartments",
+      "rating": 4,
+      "pricePerNight": 152,
+      "currency": "GBP",
+      "neighborhood": "Queen Street, EC4R 1BR",
+      "amenities": [
+        "Restaurant",
+        "Café"
+      ],
+      "location": "Queen Street, EC4R 1BR, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Queen%20Street%20St%20Paul's%20Apartments%2C%20London",
+      "bookingUrl": "https://www.citybaseapartments.com/queen-street-st-pauls-apartments-london-75",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-5",
+      "name": "Apex London Wall Hotel",
+      "rating": 4,
+      "pricePerNight": 192,
+      "currency": "GBP",
+      "neighborhood": "7-9 Copthall Avenue, EC2R 7NJ",
+      "amenities": [
+        "WiFi",
+        "Pool",
+        "Gym",
+        "Restaurant",
+        "Bar"
+      ],
+      "location": "7-9 Copthall Avenue, EC2R 7NJ, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Apex%20London%20Wall%20Hotel%2C%20London",
+      "bookingUrl": "https://www.apexhotels.co.uk/destinations/london/apex-london-wall-hotel/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-6",
+      "name": "Andaz London Liverpool Street",
+      "rating": 4,
+      "pricePerNight": 279,
+      "currency": "GBP",
+      "neighborhood": "40 Liverpool St",
+      "amenities": [
+        "Pool"
+      ],
+      "location": "40 Liverpool St, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Andaz%20London%20Liverpool%20Street%2C%20London",
+      "bookingUrl": "https://www.hyatt.com/en-US/hotel/england-united-kingdom/andaz-london-liverpool-street/longe",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-7",
+      "name": "SACO Apartments – Aldgate",
+      "rating": 4,
+      "pricePerNight": 152,
+      "currency": "GBP",
+      "neighborhood": "99 Leman St",
+      "amenities": [],
+      "location": "99 Leman St, London",
+      "googleMapsUrl": "https://maps.google.com/?q=SACO%20Apartments%20%E2%80%93%20Aldgate%2C%20London",
+      "bookingUrl": "http://london.sacoapartments.com/destinations/uk/london-the-city-of-london/SACO-London---Aldgate/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-8",
+      "name": "Citadines Holborn-Covent Garden London",
+      "rating": 4.5,
+      "pricePerNight": 265,
+      "currency": "GBP",
+      "neighborhood": "94-99 High Holborn, WC1V 6LF",
+      "amenities": [
+        "WiFi",
+        "Kitchen"
+      ],
+      "location": "94-99 High Holborn, WC1V 6LF, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Citadines%20Holborn-Covent%20Garden%20London%2C%20London",
+      "bookingUrl": "https://www.citadines.com/en/united-kingdom/london/citadines-holborn-covent-garden-london.html",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-9",
+      "name": "South Place Hotel",
+      "rating": 4.5,
+      "pricePerNight": 318,
+      "currency": "GBP",
+      "neighborhood": "3 South Place, EC2M 2AF",
+      "amenities": [
+        "Restaurant"
+      ],
+      "location": "3 South Place, EC2M 2AF, London",
+      "googleMapsUrl": "https://maps.google.com/?q=South%20Place%20Hotel%2C%20London",
+      "bookingUrl": "https://southplacehotel.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-10",
+      "name": "The Wellington",
+      "rating": 3.5,
+      "pricePerNight": 146,
+      "currency": "GBP",
+      "neighborhood": "71 Vincent Sq, SW1P 2PA",
+      "amenities": [
+        "WiFi"
+      ],
+      "location": "71 Vincent Sq, SW1P 2PA, London",
+      "googleMapsUrl": "https://maps.google.com/?q=The%20Wellington%2C%20London",
+      "bookingUrl": "https://www.blueorchid.com/en/hotels/gb/london/wellington-hotel-by-blue-orchid",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-11",
+      "name": "DoubleTree by Hilton Hotel London—Westminster",
+      "rating": 4,
+      "pricePerNight": 191,
+      "currency": "GBP",
+      "neighborhood": "30 John Islip St, SW1P 4DD",
+      "amenities": [
+        "Restaurant",
+        "Bar"
+      ],
+      "location": "30 John Islip St, SW1P 4DD, London",
+      "googleMapsUrl": "https://maps.google.com/?q=DoubleTree%20by%20Hilton%20Hotel%20London%E2%80%94Westminster%2C%20London",
+      "bookingUrl": "https://doubletree3.hilton.com/en/hotels/united-kingdom/doubletree-by-hilton-hotel-london-westminster-LONWMDI/index.html",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-12",
+      "name": "Eccleston Square Hotel",
+      "rating": 4,
+      "pricePerNight": 229,
+      "currency": "GBP",
+      "neighborhood": "37 Eccleston Square SW1V 1PB",
+      "amenities": [],
+      "location": "37 Eccleston Square SW1V 1PB, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Eccleston%20Square%20Hotel%2C%20London",
+      "bookingUrl": "https://www.ecclestonsquarehotel.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-13",
+      "name": "St Ermin's Hotel",
+      "rating": 4,
+      "pricePerNight": 146,
+      "currency": "GBP",
+      "neighborhood": "2 Caxton St, SW1H 0QW",
+      "amenities": [],
+      "location": "2 Caxton St, SW1H 0QW, London",
+      "googleMapsUrl": "https://maps.google.com/?q=St%20Ermin's%20Hotel%2C%20London",
+      "bookingUrl": "http://www.sterminshotel.co.uk/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-14",
+      "name": "Luna & Simone Hotel",
+      "rating": 4,
+      "pricePerNight": 89,
+      "currency": "GBP",
+      "neighborhood": "47/49 Belgrave Rd, SW1V 2BB",
+      "amenities": [],
+      "location": "47/49 Belgrave Rd, SW1V 2BB, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Luna%20%26%20Simone%20Hotel%2C%20London",
+      "bookingUrl": "http://www.lunasimonehotel.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-15",
+      "name": "Sanctuary House Hotel",
+      "rating": 4,
+      "pricePerNight": 248,
+      "currency": "GBP",
+      "neighborhood": "33 Tothill St, SW1H 9LA",
+      "amenities": [],
+      "location": "33 Tothill St, SW1H 9LA, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Sanctuary%20House%20Hotel%2C%20London",
+      "bookingUrl": "http://sanctuaryhousehotel.co.uk/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-16",
+      "name": "Lime Tree Hotel",
+      "rating": 4,
+      "pricePerNight": 152,
+      "currency": "GBP",
+      "neighborhood": "135 Ebury St SW1W 9QU",
+      "amenities": [],
+      "location": "135 Ebury St SW1W 9QU, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Lime%20Tree%20Hotel%2C%20London",
+      "bookingUrl": "https://www.limetreehotel.co.uk/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-17",
+      "name": "Artist Residence London",
+      "rating": 4.5,
+      "pricePerNight": 381,
+      "currency": "GBP",
+      "neighborhood": "52 Cambridge St, Pimlico SW1V 4QQ",
+      "amenities": [
+        "Restaurant"
+      ],
+      "location": "52 Cambridge St, Pimlico SW1V 4QQ, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Artist%20Residence%20London%2C%20London",
+      "bookingUrl": "https://www.artistresidence.co.uk/our-hotels/london/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-18",
+      "name": "St James Court Hotel",
+      "rating": 4.5,
+      "pricePerNight": 191,
+      "currency": "GBP",
+      "neighborhood": "55 Buckingham Gate, SW1E 6AF",
+      "amenities": [
+        "Spa",
+        "Gym",
+        "Restaurant"
+      ],
+      "location": "55 Buckingham Gate, SW1E 6AF, London",
+      "googleMapsUrl": "https://maps.google.com/?q=St%20James%20Court%20Hotel%2C%20London",
+      "bookingUrl": "http://www.stjamescourthotel.co.uk/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-19",
+      "name": "St James’s Hotel & Club",
+      "rating": 4.5,
+      "pricePerNight": 445,
+      "currency": "GBP",
+      "neighborhood": "7-8 Park Pl, SW1A 1LS",
+      "amenities": [
+        "Restaurant"
+      ],
+      "location": "7-8 Park Pl, SW1A 1LS, London",
+      "googleMapsUrl": "https://maps.google.com/?q=St%20James%E2%80%99s%20Hotel%20%26%20Club%2C%20London",
+      "bookingUrl": "https://www.stjameshotelandclub.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-20",
+      "name": "The Goring",
+      "rating": 4.5,
+      "pricePerNight": 610,
+      "currency": "GBP",
+      "neighborhood": "15 Beeston Place, Grosvenor Gardens SW1W 0JW",
+      "amenities": [],
+      "location": "15 Beeston Place, Grosvenor Gardens SW1W 0JW, London",
+      "googleMapsUrl": "https://maps.google.com/?q=The%20Goring%2C%20London",
+      "bookingUrl": "https://www.thegoring.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-21",
+      "name": "The Stafford",
+      "rating": 4.5,
+      "pricePerNight": 508,
+      "currency": "GBP",
+      "neighborhood": "16 St James Place SW1A 1NJ",
+      "amenities": [
+        "Restaurant"
+      ],
+      "location": "16 St James Place SW1A 1NJ, London",
+      "googleMapsUrl": "https://maps.google.com/?q=The%20Stafford%2C%20London",
+      "bookingUrl": "https://thestaffordlondon.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-22",
+      "name": "Hotel 41",
+      "rating": 4.5,
+      "pricePerNight": 457,
+      "currency": "GBP",
+      "neighborhood": "41 Buckingham Palace Rd SW1W 0PS",
+      "amenities": [],
+      "location": "41 Buckingham Palace Rd SW1W 0PS, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%2041%2C%20London",
+      "bookingUrl": "https://www.41hotel.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-23",
+      "name": "Smart Camden Inn Hostel",
+      "rating": 3.5,
+      "pricePerNight": 15,
+      "currency": "GBP",
+      "neighborhood": "55-57 Bayham St, NW1 0AA",
+      "amenities": [
+        "Hostel"
+      ],
+      "location": "55-57 Bayham St, NW1 0AA, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Smart%20Camden%20Inn%20Hostel%2C%20London",
+      "bookingUrl": "https://www.smarthostels.com/camden-inn",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-24",
+      "name": "St Christopher's Camden Hostel",
+      "rating": 3.5,
+      "pricePerNight": 15,
+      "currency": "GBP",
+      "neighborhood": "50 Camden High St, NW1 0LT",
+      "amenities": [
+        "Bar",
+        "Hostel"
+      ],
+      "location": "50 Camden High St, NW1 0LT, London",
+      "googleMapsUrl": "https://maps.google.com/?q=St%20Christopher's%20Camden%20Hostel%2C%20London",
+      "bookingUrl": "https://www.st-christophers.co.uk/london/camden-hostel",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-25",
+      "name": "YHA London St Pancras",
+      "rating": 3.5,
+      "pricePerNight": 28,
+      "currency": "GBP",
+      "neighborhood": "79-81 Euston Rd",
+      "amenities": [],
+      "location": "79-81 Euston Rd, London",
+      "googleMapsUrl": "https://maps.google.com/?q=YHA%20London%20St%20Pancras%2C%20London",
+      "bookingUrl": "https://www.yha.org.uk/hostel/yha-london-st-pancras",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-26",
+      "name": "Brewers Inn Wandsworth",
+      "rating": 4,
+      "pricePerNight": 152,
+      "currency": "GBP",
+      "neighborhood": "147 East Hill, SW18 2QB",
+      "amenities": [
+        "Breakfast"
+      ],
+      "location": "147 East Hill, SW18 2QB, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Brewers%20Inn%20Wandsworth%2C%20London",
+      "bookingUrl": "http://www.brewersinn.co.uk/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-27",
+      "name": "Flexistay ApartHotel Tooting",
+      "rating": 4,
+      "pricePerNight": 445,
+      "currency": "GBP",
+      "neighborhood": "Thirsk Rd, CR4 2BD",
+      "amenities": [],
+      "location": "Thirsk Rd, CR4 2BD, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Flexistay%20ApartHotel%20Tooting%2C%20London",
+      "bookingUrl": "http://www.flexistay.com/Search.aspx?Location=Tooting&Type=AH",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-28",
+      "name": "Alhambra Hotel",
+      "rating": 3.5,
+      "pricePerNight": 64,
+      "currency": "GBP",
+      "neighborhood": "17-19 Argyle St, WC1H 8EJ",
+      "amenities": [
+        "WiFi",
+        "Spa"
+      ],
+      "location": "17-19 Argyle St, WC1H 8EJ, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Alhambra%20Hotel%2C%20London",
+      "bookingUrl": "http://www.alhambrahotel.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-29",
+      "name": "Holiday Inn London - Bloomsbury",
+      "rating": 4.5,
+      "pricePerNight": 234,
+      "currency": "GBP",
+      "neighborhood": "Coram Street, WC1N 1HT",
+      "amenities": [],
+      "location": "Coram Street, WC1N 1HT, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Holiday%20Inn%20London%20-%20Bloomsbury%2C%20London",
+      "bookingUrl": "http://www.ihg.com/holidayinn/hotels/gb/en/london/lonbl/hoteldetail",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-30",
+      "name": "Charlotte Street Hotel",
+      "rating": 4.5,
+      "pricePerNight": 381,
+      "currency": "GBP",
+      "neighborhood": "15 Charlotte St W1T 1RJ",
+      "amenities": [],
+      "location": "15 Charlotte St W1T 1RJ, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Charlotte%20Street%20Hotel%2C%20London",
+      "bookingUrl": "https://www.firmdalehotels.com/hotels/london/charlotte-street-hotel",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-31",
+      "name": "Strand Palace Hotel",
+      "rating": 4,
+      "pricePerNight": 83,
+      "currency": "GBP",
+      "neighborhood": "372 Strand, WC2R 0JJ",
+      "amenities": [],
+      "location": "372 Strand, WC2R 0JJ, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Strand%20Palace%20Hotel%2C%20London",
+      "bookingUrl": "http://www.strandpalacehotel.co.uk/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-32",
+      "name": "Travelodge London Covent Garden",
+      "rating": 4,
+      "pricePerNight": 171,
+      "currency": "GBP",
+      "neighborhood": "10 Drury Ln, WC2B 5RE",
+      "amenities": [],
+      "location": "10 Drury Ln, WC2B 5RE, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Travelodge%20London%20Covent%20Garden%2C%20London",
+      "bookingUrl": "https://www.travelodge.co.uk/hotels/318/London-Central-Covent-Garden-hotel/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-33",
+      "name": "Henrietta Hotel",
+      "rating": 4.5,
+      "pricePerNight": 318,
+      "currency": "GBP",
+      "neighborhood": "14 Henrietta Street WC2E 8QH",
+      "amenities": [
+        "Restaurant"
+      ],
+      "location": "14 Henrietta Street WC2E 8QH, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Henrietta%20Hotel%2C%20London",
+      "bookingUrl": "https://www.henriettahotel.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-34",
+      "name": "LSE Vacations",
+      "rating": 3.5,
+      "pricePerNight": 41,
+      "currency": "GBP",
+      "neighborhood": "London",
+      "amenities": [],
+      "location": "London",
+      "googleMapsUrl": "https://maps.google.com/?q=LSE%20Vacations%2C%20London",
+      "bookingUrl": "https://www.lsevacations.co.uk/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-35",
+      "name": "The One Tun Pub & Rooms",
+      "rating": 4,
+      "pricePerNight": 191,
+      "currency": "GBP",
+      "neighborhood": "125 Saffron Hill EC1N 8QS",
+      "amenities": [],
+      "location": "125 Saffron Hill EC1N 8QS, London",
+      "googleMapsUrl": "https://maps.google.com/?q=The%20One%20Tun%20Pub%20%26%20Rooms%2C%20London",
+      "bookingUrl": "https://www.onetun.co.uk/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-36",
+      "name": "The Zetter Hotel",
+      "rating": 4.5,
+      "pricePerNight": 381,
+      "currency": "GBP",
+      "neighborhood": "St John's Square, 86 Clerkenwell Rd EC1M 5RJ",
+      "amenities": [
+        "Restaurant"
+      ],
+      "location": "St John's Square, 86 Clerkenwell Rd EC1M 5RJ, London",
+      "googleMapsUrl": "https://maps.google.com/?q=The%20Zetter%20Hotel%2C%20London",
+      "bookingUrl": "https://www.thezetter.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-37",
+      "name": "Zetter Townhouse Clerkenwell",
+      "rating": 4.5,
+      "pricePerNight": 318,
+      "currency": "GBP",
+      "neighborhood": "49 St John's Square EC1V 4JJ",
+      "amenities": [
+        "Bar"
+      ],
+      "location": "49 St John's Square EC1V 4JJ, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Zetter%20Townhouse%20Clerkenwell%2C%20London",
+      "bookingUrl": "https://www.thezettertownhouse.com/clerkenwell#",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-38",
+      "name": "Radisson Blu Edwardian Hampshire Hotel",
+      "rating": 4,
+      "pricePerNight": 334,
+      "currency": "GBP",
+      "neighborhood": "31-36 Leicester Square, WC2H 7LH",
+      "amenities": [],
+      "location": "31-36 Leicester Square, WC2H 7LH, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Radisson%20Blu%20Edwardian%20Hampshire%20Hotel%2C%20London",
+      "bookingUrl": "https://www.radissonblu-edwardian.com/london-hotel-gb-wc2h-7lh/gbhampsh",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-39",
+      "name": "Thistle Piccadilly",
+      "rating": 4,
+      "pricePerNight": 202,
+      "currency": "GBP",
+      "neighborhood": "Coventry St, W1D 6BZ",
+      "amenities": [],
+      "location": "Coventry St, W1D 6BZ, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Thistle%20Piccadilly%2C%20London",
+      "bookingUrl": "http://www.thistle.com/hotels/united_kingdom/london/thistle_piccadilly/index.html",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-40",
+      "name": "The Trafalgar",
+      "rating": 4,
+      "pricePerNight": 305,
+      "currency": "GBP",
+      "neighborhood": "2 Spring Gdns, Trafalgar Square, SW1A 2TS",
+      "amenities": [],
+      "location": "2 Spring Gdns, Trafalgar Square, SW1A 2TS, London",
+      "googleMapsUrl": "https://maps.google.com/?q=The%20Trafalgar%2C%20London",
+      "bookingUrl": "http://www.thetrafalgar.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-41",
+      "name": "Premier Inn London Leicester Square",
+      "rating": 4,
+      "pricePerNight": 124,
+      "currency": "GBP",
+      "neighborhood": "1 Leicester Place, Leicester Square, WC2H 7BP",
+      "amenities": [],
+      "location": "1 Leicester Place, Leicester Square, WC2H 7BP, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Premier%20Inn%20London%20Leicester%20Square%2C%20London",
+      "bookingUrl": "https://www.premierinn.com/gb/en/hotels/england/greater-london/london/london-leicester-square.html",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-42",
+      "name": "Haymarket Hotel",
+      "rating": 4,
+      "pricePerNight": 406,
+      "currency": "GBP",
+      "neighborhood": "1 Suffolk Place SW1Y 4HX",
+      "amenities": [],
+      "location": "1 Suffolk Place SW1Y 4HX, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Haymarket%20Hotel%2C%20London",
+      "bookingUrl": "https://www.firmdalehotels.com/hotels/london/haymarket-hotel/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-43",
+      "name": "Astor London Oxford Street",
+      "rating": 3.5,
+      "pricePerNight": 33,
+      "currency": "GBP",
+      "neighborhood": "14 Noel St",
+      "amenities": [
+        "Kitchen",
+        "Hostel"
+      ],
+      "location": "14 Noel St, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Astor%20London%20Oxford%20Street%2C%20London",
+      "bookingUrl": "https://www.astorhostels.com/hostels/oxford-street",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-44",
+      "name": "20 Hertford Street Apartments",
+      "rating": 4,
+      "pricePerNight": 88,
+      "currency": "GBP",
+      "neighborhood": "20 Hertford St, W1J 7RX",
+      "amenities": [],
+      "location": "20 Hertford St, W1J 7RX, London",
+      "googleMapsUrl": "https://maps.google.com/?q=20%20Hertford%20Street%20Apartments%2C%20London",
+      "bookingUrl": "http://www.citybaseapartments.com/uk/london/20-hertford-street-apartments.php",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-45",
+      "name": "Holiday Inn London - Oxford Circus",
+      "rating": 4,
+      "pricePerNight": 318,
+      "currency": "GBP",
+      "neighborhood": "57-59 Welbeck St",
+      "amenities": [],
+      "location": "57-59 Welbeck St, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Holiday%20Inn%20London%20-%20Oxford%20Circus%2C%20London",
+      "bookingUrl": "https://www.ihg.com/holidayinn/hotels/gb/en/london/lonmr/hoteldetail",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-46",
+      "name": "Durrants",
+      "rating": 4.5,
+      "pricePerNight": 254,
+      "currency": "GBP",
+      "neighborhood": "26-32 George St, Marylebone W1H 5BJ",
+      "amenities": [],
+      "location": "26-32 George St, Marylebone W1H 5BJ, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Durrants%2C%20London",
+      "bookingUrl": "http://www.durrantshotel.co.uk/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-47",
+      "name": "The Mandeville Hotel",
+      "rating": 4.5,
+      "pricePerNight": 114,
+      "currency": "GBP",
+      "neighborhood": "Mandeville Pl, W1U 2BE",
+      "amenities": [
+        "WiFi"
+      ],
+      "location": "Mandeville Pl, W1U 2BE, London",
+      "googleMapsUrl": "https://maps.google.com/?q=The%20Mandeville%20Hotel%2C%20London",
+      "bookingUrl": "http://www.summithotels.com/summit/hotels/index.aspx?from=search&id=63651",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-48",
+      "name": "Bluebells Hotel",
+      "rating": 3.5,
+      "pricePerNight": 76,
+      "currency": "GBP",
+      "neighborhood": "14 Pembridge Sq, W2 4EH",
+      "amenities": [],
+      "location": "14 Pembridge Sq, W2 4EH, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Bluebells%20Hotel%2C%20London",
+      "bookingUrl": "http://www.hotelbluebells.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-49",
+      "name": "Notting Hill Hotel",
+      "rating": 3.5,
+      "pricePerNight": 76,
+      "currency": "GBP",
+      "neighborhood": "2 Pembridge Sq, W2 4EW",
+      "amenities": [],
+      "location": "2 Pembridge Sq, W2 4EW, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Notting%20Hill%20Hotel%2C%20London",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-50",
+      "name": "Umi Hotel",
+      "rating": 3.5,
+      "pricePerNight": 102,
+      "currency": "GBP",
+      "neighborhood": "16 Leinster Square",
+      "amenities": [
+        "Dorms"
+      ],
+      "location": "16 Leinster Square, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Umi%20Hotel%2C%20London",
+      "bookingUrl": "http://www.umihotellondon.co.uk",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-51",
+      "name": "The Abbey Court",
+      "rating": 4,
+      "pricePerNight": 114,
+      "currency": "GBP",
+      "neighborhood": "20 Pembridge Gdns, W2 4FE",
+      "amenities": [],
+      "location": "20 Pembridge Gdns, W2 4FE, London",
+      "googleMapsUrl": "https://maps.google.com/?q=The%20Abbey%20Court%2C%20London",
+      "bookingUrl": "http://abbeycourthotel.co.uk/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-52",
+      "name": "Laslett",
+      "rating": 4.5,
+      "pricePerNight": 318,
+      "currency": "GBP",
+      "neighborhood": "8 Pembridge Gardens W2 4DU",
+      "amenities": [],
+      "location": "8 Pembridge Gardens W2 4DU, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Laslett%2C%20London",
+      "bookingUrl": "https://www.living-rooms.co.uk/hotel/the-laslett",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-53",
+      "name": "Portobello Hotel",
+      "rating": 4.5,
+      "pricePerNight": 318,
+      "currency": "GBP",
+      "neighborhood": "22 Stanley Gardens, Notting Hill W11 2NG",
+      "amenities": [],
+      "location": "22 Stanley Gardens, Notting Hill W11 2NG, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Portobello%20Hotel%2C%20London",
+      "bookingUrl": "https://www.portobellohotel.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-54",
+      "name": "Equity Point London",
+      "rating": 3.5,
+      "pricePerNight": 19,
+      "currency": "GBP",
+      "neighborhood": "100-102 Westbourne Ter, W2 6QE",
+      "amenities": [
+        "Hostel"
+      ],
+      "location": "100-102 Westbourne Ter, W2 6QE, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Equity%20Point%20London%2C%20London",
+      "bookingUrl": "http://equity-point.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-55",
+      "name": "The Green Man Publove Hostel",
+      "rating": 3.5,
+      "pricePerNight": 15,
+      "currency": "GBP",
+      "neighborhood": "308 Edgware Rd, W2 1DY",
+      "amenities": [
+        "Hostel"
+      ],
+      "location": "308 Edgware Rd, W2 1DY, London",
+      "googleMapsUrl": "https://maps.google.com/?q=The%20Green%20Man%20Publove%20Hostel%2C%20London",
+      "bookingUrl": "http://www.publovehostels.co.uk/en/Main/Hostels/Green-Man-Paddington.aspx",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-56",
+      "name": "Ascot Hyde Park Hotel",
+      "rating": 3.5,
+      "pricePerNight": 51,
+      "currency": "GBP",
+      "neighborhood": "11 Craven Rd, W2 3BP",
+      "amenities": [],
+      "location": "11 Craven Rd, W2 3BP, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Ascot%20Hyde%20Park%20Hotel%2C%20London",
+      "bookingUrl": "http://www.ascothydeparkhotel.co.uk/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-57",
+      "name": "Bluedaws Private Hotel",
+      "rating": 3.5,
+      "pricePerNight": 32,
+      "currency": "GBP",
+      "neighborhood": "133-135 Sussex Gdns, W2 2RX",
+      "amenities": [],
+      "location": "133-135 Sussex Gdns, W2 2RX, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Bluedaws%20Private%20Hotel%2C%20London",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-58",
+      "name": "Mina House Hotel",
+      "rating": 3.5,
+      "pricePerNight": 100,
+      "currency": "GBP",
+      "neighborhood": "21-23 Craven Rd, W2 3BU",
+      "amenities": [],
+      "location": "21-23 Craven Rd, W2 3BU, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Mina%20House%20Hotel%2C%20London",
+      "bookingUrl": "http://www.minahousehotel.co.uk/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-59",
+      "name": "The Pilgrim",
+      "rating": 4,
+      "pricePerNight": 165,
+      "currency": "GBP",
+      "neighborhood": "25 London St W2 1HH",
+      "amenities": [],
+      "location": "25 London St W2 1HH, London",
+      "googleMapsUrl": "https://maps.google.com/?q=The%20Pilgrim%2C%20London",
+      "bookingUrl": "https://thepilgrm.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-60",
+      "name": "Danubius Hotel Regents Park",
+      "rating": 4.5,
+      "pricePerNight": 188,
+      "currency": "GBP",
+      "neighborhood": "18 Lodge Rd, NW8 7JT",
+      "amenities": [
+        "Breakfast"
+      ],
+      "location": "18 Lodge Rd, NW8 7JT, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Danubius%20Hotel%20Regents%20Park%2C%20London",
+      "bookingUrl": "http://www.danubiuslondon.co.uk/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-61",
+      "name": "Roseate House",
+      "rating": 4.5,
+      "pricePerNight": 254,
+      "currency": "GBP",
+      "neighborhood": "3 Westbourne Terrace W2 3U",
+      "amenities": [],
+      "location": "3 Westbourne Terrace W2 3U, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Roseate%20House%2C%20London",
+      "bookingUrl": "https://www.roseatehotels.com/london/roseatehouse/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-62",
+      "name": "YHA London Oxford Street",
+      "rating": 3.5,
+      "pricePerNight": 31,
+      "currency": "GBP",
+      "neighborhood": "14 Noel St, W1F 8GJ",
+      "amenities": [
+        "Kitchen",
+        "Hostel"
+      ],
+      "location": "14 Noel St, W1F 8GJ, London",
+      "googleMapsUrl": "https://maps.google.com/?q=YHA%20London%20Oxford%20Street%2C%20London",
+      "bookingUrl": "http://www.yha.org.uk/find-accommodation/london/hostels/london-oxford-street/index.aspx",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-63",
+      "name": "Courthouse Hotel",
+      "rating": 4.5,
+      "pricePerNight": 254,
+      "currency": "GBP",
+      "neighborhood": "19-21 Great Marlborough St, W1F 7HL",
+      "amenities": [],
+      "location": "19-21 Great Marlborough St, W1F 7HL, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Courthouse%20Hotel%2C%20London",
+      "bookingUrl": "http://www.courthouse-hotel.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-64",
+      "name": "Hazlitt's",
+      "rating": 4.5,
+      "pricePerNight": 292,
+      "currency": "GBP",
+      "neighborhood": "6 Frith St, W1D 3JA",
+      "amenities": [
+        "Restaurant",
+        "Bar",
+        "Breakfast"
+      ],
+      "location": "6 Frith St, W1D 3JA, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Hazlitt's%2C%20London",
+      "bookingUrl": "https://www.hazlittshotel.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-65",
+      "name": "Ham Yard Hotel",
+      "rating": 4.5,
+      "pricePerNight": 635,
+      "currency": "GBP",
+      "neighborhood": "1 Ham Yard W1D 7DT",
+      "amenities": [],
+      "location": "1 Ham Yard W1D 7DT, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Ham%20Yard%20Hotel%2C%20London",
+      "bookingUrl": "https://www.firmdalehotels.com/hotels/london/ham-yard-hotel/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-66",
+      "name": "St Christopher's Village",
+      "rating": 3.5,
+      "pricePerNight": 15,
+      "currency": "GBP",
+      "neighborhood": "161–165 Borough High St, SE1 1HR",
+      "amenities": [
+        "Bar",
+        "Hostel"
+      ],
+      "location": "161–165 Borough High St, SE1 1HR, London",
+      "googleMapsUrl": "https://maps.google.com/?q=St%20Christopher's%20Village%2C%20London",
+      "bookingUrl": "http://www.st-christophers.co.uk/london-hostels/london-bridge",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-67",
+      "name": "H10 London Waterloo",
+      "rating": 4,
+      "pricePerNight": 152,
+      "currency": "GBP",
+      "neighborhood": "284-302 Waterloo Rd SE1 8BQ",
+      "amenities": [],
+      "location": "284-302 Waterloo Rd SE1 8BQ, London",
+      "googleMapsUrl": "https://maps.google.com/?q=H10%20London%20Waterloo%2C%20London",
+      "bookingUrl": "https://www.h10hotels.com/en/london-hotels/h10-london-waterloo",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-68",
+      "name": "CitizenM London Bankside",
+      "rating": 4,
+      "pricePerNight": 191,
+      "currency": "GBP",
+      "neighborhood": "20 Lavington St SE1 0NZ",
+      "amenities": [],
+      "location": "20 Lavington St SE1 0NZ, London",
+      "googleMapsUrl": "https://maps.google.com/?q=CitizenM%20London%20Bankside%2C%20London",
+      "bookingUrl": "https://www.citizenm.com/hotels/europe/london/london-bankside-hotel",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-69",
+      "name": "Bermondsey Square Hotel",
+      "rating": 4.5,
+      "pricePerNight": 254,
+      "currency": "GBP",
+      "neighborhood": "9 Bermondsey Square SE1 3UN",
+      "amenities": [
+        "Restaurant"
+      ],
+      "location": "9 Bermondsey Square SE1 3UN, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Bermondsey%20Square%20Hotel%2C%20London",
+      "bookingUrl": "https://www.bermondseysquarehotel.co.uk/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-70",
+      "name": "The Londonears Hostel",
+      "rating": 4,
+      "pricePerNight": 15,
+      "currency": "GBP",
+      "neighborhood": "1 Barkston Gdns, SW5 0ER",
+      "amenities": [
+        "Hostel",
+        "Dorms"
+      ],
+      "location": "1 Barkston Gdns, SW5 0ER, London",
+      "googleMapsUrl": "https://maps.google.com/?q=The%20Londonears%20Hostel%2C%20London",
+      "bookingUrl": "https://www.londonearshostellondon.co.uk/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-71",
+      "name": "Park House Women's Hostel",
+      "rating": 4,
+      "pricePerNight": 62,
+      "currency": "GBP",
+      "neighborhood": "227 Earl's Court Rd, SW5 9BL",
+      "amenities": [
+        "Hostel"
+      ],
+      "location": "227 Earl's Court Rd, SW5 9BL, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Park%20House%20Women's%20Hostel%2C%20London",
+      "bookingUrl": "https://studentroomslondon.com/properties/park-house/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-72",
+      "name": "Twenty Navern Square Hotel",
+      "rating": 3.5,
+      "pricePerNight": 100,
+      "currency": "GBP",
+      "neighborhood": "20 Nevern Square, Earls Court, SW5 9PD",
+      "amenities": [],
+      "location": "20 Nevern Square, Earls Court, SW5 9PD, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Twenty%20Navern%20Square%20Hotel%2C%20London",
+      "bookingUrl": "https://www.20nevernsquare.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-73",
+      "name": "easyHotel South Kensington",
+      "rating": 3.5,
+      "pricePerNight": 64,
+      "currency": "GBP",
+      "neighborhood": "14 Lexham Gardens",
+      "amenities": [],
+      "location": "14 Lexham Gardens, London",
+      "googleMapsUrl": "https://maps.google.com/?q=easyHotel%20South%20Kensington%2C%20London",
+      "bookingUrl": "https://www.easyhotel.com/de/hotels/united-kingdom/london/south-kensington",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-74",
+      "name": "Mayflower Hotel",
+      "rating": 3.5,
+      "pricePerNight": 93,
+      "currency": "GBP",
+      "neighborhood": "26-28 Trebovir Road, Earls Court",
+      "amenities": [
+        "Breakfast"
+      ],
+      "location": "26-28 Trebovir Road, Earls Court, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Mayflower%20Hotel%2C%20London",
+      "bookingUrl": "https://www.mayflowerhotel.co.uk",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-75",
+      "name": "The Jade",
+      "rating": 3.5,
+      "pricePerNight": 57,
+      "currency": "GBP",
+      "neighborhood": "52 Hogarth Rd, SW5 0PU",
+      "amenities": [
+        "WiFi",
+        "Breakfast"
+      ],
+      "location": "52 Hogarth Rd, SW5 0PU, London",
+      "googleMapsUrl": "https://maps.google.com/?q=The%20Jade%2C%20London",
+      "bookingUrl": "http://thejade.reserve-easy.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-76",
+      "name": "Kensington West",
+      "rating": 3.5,
+      "pricePerNight": 83,
+      "currency": "GBP",
+      "neighborhood": "25 Matheson Road, W14 8SN",
+      "amenities": [
+        "WiFi"
+      ],
+      "location": "25 Matheson Road, W14 8SN, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Kensington%20West%2C%20London",
+      "bookingUrl": "http://www.kensingtonwest.org/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-77",
+      "name": "The Lord Jim Hotel",
+      "rating": 3.5,
+      "pricePerNight": 47,
+      "currency": "GBP",
+      "neighborhood": "23-25 Penywern Rd, SW5 9TT",
+      "amenities": [
+        "Breakfast",
+        "Concierge",
+        "Lounge"
+      ],
+      "location": "23-25 Penywern Rd, SW5 9TT, London",
+      "googleMapsUrl": "https://maps.google.com/?q=The%20Lord%20Jim%20Hotel%2C%20London",
+      "bookingUrl": "http://www.lordjimhotel.co.uk/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-78",
+      "name": "Merlyn Court Hotel",
+      "rating": 3.5,
+      "pricePerNight": 57,
+      "currency": "GBP",
+      "neighborhood": "2 Barkston Gdns, SW5 0EN",
+      "amenities": [
+        "Breakfast"
+      ],
+      "location": "2 Barkston Gdns, SW5 0EN, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Merlyn%20Court%20Hotel%2C%20London",
+      "bookingUrl": "http://www.merlyncourthotel.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-79",
+      "name": "NH Harrington Hall Hotel",
+      "rating": 4,
+      "pricePerNight": 226,
+      "currency": "GBP",
+      "neighborhood": "5-25 Harrington Gdns, SW7 4JW",
+      "amenities": [],
+      "location": "5-25 Harrington Gdns, SW7 4JW, London",
+      "googleMapsUrl": "https://maps.google.com/?q=NH%20Harrington%20Hall%20Hotel%2C%20London",
+      "bookingUrl": "http://www.nh-hotels.com/nh/en/hotels/united-kingdom/london/nh-harrington-hall.html",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-80",
+      "name": "Capital Townhouse",
+      "rating": 4.5,
+      "pricePerNight": 381,
+      "currency": "GBP",
+      "neighborhood": "22 Basil St, Knightsbridge SW3 1AT",
+      "amenities": [
+        "Restaurant"
+      ],
+      "location": "22 Basil St, Knightsbridge SW3 1AT, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Capital%20Townhouse%2C%20London",
+      "bookingUrl": "https://www.warwickhotels.com/the-capital-townhouse",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-81",
+      "name": "Cadogan Hotel",
+      "rating": 4.5,
+      "pricePerNight": 265,
+      "currency": "GBP",
+      "neighborhood": "75 Sloane St, SW1X 9SG",
+      "amenities": [],
+      "location": "75 Sloane St, SW1X 9SG, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Cadogan%20Hotel%2C%20London",
+      "bookingUrl": "http://www.cadogan.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-83",
+      "name": "Marriott London Kensington Hotel",
+      "rating": 4.5,
+      "pricePerNight": 203,
+      "currency": "GBP",
+      "neighborhood": "147 Cromwell Rd, SW5 0TH",
+      "amenities": [],
+      "location": "147 Cromwell Rd, SW5 0TH, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Marriott%20London%20Kensington%20Hotel%2C%20London",
+      "bookingUrl": "http://www.marriott.co.uk/hotels/travel/lonlm-london-marriott-hotel-kensington/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-84",
+      "name": "Number Sixteen",
+      "rating": 4.5,
+      "pricePerNight": 381,
+      "currency": "GBP",
+      "neighborhood": "16 Sumner Place SW7 3EG",
+      "amenities": [],
+      "location": "16 Sumner Place SW7 3EG, London",
+      "googleMapsUrl": "https://maps.google.com/?q=Number%20Sixteen%2C%20London",
+      "bookingUrl": "https://www.firmdalehotels.com/hotels/london/number-sixteen/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-85",
+      "name": "The Park Tower Knightsbridge Hotel",
+      "rating": 4.5,
+      "pricePerNight": 392,
+      "currency": "GBP",
+      "neighborhood": "101 Knightsbridge, SW1X 7RN",
+      "amenities": [],
+      "location": "101 Knightsbridge, SW1X 7RN, London",
+      "googleMapsUrl": "https://maps.google.com/?q=The%20Park%20Tower%20Knightsbridge%20Hotel%2C%20London",
+      "bookingUrl": "http://www.theparktowerknightsbridge.com/",
+      "source": "wikivoyage"
+    }
   ]
 }

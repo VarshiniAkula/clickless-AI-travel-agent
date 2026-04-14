@@ -1,12 +1,25 @@
 import { NextRequest, NextResponse } from "next/server";
 import { parseIntent, parseIntentWithGroq } from "@/lib/nlu/parser";
 import { getFlights, getHotels } from "@/lib/providers/demo-data";
+import { loadCityCache } from "@/lib/cache";
 import { getWeatherLive } from "@/lib/providers/weather-live";
 import { getWikivoyageData } from "@/lib/providers/wikivoyage";
 import { normalizePayload } from "@/lib/extraction/normalize";
 import { buildKnowledgeGraph } from "@/lib/knowledge/graph";
 import { synthesizeTripBrief, synthesizeWithGemini, synthesizeWithLLM } from "@/lib/synthesis/brief";
 import { getSupabase } from "@/lib/supabase/client";
+import type { HotelOption } from "@/lib/types";
+
+/** Cache-first hotel lookup — falls back to hardcoded demo data */
+function getHotelsCached(destination: string): HotelOption[] {
+  const cache = loadCityCache(destination);
+  if (cache?.hotels && cache.hotels.length > 0) {
+    console.log(`[hotels] Serving "${destination}" from static cache (${cache.hotels.length} hotels)`);
+    return cache.hotels;
+  }
+  console.log(`[hotels] No cache for "${destination}" — using demo data`);
+  return getHotels(destination);
+}
 
 export async function POST(req: NextRequest) {
   try {
@@ -30,7 +43,7 @@ export async function POST(req: NextRequest) {
     // 2. Provider orchestration — live data where available, demo fallback
     const nights = intent.duration || 5;
     const rawFlights = getFlights(intent.destination);
-    const rawHotels = getHotels(intent.destination);
+    const rawHotels = getHotelsCached(intent.destination);
     const [rawWeather, wikivoyage] = await Promise.all([
       getWeatherLive(intent.destination, nights, intent.dates?.start),  // live OWM
       getWikivoyageData(intent.destination, intent.activities), // live Wikivoyage

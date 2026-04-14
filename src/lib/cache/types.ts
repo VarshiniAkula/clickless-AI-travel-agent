@@ -1,4 +1,4 @@
-import type { ActivityOption, CulturalNorm, WeatherForecast } from "@/lib/types";
+import type { ActivityOption, CulturalNorm, HotelOption, WeatherForecast } from "@/lib/types";
 
 export interface CacheEntry {
   city: string;
@@ -6,4 +6,5 @@ export interface CacheEntry {
   weather90Days: WeatherForecast[]; // ~90 actual dated forecasts
   activities: ActivityOption[];
   cultural: CulturalNorm[];
+  hotels?: HotelOption[];     // patched by seed-hotels.ts
 }

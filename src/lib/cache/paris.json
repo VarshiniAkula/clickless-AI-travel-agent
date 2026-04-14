@@ -3333,5 +3333,1095 @@
       "tip": "Watch for pickpockets on the Métro and at tourist sites. Keep valuables in front pockets.",
       "importance": "high"
     }
+  ],
+  "hotels": [
+    {
+      "id": "h-par-1",
+      "name": "Hôtel Ritz Paris",
+      "rating": 4.9,
+      "pricePerNight": 1200,
+      "currency": "USD",
+      "neighborhood": "1st Arr.",
+      "amenities": [
+        "Spa",
+        "Pool",
+        "Restaurant",
+        "Bar",
+        "Concierge"
+      ],
+      "location": "15 Place Vendôme, 75001 Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel+Ritz+Paris",
+      "source": "demo"
+    },
+    {
+      "id": "h-par-2",
+      "name": "Hôtel des Arts Montmartre",
+      "rating": 4.2,
+      "pricePerNight": 120,
+      "currency": "USD",
+      "neighborhood": "Montmartre",
+      "amenities": [
+        "WiFi",
+        "Breakfast",
+        "Bar"
+      ],
+      "location": "5 Rue Tholozé, 75018 Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel+des+Arts+Montmartre+Paris",
+      "source": "demo"
+    },
+    {
+      "id": "h-par-3",
+      "name": "ibis Paris Tour Eiffel",
+      "rating": 4,
+      "pricePerNight": 95,
+      "currency": "USD",
+      "neighborhood": "15th Arr.",
+      "amenities": [
+        "Restaurant",
+        "WiFi",
+        "Bar"
+      ],
+      "location": "2 Rue Cambronne, 75015 Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=ibis+Paris+Tour+Eiffel",
+      "source": "demo"
+    },
+    {
+      "id": "h-par-4",
+      "name": "Le Marais Boutique Hotel",
+      "rating": 4.5,
+      "pricePerNight": 210,
+      "currency": "USD",
+      "neighborhood": "Le Marais",
+      "amenities": [
+        "WiFi",
+        "Breakfast",
+        "Concierge"
+      ],
+      "location": "30 Rue de Turenne, 75003 Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Le+Marais+Boutique+Hotel+Paris",
+      "source": "demo"
+    },
+    {
+      "id": "h-par-5",
+      "name": "Generator Paris",
+      "rating": 3.9,
+      "pricePerNight": 38,
+      "currency": "USD",
+      "neighborhood": "10th Arr.",
+      "amenities": [
+        "Bar",
+        "WiFi",
+        "Lockers",
+        "Common Room"
+      ],
+      "location": "9-11 Place du Colonel Fabien, 75010 Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Generator+Hostel+Paris",
+      "source": "demo"
+    },
+    {
+      "id": "wv-h-1",
+      "name": "Centre International BVJ Paris-Louvre",
+      "rating": 3.5,
+      "pricePerNight": 28,
+      "currency": "EUR",
+      "neighborhood": "20, rue Jean-Jacques Rousseau",
+      "amenities": [],
+      "location": "20, rue Jean-Jacques Rousseau, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Centre%20International%20BVJ%20Paris-Louvre%2C%20Paris",
+      "bookingUrl": "http://www.bvjhostelparis.com/en/auberge/bvj-louvre-en/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-2",
+      "name": "Hôtel Brighton",
+      "rating": 4,
+      "pricePerNight": 247,
+      "currency": "EUR",
+      "neighborhood": "218, rue de Rivoli",
+      "amenities": [],
+      "location": "218, rue de Rivoli, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Brighton%2C%20Paris",
+      "bookingUrl": "http://www.paris-hotel-brighton.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-3",
+      "name": "Hôtel Britannique",
+      "rating": 4,
+      "pricePerNight": 170,
+      "currency": "EUR",
+      "neighborhood": "20, av Victoria",
+      "amenities": [],
+      "location": "20, av Victoria, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Britannique%2C%20Paris",
+      "bookingUrl": "http://www.hotel-britannique.fr",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-4",
+      "name": "Hôtel Louvre Bon Enfants",
+      "rating": 4,
+      "pricePerNight": 97,
+      "currency": "EUR",
+      "neighborhood": "5, rue des Bons-Enfants",
+      "amenities": [],
+      "location": "5, rue des Bons-Enfants, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Louvre%20Bon%20Enfants%2C%20Paris",
+      "bookingUrl": "http://www.hotellouvrebonsenfants.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-5",
+      "name": "Hôtel Victoria Châtelet",
+      "rating": 4,
+      "pricePerNight": 96,
+      "currency": "EUR",
+      "neighborhood": "17 Avenue Victoria",
+      "amenities": [
+        "Parking"
+      ],
+      "location": "17 Avenue Victoria, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Victoria%20Ch%C3%A2telet%2C%20Paris",
+      "bookingUrl": "http://www.hovicha.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-6",
+      "name": "Milestay Paris Les Halles",
+      "rating": 4,
+      "pricePerNight": 151,
+      "currency": "EUR",
+      "neighborhood": "4 rue des Halles",
+      "amenities": [
+        "Concierge",
+        "Kitchen"
+      ],
+      "location": "4 rue des Halles, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Milestay%20Paris%20Les%20Halles%2C%20Paris",
+      "bookingUrl": "https://www.milestay.com/en",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-7",
+      "name": "Castille Paris",
+      "rating": 4.5,
+      "pricePerNight": 378,
+      "currency": "EUR",
+      "neighborhood": "33-37 rue Cambon",
+      "amenities": [],
+      "location": "33-37 rue Cambon, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Castille%20Paris%2C%20Paris",
+      "bookingUrl": "http://www.castille.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-8",
+      "name": "Hôtel Costes",
+      "rating": 4.5,
+      "pricePerNight": 540,
+      "currency": "EUR",
+      "neighborhood": "239, rue Saint-Honoré",
+      "amenities": [
+        "Café"
+      ],
+      "location": "239, rue Saint-Honoré, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Costes%2C%20Paris",
+      "bookingUrl": "http://www.hotelcostes.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-9",
+      "name": "Hôtel Ritz",
+      "rating": 4.5,
+      "pricePerNight": 702,
+      "currency": "EUR",
+      "neighborhood": "15 Place Vendôme",
+      "amenities": [],
+      "location": "15 Place Vendôme, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Ritz%2C%20Paris",
+      "bookingUrl": "http://www.ritzparis.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-10",
+      "name": "Hôtel de Vendôme",
+      "rating": 4.5,
+      "pricePerNight": 378,
+      "currency": "EUR",
+      "neighborhood": "1, Place Vendôme",
+      "amenities": [
+        "Bar"
+      ],
+      "location": "1, Place Vendôme, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20de%20Vend%C3%B4me%2C%20Paris",
+      "bookingUrl": "http://www.hoteldevendome.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-11",
+      "name": "Hôtel des Boulevards",
+      "rating": 3.5,
+      "pricePerNight": 43,
+      "currency": "EUR",
+      "neighborhood": "10, rue de la Ville-Neuve",
+      "amenities": [],
+      "location": "10, rue de la Ville-Neuve, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20des%20Boulevards%2C%20Paris",
+      "bookingUrl": "http://www.hoteldesboulevards.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-12",
+      "name": "Hôtel Sainte-Marie",
+      "rating": 3.5,
+      "pricePerNight": 43,
+      "currency": "EUR",
+      "neighborhood": "6, rue de la Ville-Neuve",
+      "amenities": [],
+      "location": "6, rue de la Ville-Neuve, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Sainte-Marie%2C%20Paris",
+      "bookingUrl": "http://hotelsaintemarie.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-13",
+      "name": "Hôtel Bonne Nouvelle",
+      "rating": 4,
+      "pricePerNight": 65,
+      "currency": "EUR",
+      "neighborhood": "17, rue Beauregard",
+      "amenities": [],
+      "location": "17, rue Beauregard, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Bonne%20Nouvelle%2C%20Paris",
+      "bookingUrl": "http://hotel-bonne-nouvelle.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-14",
+      "name": "Hôtel Lautrec Opéra",
+      "rating": 4,
+      "pricePerNight": 103,
+      "currency": "EUR",
+      "neighborhood": "8-10 rue d'Amboise",
+      "amenities": [],
+      "location": "8-10 rue d'Amboise, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Lautrec%20Op%C3%A9ra%2C%20Paris",
+      "bookingUrl": "http://paris-hotel-lautrec.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-15",
+      "name": "Tiquetonne Hôtel",
+      "rating": 4,
+      "pricePerNight": 43,
+      "currency": "EUR",
+      "neighborhood": "6, rue Tiquetonne",
+      "amenities": [],
+      "location": "6, rue Tiquetonne, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Tiquetonne%20H%C3%B4tel%2C%20Paris",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-16",
+      "name": "Hôtel du Marais",
+      "rating": 3.5,
+      "pricePerNight": 76,
+      "currency": "EUR",
+      "neighborhood": "2bis, rue Commines",
+      "amenities": [],
+      "location": "2bis, rue Commines, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20du%20Marais%2C%20Paris",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-17",
+      "name": "Austin's Arts et Metiers Hôtel",
+      "rating": 4,
+      "pricePerNight": 130,
+      "currency": "EUR",
+      "neighborhood": "6, rue Montgolfier",
+      "amenities": [],
+      "location": "6, rue Montgolfier, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Austin's%20Arts%20et%20Metiers%20H%C3%B4tel%2C%20Paris",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-18",
+      "name": "MIJE",
+      "rating": 3.5,
+      "pricePerNight": 35,
+      "currency": "EUR",
+      "neighborhood": "6, rue de Fourcy, 12 rue des Barres, and 11 rue du Fauconnie",
+      "amenities": [
+        "Bar",
+        "Hostel"
+      ],
+      "location": "6, rue de Fourcy, 12 rue des Barres, and 11 rue du Fauconnier, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=MIJE%2C%20Paris",
+      "bookingUrl": "http://www.mije.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-19",
+      "name": "Hôtel Rivoli",
+      "rating": 3.5,
+      "pricePerNight": 32,
+      "currency": "EUR",
+      "neighborhood": "44, rue Rivoli",
+      "amenities": [],
+      "location": "44, rue Rivoli, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Rivoli%2C%20Paris",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-20",
+      "name": "Grand Hôtel du Loiret",
+      "rating": 3.5,
+      "pricePerNight": 49,
+      "currency": "EUR",
+      "neighborhood": "8, rue des Mauvais Garçons",
+      "amenities": [],
+      "location": "8, rue des Mauvais Garçons, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Grand%20H%C3%B4tel%20du%20Loiret%2C%20Paris",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-21",
+      "name": "Grand Hôtel Jeanne-d'Arc",
+      "rating": 3.5,
+      "pricePerNight": 62,
+      "currency": "EUR",
+      "neighborhood": "3, rue de Jarente",
+      "amenities": [],
+      "location": "3, rue de Jarente, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Grand%20H%C3%B4tel%20Jeanne-d'Arc%2C%20Paris",
+      "bookingUrl": "http://www.hoteljeannedarc.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-22",
+      "name": "Hôtel du Septième Art",
+      "rating": 4,
+      "pricePerNight": 81,
+      "currency": "EUR",
+      "neighborhood": "20 rue Saint-Paul",
+      "amenities": [
+        "A/C"
+      ],
+      "location": "20 rue Saint-Paul, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20du%20Septi%C3%A8me%20Art%2C%20Paris",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-23",
+      "name": "Hôtel Bastille Speria",
+      "rating": 4,
+      "pricePerNight": 103,
+      "currency": "EUR",
+      "neighborhood": "1, rue de la Bastille",
+      "amenities": [
+        "Restaurant"
+      ],
+      "location": "1, rue de la Bastille, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Bastille%20Speria%2C%20Paris",
+      "bookingUrl": "http://www.hotel-bastille-speria.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-24",
+      "name": "Hotel Caron de Beaumarchais",
+      "rating": 4,
+      "pricePerNight": 148,
+      "currency": "EUR",
+      "neighborhood": "12, rue Vieille-du-Temple",
+      "amenities": [
+        "A/C"
+      ],
+      "location": "12, rue Vieille-du-Temple, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Caron%20de%20Beaumarchais%2C%20Paris",
+      "bookingUrl": "http://www.carondebeaumarchais.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-25",
+      "name": "Hôtel de Lutece",
+      "rating": 4,
+      "pricePerNight": 171,
+      "currency": "EUR",
+      "neighborhood": "65, rue Saint-Louis-en-l'Ile",
+      "amenities": [],
+      "location": "65, rue Saint-Louis-en-l'Ile, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20de%20Lutece%2C%20Paris",
+      "bookingUrl": "http://www.paris-hotel-lutece.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-26",
+      "name": "Jardins de Paris Marais-Bastille",
+      "rating": 4,
+      "pricePerNight": 130,
+      "currency": "EUR",
+      "neighborhood": "14, rue Neuve-Saint-Pierre",
+      "amenities": [],
+      "location": "14, rue Neuve-Saint-Pierre, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Jardins%20de%20Paris%20Marais-Bastille%2C%20Paris",
+      "bookingUrl": "http://www.hotelsjardinsdeparis.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-27",
+      "name": "Hôtel de la Place des Vosges",
+      "rating": 4,
+      "pricePerNight": 109,
+      "currency": "EUR",
+      "neighborhood": "12 rue de Birague",
+      "amenities": [],
+      "location": "12 rue de Birague, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20de%20la%20Place%20des%20Vosges%2C%20Paris",
+      "bookingUrl": "http://hotelplacedesvosges.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-28",
+      "name": "Hôtel de Nice",
+      "rating": 4,
+      "pricePerNight": 65,
+      "currency": "EUR",
+      "neighborhood": "42bis, rue de Rivoli",
+      "amenities": [],
+      "location": "42bis, rue de Rivoli, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20de%20Nice%2C%20Paris",
+      "bookingUrl": "http://www.hoteldenice.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-30",
+      "name": "Hôtel du Commerce",
+      "rating": 3.5,
+      "pricePerNight": 28,
+      "currency": "EUR",
+      "neighborhood": "14, rue de la Montagne-Sainte-Geneviève",
+      "amenities": [
+        "Kitchen"
+      ],
+      "location": "14, rue de la Montagne-Sainte-Geneviève, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20du%20Commerce%2C%20Paris",
+      "bookingUrl": "http://www.commerce-paris-hotel.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-31",
+      "name": "Hôtel Esmerelda",
+      "rating": 3.5,
+      "pricePerNight": 70,
+      "currency": "EUR",
+      "neighborhood": "4, rue Saint-Julien-le-Pauvre",
+      "amenities": [],
+      "location": "4, rue Saint-Julien-le-Pauvre, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Esmerelda%2C%20Paris",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-32",
+      "name": "Port-Royal-Hôtel",
+      "rating": 3.5,
+      "pricePerNight": 42,
+      "currency": "EUR",
+      "neighborhood": "8, boul de Port-Royal",
+      "amenities": [],
+      "location": "8, boul de Port-Royal, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Port-Royal-H%C3%B4tel%2C%20Paris",
+      "bookingUrl": "http://www.hotelportroyal.fr",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-33",
+      "name": "Young and Happy Hostel",
+      "rating": 3.5,
+      "pricePerNight": 30,
+      "currency": "EUR",
+      "neighborhood": "80, rue Mouffetard",
+      "amenities": [
+        "Hostel"
+      ],
+      "location": "80, rue Mouffetard, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Young%20and%20Happy%20Hostel%2C%20Paris",
+      "bookingUrl": "http://www.youngandhappy.fr",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-34",
+      "name": "Hotel Cujas Pantheon",
+      "rating": 4,
+      "pricePerNight": 80,
+      "currency": "EUR",
+      "neighborhood": "18, rue Cujas",
+      "amenities": [],
+      "location": "18, rue Cujas, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Cujas%20Pantheon%2C%20Paris",
+      "bookingUrl": "http://www.cujas-pantheon-paris-hotel.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-35",
+      "name": "Hôtel de l'Esperance",
+      "rating": 4,
+      "pricePerNight": 86,
+      "currency": "EUR",
+      "neighborhood": "15, rue Pascal",
+      "amenities": [],
+      "location": "15, rue Pascal, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20de%20l'Esperance%2C%20Paris",
+      "bookingUrl": "http://www.hoteldelesperance.fr",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-36",
+      "name": "Hôtel Familia",
+      "rating": 4,
+      "pricePerNight": 79,
+      "currency": "EUR",
+      "neighborhood": "11, rue des Ecoles",
+      "amenities": [
+        "Breakfast"
+      ],
+      "location": "11, rue des Ecoles, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Familia%2C%20Paris",
+      "bookingUrl": "http://www.hotel-paris-familia.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-37",
+      "name": "Hôtel du Levant",
+      "rating": 4,
+      "pricePerNight": 124,
+      "currency": "EUR",
+      "neighborhood": "18, rue de la Harpe",
+      "amenities": [
+        "Spa"
+      ],
+      "location": "18, rue de la Harpe, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20du%20Levant%2C%20Paris",
+      "bookingUrl": "http://www.hoteldulevant.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-38",
+      "name": "Hôtel Minerve",
+      "rating": 4,
+      "pricePerNight": 89,
+      "currency": "EUR",
+      "neighborhood": "13, rue des Ecoles",
+      "amenities": [
+        "Bar"
+      ],
+      "location": "13, rue des Ecoles, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Minerve%2C%20Paris",
+      "bookingUrl": "http://www.hotel-paris-minerve.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-39",
+      "name": "Hotel Mercure Paris La Sorbonne",
+      "rating": 4.5,
+      "pricePerNight": 145,
+      "currency": "EUR",
+      "neighborhood": "14, rue de la Sorbonne",
+      "amenities": [],
+      "location": "14, rue de la Sorbonne, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Mercure%20Paris%20La%20Sorbonne%2C%20Paris",
+      "bookingUrl": "https://all.accor.com/hotel/2897/index.en.shtml",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-40",
+      "name": "Hotel Notre Dame",
+      "rating": 4.5,
+      "pricePerNight": 151,
+      "currency": "EUR",
+      "neighborhood": "1, quai Saint Michel",
+      "amenities": [],
+      "location": "1, quai Saint Michel, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Notre%20Dame%2C%20Paris",
+      "bookingUrl": "http://www.hotelnotredameparis.com/index.html",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-41",
+      "name": "Le Clos Medicis",
+      "rating": 4,
+      "pricePerNight": 130,
+      "currency": "EUR",
+      "neighborhood": "56 rue Monsieur-Le-Prince",
+      "amenities": [
+        "Bar",
+        "Breakfast",
+        "A/C"
+      ],
+      "location": "56 rue Monsieur-Le-Prince, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Le%20Clos%20Medicis%2C%20Paris",
+      "bookingUrl": "http://www.closmedicis.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-42",
+      "name": "Hôtel Trianon Rive Gauche",
+      "rating": 4,
+      "pricePerNight": 130,
+      "currency": "EUR",
+      "neighborhood": "1 bis et 3 rue de Vaugirard",
+      "amenities": [],
+      "location": "1 bis et 3 rue de Vaugirard, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Trianon%20Rive%20Gauche%2C%20Paris",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-43",
+      "name": "Hôtel Au Manoir Saint Germain des Prés",
+      "rating": 4.5,
+      "pricePerNight": 184,
+      "currency": "EUR",
+      "neighborhood": "153 Boulevard Saint Germain",
+      "amenities": [
+        "Café"
+      ],
+      "location": "153 Boulevard Saint Germain, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Au%20Manoir%20Saint%20Germain%20des%20Pr%C3%A9s%2C%20Paris",
+      "bookingUrl": "http://www.paris-hotels-charm.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-44",
+      "name": "l'Hôtel",
+      "rating": 4.5,
+      "pricePerNight": 324,
+      "currency": "EUR",
+      "neighborhood": "Rue des Beaux-Arts",
+      "amenities": [
+        "Pool",
+        "Spa",
+        "Restaurant",
+        "Bar"
+      ],
+      "location": "Rue des Beaux-Arts, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=l'H%C3%B4tel%2C%20Paris",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-45",
+      "name": "Victoria Palace Hotel",
+      "rating": 4.5,
+      "pricePerNight": 346,
+      "currency": "EUR",
+      "neighborhood": "6, Rue Blaise Desgoffe",
+      "amenities": [
+        "Restaurant",
+        "Breakfast"
+      ],
+      "location": "6, Rue Blaise Desgoffe, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Victoria%20Palace%20Hotel%2C%20Paris",
+      "bookingUrl": "http://www.ila-chateau.com/victoria/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-46",
+      "name": "Grand Hotel Leveque",
+      "rating": 4,
+      "pricePerNight": 81,
+      "currency": "EUR",
+      "neighborhood": "29, rue Cler",
+      "amenities": [],
+      "location": "29, rue Cler, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Grand%20Hotel%20Leveque%2C%20Paris",
+      "bookingUrl": "http://www.hotel-leveque.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-47",
+      "name": "Hotel Le Lavoisier",
+      "rating": 4,
+      "pricePerNight": 183,
+      "currency": "EUR",
+      "neighborhood": "21, rue Lavoisier",
+      "amenities": [
+        "WiFi",
+        "A/C"
+      ],
+      "location": "21, rue Lavoisier, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Le%20Lavoisier%2C%20Paris",
+      "bookingUrl": "http://www.hotellavoisier.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-48",
+      "name": "Hôtel Champs-Elysées Friedland",
+      "rating": 4.5,
+      "pricePerNight": 151,
+      "currency": "EUR",
+      "neighborhood": "177, rue du Faubourg St Honoré",
+      "amenities": [],
+      "location": "177, rue du Faubourg St Honoré, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Champs-Elys%C3%A9es%20Friedland%2C%20Paris",
+      "bookingUrl": "http://www.hotel-paris-friedland.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-49",
+      "name": "Paris Hotel",
+      "rating": 4,
+      "pricePerNight": 92,
+      "currency": "EUR",
+      "neighborhood": "23, rue Henri Monnier",
+      "amenities": [
+        "WiFi",
+        "Breakfast",
+        "Parking"
+      ],
+      "location": "23, rue Henri Monnier, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Paris%20Hotel%2C%20Paris",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-50",
+      "name": "Auberge Internationale des Jeunes",
+      "rating": 3.5,
+      "pricePerNight": 14,
+      "currency": "EUR",
+      "neighborhood": "10 rue Trousseau",
+      "amenities": [
+        "Breakfast",
+        "Luggage Storage"
+      ],
+      "location": "10 rue Trousseau, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Auberge%20Internationale%20des%20Jeunes%2C%20Paris",
+      "bookingUrl": "http://www.aijparis.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-51",
+      "name": "Hôtel Voltaire République",
+      "rating": 3.5,
+      "pricePerNight": 104,
+      "currency": "EUR",
+      "neighborhood": "10, boul Voltaire",
+      "amenities": [
+        "WiFi",
+        "Laundry"
+      ],
+      "location": "10, boul Voltaire, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Voltaire%20R%C3%A9publique%2C%20Paris",
+      "bookingUrl": "http://www.hvr-paris.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-52",
+      "name": "Au Royal Mad",
+      "rating": 3.5,
+      "pricePerNight": 64,
+      "currency": "EUR",
+      "neighborhood": "68 rue Sedaine",
+      "amenities": [
+        "WiFi",
+        "Bar",
+        "Luggage Storage"
+      ],
+      "location": "68 rue Sedaine, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Au%20Royal%20Mad%2C%20Paris",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-53",
+      "name": "Classics Hôtel",
+      "rating": 4,
+      "pricePerNight": 86,
+      "currency": "EUR",
+      "neighborhood": "131, rue de Charonne",
+      "amenities": [],
+      "location": "131, rue de Charonne, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Classics%20H%C3%B4tel%2C%20Paris",
+      "bookingUrl": "http://www.classics-hotel-paris-bastille.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-54",
+      "name": "Grand Hôtel Nouvel Opera",
+      "rating": 4,
+      "pricePerNight": 81,
+      "currency": "EUR",
+      "neighborhood": "152 avenue Ledru-Rollin",
+      "amenities": [],
+      "location": "152 avenue Ledru-Rollin, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Grand%20H%C3%B4tel%20Nouvel%20Opera%2C%20Paris",
+      "bookingUrl": "http://www.grand-hotel-nouvel-opera.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-55",
+      "name": "Hôtel du Nord et de l'Est",
+      "rating": 4,
+      "pricePerNight": 108,
+      "currency": "EUR",
+      "neighborhood": "49, rue de Malte",
+      "amenities": [
+        "WiFi"
+      ],
+      "location": "49, rue de Malte, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20du%20Nord%20et%20de%20l'Est%2C%20Paris",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-56",
+      "name": "Hotel Hor Les Lumiéres",
+      "rating": 4,
+      "pricePerNight": 107,
+      "currency": "EUR",
+      "neighborhood": "39 rue Jean-Pierre Timbaud",
+      "amenities": [
+        "WiFi",
+        "Gym"
+      ],
+      "location": "39 rue Jean-Pierre Timbaud, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Hor%20Les%20Lumi%C3%A9res%2C%20Paris",
+      "bookingUrl": "http://www.hotelhorleslumieres.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-57",
+      "name": "Hôtel Fabric",
+      "rating": 4,
+      "pricePerNight": 205,
+      "currency": "EUR",
+      "neighborhood": "31 rue de la Folie Méricourt",
+      "amenities": [
+        "Gym",
+        "Concierge"
+      ],
+      "location": "31 rue de la Folie Méricourt, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Fabric%2C%20Paris",
+      "bookingUrl": "http://hotelfabric.com",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-58",
+      "name": "Albert's Hotel",
+      "rating": 4,
+      "pricePerNight": 140,
+      "currency": "EUR",
+      "neighborhood": "22, rue du Grand-Prieuré",
+      "amenities": [],
+      "location": "22, rue du Grand-Prieuré, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Albert's%20Hotel%2C%20Paris",
+      "bookingUrl": "https://www.angelyhotelparis.com/en/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-59",
+      "name": "Hotel de France",
+      "rating": 4,
+      "pricePerNight": 68,
+      "currency": "EUR",
+      "neighborhood": "12 rue de Lyon",
+      "amenities": [],
+      "location": "12 rue de Lyon, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20de%20France%2C%20Paris",
+      "bookingUrl": "http://hotel-defrance-paris.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-60",
+      "name": "Hostel Blue Planet",
+      "rating": 3.5,
+      "pricePerNight": 27,
+      "currency": "EUR",
+      "neighborhood": "5 rue Hector Malot",
+      "amenities": [
+        "Breakfast",
+        "Hostel"
+      ],
+      "location": "5 rue Hector Malot, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Hostel%20Blue%20Planet%2C%20Paris",
+      "bookingUrl": "http://www.hostelblueplanet.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-61",
+      "name": "AIJ Paris",
+      "rating": 3.5,
+      "pricePerNight": 14,
+      "currency": "EUR",
+      "neighborhood": "10, rue trousseau",
+      "amenities": [
+        "WiFi",
+        "Breakfast",
+        "Hostel"
+      ],
+      "location": "10, rue trousseau, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=AIJ%20Paris%2C%20Paris",
+      "bookingUrl": "http://www.aijparis.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-62",
+      "name": "Hotel Formula 1",
+      "rating": 3.5,
+      "pricePerNight": 52,
+      "currency": "EUR",
+      "neighborhood": "23, av de la Porte de Chatillon",
+      "amenities": [
+        "WiFi",
+        "Hostel"
+      ],
+      "location": "23, av de la Porte de Chatillon, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Formula%201%2C%20Paris",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-63",
+      "name": "Voco Paris Montparnasse",
+      "rating": 4,
+      "pricePerNight": 168,
+      "currency": "EUR",
+      "neighborhood": "79-81, av du Maine",
+      "amenities": [
+        "Parking"
+      ],
+      "location": "79-81, av du Maine, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Voco%20Paris%20Montparnasse%2C%20Paris",
+      "bookingUrl": "https://www.ihg.com/voco/hotels/us/en/paris/pargm/hoteldetail",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-64",
+      "name": "L'hôtel du Lion",
+      "rating": 4,
+      "pricePerNight": 76,
+      "currency": "EUR",
+      "neighborhood": "1 avenue du Général-Leclerc",
+      "amenities": [],
+      "location": "1 avenue du Général-Leclerc, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=L'h%C3%B4tel%20du%20Lion%2C%20Paris",
+      "bookingUrl": "http://www.hotel-lion.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-65",
+      "name": "Hotel Le M",
+      "rating": 4,
+      "pricePerNight": 135,
+      "currency": "EUR",
+      "neighborhood": "20 bis, rue de la Gaîté",
+      "amenities": [],
+      "location": "20 bis, rue de la Gaîté, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Le%20M%2C%20Paris",
+      "bookingUrl": "http://www.hotelmparis.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-66",
+      "name": "Hotel Sophie Germain",
+      "rating": 4,
+      "pricePerNight": 97,
+      "currency": "EUR",
+      "neighborhood": "12, rue Sophie Germain",
+      "amenities": [],
+      "location": "12, rue Sophie Germain, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Sophie%20Germain%2C%20Paris",
+      "bookingUrl": "http://www.hotelsophiegermain.com/",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-67",
+      "name": "Marriott Rive Gauche",
+      "rating": 4.5,
+      "pricePerNight": 292,
+      "currency": "EUR",
+      "neighborhood": "Paris",
+      "amenities": [],
+      "location": "Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Marriott%20Rive%20Gauche%2C%20Paris",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-68",
+      "name": "Pullman Paris Montparnasse",
+      "rating": 4.5,
+      "pricePerNight": 178,
+      "currency": "EUR",
+      "neighborhood": "19, rue du Commandant Mouchotte",
+      "amenities": [],
+      "location": "19, rue du Commandant Mouchotte, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Pullman%20Paris%20Montparnasse%2C%20Paris",
+      "bookingUrl": "https://all.accor.com/hotel/8189/index.en.shtml",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-69",
+      "name": "Campanile Paris XV - Tour Eiffel",
+      "rating": 4,
+      "pricePerNight": 76,
+      "currency": "EUR",
+      "neighborhood": "30, rue Saint Charles / 21 Rue Sextius-Michel",
+      "amenities": [
+        "Spa"
+      ],
+      "location": "30, rue Saint Charles / 21 Rue Sextius-Michel, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Campanile%20Paris%20XV%20-%20Tour%20Eiffel%2C%20Paris",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-70",
+      "name": "Hôtel Oceania Paris Porte de Versailles",
+      "rating": 4,
+      "pricePerNight": 108,
+      "currency": "EUR",
+      "neighborhood": "52, rue d'Oradour-sur-Glane",
+      "amenities": [],
+      "location": "52, rue d'Oradour-sur-Glane, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=H%C3%B4tel%20Oceania%20Paris%20Porte%20de%20Versailles%2C%20Paris",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-71",
+      "name": "Mercure Paris Centre Tour Eiffel",
+      "rating": 4,
+      "pricePerNight": 157,
+      "currency": "EUR",
+      "neighborhood": "20, rue Jean Rey",
+      "amenities": [
+        "Spa"
+      ],
+      "location": "20, rue Jean Rey, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Mercure%20Paris%20Centre%20Tour%20Eiffel%2C%20Paris",
+      "bookingUrl": "https://all.accor.com/hotel/2175/index.en.shtml",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-72",
+      "name": "Mercure Paris Tour Eiffel Grenelle",
+      "rating": 4,
+      "pricePerNight": 135,
+      "currency": "EUR",
+      "neighborhood": "64, boul de Grenelle",
+      "amenities": [],
+      "location": "64, boul de Grenelle, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Mercure%20Paris%20Tour%20Eiffel%20Grenelle%2C%20Paris",
+      "bookingUrl": "https://all.accor.com/hotel/1598/index.en.shtml",
+      "source": "wikivoyage"
+    },
+    {
+      "id": "wv-h-73",
+      "name": "Pullman Paris Tour Eiffel",
+      "rating": 4.5,
+      "pricePerNight": 221,
+      "currency": "EUR",
+      "neighborhood": "18 avenue de Suffren",
+      "amenities": [
+        "Spa"
+      ],
+      "location": "18 avenue de Suffren, Paris",
+      "googleMapsUrl": "https://maps.google.com/?q=Pullman%20Paris%20Tour%20Eiffel%2C%20Paris",
+      "bookingUrl": "https://all.accor.com/hotel/7229/index.en.shtml",
+      "source": "wikivoyage"
+    }
   ]
 }

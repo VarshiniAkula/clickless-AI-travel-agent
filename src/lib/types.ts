@@ -43,6 +43,8 @@ export const HotelOptionSchema = z.object({
   amenities: z.array(z.string()),
   imageUrl: z.string().optional(),
   bookingUrl: z.string().optional(),
+  googleMapsUrl: z.string().optional(),
+  location: z.string().optional(),       // full address
   source: z.string().default("demo"),
 });
 export type HotelOption = z.infer<typeof HotelOptionSchema>;
