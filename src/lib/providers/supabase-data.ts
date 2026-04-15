@@ -3,19 +3,36 @@
  *
  * Fetches flights, hotels, and activities from Supabase cached tables.
  * Dynamically filters based on user intent: destination, budget, duration,
- * interests, and cabin class. Falls back to demo-data when Supabase is
- * unavailable or returns no results.
+ * interests, and cabin class.
+ *
+ * Data merge strategy (highest priority first):
+ *   1. Supabase DB (cached_flights / cached_hotels / cached_activities)
+ *   2. Static JSON cache files (src/lib/cache/{city}.json)
+ *   3. Demo data (src/lib/providers/demo-data.ts)
+ *
+ * When teammates push new data to cache files, this provider automatically
+ * picks it up and merges it with Supabase results (deduplicated by name).
  */
 
 import { getSupabase } from "@/lib/supabase/client";
+import { loadCityCache } from "@/lib/cache";
 import type { FlightOption, HotelOption, ActivityOption, TravelIntent } from "@/lib/types";
-import { getFlights as getDemoFlights, getHotels as getDemoHotels, getActivities as getDemoActivities } from "./demo-data";
+import {
+  getFlights as getDemoFlights,
+  getHotels as getDemoHotels,
+  getActivities as getDemoActivities,
+} from "./demo-data";
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
 /** Normalize city name for case-insensitive matching */
 function normalizeCity(city: string): string {
-  return city.trim().replace(/['']/g, "").toLowerCase();
+  return city
+    .trim()
+    .replace(/['']/g, "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
 }
 
 /**
@@ -40,101 +57,129 @@ function hotelTiersForBudget(nightlyBudget: number): string[] {
   return ["budget"];
 }
 
+/** Deduplicate items by lowercase name, keeping first occurrence */
+function deduplicateByName<T extends { name: string }>(items: T[]): T[] {
+  const seen = new Set<string>();
+  return items.filter((item) => {
+    const key = item.name.toLowerCase().trim();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 // ── Flights ──────────────────────────────────────────────────────────────────
 
 export async function getSupabaseFlights(intent: TravelIntent): Promise<FlightOption[]> {
   const supabase = getSupabase();
-  if (!supabase) return getDemoFlights(intent.destination);
+  const dest = normalizeCity(intent.destination);
+  const totalBudget = intent.budget || 5000;
+  const flightBudgetPerLeg = Math.round((totalBudget * 0.30) / 2);
+  const allowedCabins = cabinClassesForBudget(flightBudgetPerLeg);
 
-  try {
-    const dest = normalizeCity(intent.destination);
+  let dbFlights: FlightOption[] = [];
 
-    // Budget allocation: ~30% of total budget for flights (round-trip = 2 legs)
-    const totalBudget = intent.budget || 5000;
-    const flightBudgetPerLeg = Math.round((totalBudget * 0.30) / 2);
-    const allowedCabins = cabinClassesForBudget(flightBudgetPerLeg);
+  if (supabase) {
+    try {
+      const { data, error } = await supabase
+        .from("cached_flights")
+        .select("*")
+        .ilike("destination", `%${dest}%`)
+        .in("cabin_class", allowedCabins)
+        .lte("price", flightBudgetPerLeg)
+        .order("price", { ascending: true })
+        .limit(10);
 
-    const { data, error } = await supabase
-      .from("cached_flights")
-      .select("*")
-      .ilike("destination", `%${dest}%`)
-      .in("cabin_class", allowedCabins)
-      .lte("price", flightBudgetPerLeg)
-      .order("price", { ascending: true })
-      .limit(10);
-
-    if (error || !data || data.length === 0) {
-      console.warn("Supabase flights: falling back to demo data", error?.message);
-      return getDemoFlights(intent.destination);
+      if (!error && data && data.length > 0) {
+        dbFlights = data.map((row) => ({
+          id: row.id,
+          airline: row.airline,
+          origin: row.origin || intent.origin || "Phoenix",
+          destination: row.destination_code || row.destination,
+          departureTime: row.departure_time || "",
+          arrivalTime: row.arrival_time || "",
+          duration: row.duration || "",
+          stops: row.stops || 0,
+          price: Number(row.price),
+          currency: row.currency || "USD",
+          bookingUrl: row.booking_url,
+          source: `Supabase/${row.source || "cache"}`,
+        }));
+      }
+    } catch (err) {
+      console.warn("Supabase flights query error:", err);
     }
-
-    return data.map((row) => ({
-      id: row.id,
-      airline: row.airline,
-      origin: row.origin || intent.origin || "Phoenix",
-      destination: row.destination_code || row.destination,
-      departureTime: row.departure_time || "",
-      arrivalTime: row.arrival_time || "",
-      duration: row.duration || "",
-      stops: row.stops || 0,
-      price: Number(row.price),
-      currency: row.currency || "USD",
-      bookingUrl: row.booking_url,
-      source: `Supabase/${row.source || "cache"}`,
-    }));
-  } catch (err) {
-    console.warn("Supabase flights error, using demo data:", err);
-    return getDemoFlights(intent.destination);
   }
+
+  // Merge with demo data as fallback
+  if (dbFlights.length === 0) {
+    const demoFlights = getDemoFlights(intent.destination);
+    // Filter demo flights by budget
+    const affordable = demoFlights.filter((f) => f.price <= flightBudgetPerLeg);
+    return affordable.length > 0 ? affordable : demoFlights.slice(0, 3);
+  }
+
+  return dbFlights;
 }
 
 // ── Hotels ───────────────────────────────────────────────────────────────────
 
 export async function getSupabaseHotels(intent: TravelIntent): Promise<HotelOption[]> {
   const supabase = getSupabase();
-  if (!supabase) return getDemoHotels(intent.destination);
+  const dest = normalizeCity(intent.destination);
+  const nights = Math.max((intent.duration || 5) - 1, 1);
+  const totalBudget = intent.budget || 5000;
+  const maxNightly = Math.round((totalBudget * 0.35) / nights);
+  const allowedTiers = hotelTiersForBudget(maxNightly);
 
-  try {
-    const dest = normalizeCity(intent.destination);
-    const nights = Math.max((intent.duration || 5) - 1, 1);
-    const totalBudget = intent.budget || 5000;
+  let dbHotels: HotelOption[] = [];
 
-    // ~35% of budget for hotels, divided by nights = max nightly rate
-    const maxNightly = Math.round((totalBudget * 0.35) / nights);
-    const allowedTiers = hotelTiersForBudget(maxNightly);
+  if (supabase) {
+    try {
+      // Query with budget filter
+      const { data, error } = await supabase
+        .from("cached_hotels")
+        .select("*")
+        .ilike("destination", `%${dest}%`)
+        .in("star_class", allowedTiers)
+        .lte("price_per_night", maxNightly)
+        .order("rating", { ascending: false })
+        .limit(15);
 
-    const { data, error } = await supabase
-      .from("cached_hotels")
-      .select("*")
-      .ilike("destination", `%${dest}%`)
-      .in("star_class", allowedTiers)
-      .lte("price_per_night", maxNightly)
-      .order("rating", { ascending: false })
-      .limit(10);
-
-    if (error || !data || data.length === 0) {
-      // If budget is very high but no results (shouldn't happen), try without price filter
-      if (totalBudget > 10000) {
-        const { data: fallback } = await supabase
+      if (!error && data && data.length > 0) {
+        dbHotels = data.map(mapHotelRow);
+      } else if (totalBudget > 10000) {
+        // High budget: fetch all, don't limit by price
+        const { data: all } = await supabase
           .from("cached_hotels")
           .select("*")
           .ilike("destination", `%${dest}%`)
           .order("rating", { ascending: false })
-          .limit(10);
-
-        if (fallback && fallback.length > 0) {
-          return fallback.map(mapHotelRow);
-        }
+          .limit(15);
+        if (all && all.length > 0) dbHotels = all.map(mapHotelRow);
       }
-      console.warn("Supabase hotels: falling back to demo data", error?.message);
-      return getDemoHotels(intent.destination);
+    } catch (err) {
+      console.warn("Supabase hotels query error:", err);
     }
-
-    return data.map(mapHotelRow);
-  } catch (err) {
-    console.warn("Supabase hotels error, using demo data:", err);
-    return getDemoHotels(intent.destination);
   }
+
+  // Merge with local cache file hotels (from teammates' commits)
+  const cache = loadCityCache(intent.destination);
+  const cacheHotels: HotelOption[] = cache?.hotels || [];
+
+  // Filter cache hotels by budget
+  const affordableCache = cacheHotels.filter((h) => h.pricePerNight <= maxNightly);
+
+  // Combine: Supabase first, then cache, then demo - deduplicated
+  const merged = deduplicateByName([
+    ...dbHotels,
+    ...affordableCache,
+    ...(dbHotels.length === 0 && affordableCache.length === 0
+      ? getDemoHotels(intent.destination)
+      : []),
+  ]);
+
+  return merged.length > 0 ? merged : getDemoHotels(intent.destination);
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -157,76 +202,70 @@ function mapHotelRow(row: any): HotelOption {
 
 export async function getSupabaseActivities(intent: TravelIntent): Promise<ActivityOption[]> {
   const supabase = getSupabase();
-  if (!supabase) return getDemoActivities(intent.destination, intent.activities);
+  const dest = normalizeCity(intent.destination);
+  const totalBudget = intent.budget || 5000;
+  const totalDays = intent.duration || 5;
+  const activityBudget = Math.round(totalBudget * 0.15);
+  const maxPerActivity = Math.max(Math.round(activityBudget / (totalDays * 2)), 50);
 
-  try {
-    const dest = normalizeCity(intent.destination);
-    const totalBudget = intent.budget || 5000;
+  let dbActivities: ActivityOption[] = [];
 
-    // ~15% of budget for activities
-    const activityBudget = Math.round(totalBudget * 0.15);
-    // Per-activity max: spread across (days * 2) activities
-    const totalDays = intent.duration || 5;
-    const maxPerActivity = Math.round(activityBudget / (totalDays * 2));
-
-    // First, get activities matching user interests (priority)
-    let interestActivities: ActivityOption[] = [];
-    if (intent.activities.length > 0) {
-      const conditions = intent.activities.map((a) => `%${a.toLowerCase()}%`);
-
-      // Query for each interest category
-      const promises = conditions.map((cond) =>
-        supabase
-          .from("cached_activities")
-          .select("*")
-          .ilike("destination", `%${dest}%`)
-          .ilike("category", cond)
-          .order("rating", { ascending: false })
-          .limit(6)
-      );
-      const results = await Promise.all(promises);
-      const allMatched = results.flatMap((r) => r.data || []);
-      // Deduplicate by id
-      const seen = new Set<string>();
-      for (const row of allMatched) {
-        if (!seen.has(row.id)) {
-          seen.add(row.id);
-          interestActivities.push(mapActivityRow(row));
-        }
+  if (supabase) {
+    try {
+      // First: fetch interest-matched activities
+      if (intent.activities.length > 0) {
+        const promises = intent.activities.map((interest) =>
+          supabase
+            .from("cached_activities")
+            .select("*")
+            .ilike("destination", `%${dest}%`)
+            .ilike("category", `%${interest.toLowerCase()}%`)
+            .lte("estimated_cost", maxPerActivity)
+            .order("rating", { ascending: false })
+            .limit(8)
+        );
+        const results = await Promise.all(promises);
+        const matched = results.flatMap((r) => r.data || []);
+        dbActivities = deduplicateByName(matched.map(mapActivityRow));
       }
-    }
 
-    // Also get general activities for the destination (fill gaps)
-    const { data: generalData } = await supabase
-      .from("cached_activities")
-      .select("*")
-      .ilike("destination", `%${dest}%`)
-      .lte("estimated_cost", Math.max(maxPerActivity, 150)) // don't filter too aggressively
-      .order("rating", { ascending: false })
-      .limit(20);
+      // Then: general activities for the destination
+      const { data: generalData } = await supabase
+        .from("cached_activities")
+        .select("*")
+        .ilike("destination", `%${dest}%`)
+        .lte("estimated_cost", maxPerActivity)
+        .order("rating", { ascending: false })
+        .limit(30);
 
-    const generalActivities = (generalData || []).map(mapActivityRow);
-
-    // Merge: interest-matched first, then general (deduplicated)
-    const seenIds = new Set(interestActivities.map((a) => a.id));
-    const merged = [...interestActivities];
-    for (const a of generalActivities) {
-      if (!seenIds.has(a.id)) {
-        seenIds.add(a.id);
-        merged.push(a);
+      if (generalData && generalData.length > 0) {
+        const general = generalData.map(mapActivityRow);
+        dbActivities = deduplicateByName([...dbActivities, ...general]);
       }
+    } catch (err) {
+      console.warn("Supabase activities query error:", err);
     }
-
-    if (merged.length === 0) {
-      console.warn("Supabase activities: no results, falling back to demo data");
-      return getDemoActivities(intent.destination, intent.activities);
-    }
-
-    return merged;
-  } catch (err) {
-    console.warn("Supabase activities error, using demo data:", err);
-    return getDemoActivities(intent.destination, intent.activities);
   }
+
+  // Merge with local cache file activities (from teammates' commits)
+  const cache = loadCityCache(intent.destination);
+  const cacheActivities: ActivityOption[] = cache?.activities || [];
+
+  // Filter cache activities by budget
+  const affordableCache = cacheActivities.filter(
+    (a) => !a.estimatedCost || a.estimatedCost <= maxPerActivity
+  );
+
+  // Combine: Supabase first, then cache, then demo - deduplicated
+  const merged = deduplicateByName([
+    ...dbActivities,
+    ...affordableCache,
+    ...(dbActivities.length === 0 && affordableCache.length === 0
+      ? getDemoActivities(intent.destination, intent.activities)
+      : []),
+  ]);
+
+  return merged.length > 0 ? merged : getDemoActivities(intent.destination, intent.activities);
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -246,11 +285,13 @@ function mapActivityRow(row: any): ActivityOption {
 // ── Combined Fetch ───────────────────────────────────────────────────────────
 
 /**
- * Fetch all data from Supabase in parallel, dynamically filtered by user intent.
+ * Fetch all data from Supabase + cache in parallel, dynamically filtered by user intent.
  *
  * Budget drives cabin class, hotel tier, and activity cost filtering:
  * - $40k budget -> first class flights, ultra-luxury hotels, premium activities
  * - $5k budget  -> economy flights, budget/mid-range hotels, affordable activities
+ *
+ * Data from teammates' cache file commits is automatically merged.
  */
 export async function getSupabaseData(intent: TravelIntent): Promise<{
   flights: FlightOption[];
