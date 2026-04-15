@@ -9,6 +9,8 @@ interface ConversationalPlanningProps {
   onNewTrip: () => void;
   onShowSaved: () => void;
   onShowProfile: () => void;
+  onBackToResults?: () => void;
+  hasExistingTrip?: boolean;
   error: string | null;
 }
 
@@ -18,7 +20,7 @@ interface ChatMessage {
   chips?: string[];
 }
 
-export function ConversationalPlanning({ query, onSearch, onNewTrip, onShowSaved, onShowProfile, error }: ConversationalPlanningProps) {
+export function ConversationalPlanning({ query, onSearch, onNewTrip, onShowSaved, onShowProfile, onBackToResults, hasExistingTrip, error }: ConversationalPlanningProps) {
   const [currentQuery, setCurrentQuery] = useState(query);
   const [inputValue, setInputValue] = useState("");
   const [messages, setMessages] = useState<ChatMessage[]>([]);
@@ -92,7 +94,7 @@ export function ConversationalPlanning({ query, onSearch, onNewTrip, onShowSaved
         response = `Got it! Here's what I updated:\n\n${changes.map((c) => `• ${c}`).join("\n")}\n\nYour trip to **${newDest}** is shaping up nicely. Hit **"Search Now"** when you're ready!`;
       } else {
         // Treat the input as a general preference keyword — it'll be in the cumulative query sent to the API
-        response = `Noted — I'll factor "${trimmed}" into your trip search.\n\nAll your preferences for **${newDest}** will be used when building your trip brief. Hit **"Search Now"** when ready!`;
+        response = `Noted - I'll factor "${trimmed}" into your trip search.\n\nAll your preferences for **${newDest}** will be used when building your trip brief. Hit **"Search Now"** when ready!`;
       }
 
       setMessages((prev) => [
@@ -128,6 +130,12 @@ export function ConversationalPlanning({ query, onSearch, onNewTrip, onShowSaved
             aria-current={activeNav === "new-trip" ? "page" : undefined}>
             <span className="material-symbols-outlined">add_circle</span><span>New Trip</span>
           </button>
+          {hasExistingTrip && onBackToResults && (
+            <button onClick={onBackToResults}
+              className="flex items-center gap-3 px-4 py-3 w-full text-left rounded-r-full transition-colors text-[#006a61] font-semibold hover:bg-[#86f2e4]/20">
+              <span className="material-symbols-outlined">arrow_back</span><span>Back to Results</span>
+            </button>
+          )}
           <button onClick={onShowSaved}
             className={`flex items-center gap-3 px-4 py-3 w-full text-left rounded-r-full transition-colors ${activeNav === "saved" ? "text-[#002542] font-bold bg-white" : "text-[#43474d] hover:bg-white/50"}`}>
             <span className="material-symbols-outlined">bookmark</span><span>Saved Trips</span>

@@ -6,9 +6,10 @@ import { useAuth } from "@/lib/supabase/auth";
 interface ProfilePageProps {
   onNewTrip: () => void;
   onShowSaved: () => void;
+  onSignOut: () => void;
 }
 
-export function ProfilePage({ onNewTrip, onShowSaved }: ProfilePageProps) {
+export function ProfilePage({ onNewTrip, onShowSaved, onSignOut }: ProfilePageProps) {
   const { user, signOut, loading } = useAuth();
   const [savedCount, setSavedCount] = useState(0);
 
@@ -22,10 +23,11 @@ export function ProfilePage({ onNewTrip, onShowSaved }: ProfilePageProps) {
   const displayName = user?.user_metadata?.full_name || user?.user_metadata?.name || user?.email?.split("@")[0] || "Traveler";
   const avatarLetter = displayName[0]?.toUpperCase() || "T";
   const provider = user?.app_metadata?.provider === "google" ? "Google" : "Email";
-  const createdAt = user?.created_at ? new Date(user.created_at).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }) : "—";
+  const createdAt = user?.created_at ? new Date(user.created_at).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }) : "-";
 
   const handleSignOut = async () => {
     await signOut();
+    onSignOut();
   };
 
   if (loading) {

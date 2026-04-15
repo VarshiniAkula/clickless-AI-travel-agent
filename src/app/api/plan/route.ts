@@ -28,11 +28,11 @@ export async function POST(req: NextRequest) {
     }
 
     // 2. Provider orchestration — live data where available, demo fallback
-    const nights = intent.duration || 5;
+    const totalDays = intent.duration || 5;
     const rawFlights = getFlights(intent.destination);
     const rawHotels = getHotels(intent.destination);
     const [rawWeather, wikivoyage] = await Promise.all([
-      getWeatherLive(intent.destination, nights, intent.dates?.start),  // live OWM
+      getWeatherLive(intent.destination, totalDays, intent.dates?.start),  // live OWM
       getWikivoyageData(intent.destination, intent.activities), // live Wikivoyage
     ]);
     const rawCultural = wikivoyage.cultural;

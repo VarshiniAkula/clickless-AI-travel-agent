@@ -31,9 +31,9 @@ const DESTINATION_IMAGES: Record<string, string> = {
 const DESTINATION_INSIGHTS: Record<string, string> = {
   Tokyo: "April in Tokyo offers cherry blossoms and pleasant weather. We're prioritizing cultural experiences and food tours to match your preferences.",
   London: "Spring in London brings mild weather and fewer crowds. We're finding the best museum passes and historic walking tours for you.",
-  Paris: "Paris in spring is magical — pleasant temperatures and outdoor café season. We're curating art, food, and Seine-side experiences.",
+  Paris: "Paris in spring is magical - pleasant temperatures and outdoor cafe season. We're curating art, food, and Seine-side experiences.",
   "Cancún": "Perfect beach weather awaits. We're finding the best snorkeling spots, cenote tours, and authentic local food experiences.",
-  "New York": "NYC in spring is vibrant — Central Park in bloom, outdoor dining, and Broadway season. We're finding the best deals for you.",
+  "New York": "NYC in spring is vibrant - Central Park in bloom, outdoor dining, and Broadway season. We're finding the best deals for you.",
 };
 
 export function SearchProgress({ query }: SearchProgressProps) {

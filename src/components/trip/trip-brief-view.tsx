@@ -9,9 +9,10 @@ interface TripBriefViewProps {
   onNewTrip: () => void;
   onShowSaved: () => void;
   onShowProfile: () => void;
+  onRefineTrip?: () => void;
 }
 
-export function TripBriefView({ brief, onNewTrip, onShowSaved, onShowProfile }: TripBriefViewProps) {
+export function TripBriefView({ brief, onNewTrip, onShowSaved, onShowProfile, onRefineTrip }: TripBriefViewProps) {
   const { user, session } = useAuth();
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [saved, setSaved] = useState(false);
@@ -22,8 +23,8 @@ export function TripBriefView({ brief, onNewTrip, onShowSaved, onShowProfile }: 
   const [toastMessage, setToastMessage] = useState<string | null>(null);
   const budgetRef = useRef<HTMLDivElement>(null);
 
-  const nights = brief.intent.duration || 5;
-  const totalDays = nights + 1; // nights + arrival/departure days
+  const totalDays = brief.intent.duration || 5;
+  const nights = Math.max(totalDays - 1, 1);
   const topFlight = brief.flights[0];
   const topHotel = brief.hotels[0];
   const travelers = brief.intent.travelers || 1;
@@ -80,7 +81,7 @@ export function TripBriefView({ brief, onNewTrip, onShowSaved, onShowProfile }: 
 
   const handleExport = () => {
     const text = [
-      `${brief.intent.destination}: A ${nights}-Day Trip`,
+      `${brief.intent.destination}: A ${totalDays}-Day Trip`,
       `Budget: $${brief.budget.total}`,
       "",
       "--- FLIGHTS ---",
@@ -137,6 +138,12 @@ export function TripBriefView({ brief, onNewTrip, onShowSaved, onShowProfile }: 
             aria-current={activeNav === "new-trip" ? "page" : undefined}>
             <span className="material-symbols-outlined">add_circle</span><span>New Trip</span>
           </button>
+          {onRefineTrip && (
+            <button onClick={onRefineTrip}
+              className="flex items-center gap-3 px-4 py-3 w-full text-left rounded-r-full transition-colors text-[#006a61] font-semibold hover:bg-[#86f2e4]/20">
+              <span className="material-symbols-outlined">tune</span><span>Refine Trip</span>
+            </button>
+          )}
           <button onClick={onShowSaved}
             className={`flex items-center gap-3 px-4 py-3 w-full text-left rounded-r-full transition-colors ${activeNav === "saved" ? "text-[#002542] font-bold bg-white" : "text-[#43474d] hover:bg-white/50"}`}>
             <span className="material-symbols-outlined">bookmark</span><span>Saved Trips</span>
@@ -478,7 +485,7 @@ export function TripBriefView({ brief, onNewTrip, onShowSaved, onShowProfile }: 
                 <div className="absolute inset-0 bg-gradient-to-t from-[#002542]/80 to-transparent flex items-end p-8">
                   <div>
                     <span className="bg-[#86f2e4] text-[#006a61] px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest">
-                      {nights + 1} Days · {brief.itinerary.reduce((a, d) => a + d.activities.length, 0)} Activities
+                      {totalDays} Days · {brief.itinerary.reduce((a, d) => a + d.activities.length, 0)} Activities
                     </span>
                     <h2 className="text-3xl font-extrabold text-white mt-2" style={{ fontFamily: "Manrope, sans-serif" }}>
                       {brief.intent.destination} Discovery

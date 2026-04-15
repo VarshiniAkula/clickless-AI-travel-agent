@@ -38,7 +38,7 @@ describe("Trip Synthesis Pipeline", () => {
     expect(brief.weather.length).toBeGreaterThanOrEqual(5);
     expect(brief.culturalTips.length).toBeGreaterThan(0);
     expect(brief.activities.length).toBeGreaterThan(0);
-    expect(brief.itinerary.length).toBe(6); // 5 nights + 1 departure day
+    expect(brief.itinerary.length).toBe(6); // 5-night = 6 days (duration is in days)
     expect(brief.packingList.length).toBeGreaterThan(5);
     expect(brief.budget.total).toBeGreaterThan(0);
     expect(brief.summary).toContain("Tokyo");

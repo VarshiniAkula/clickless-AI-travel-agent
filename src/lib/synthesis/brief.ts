@@ -48,13 +48,13 @@ function generateSummary(graph: TripKnowledgeGraph): string {
 
   if (bestHotel) {
     parts.push(
-      `Top hotel: ${bestHotel.name} in ${bestHotel.neighborhood || dest} — $${bestHotel.pricePerNight}/night (${bestHotel.rating}★).`
+      `Top hotel: ${bestHotel.name} in ${bestHotel.neighborhood || dest} - $${bestHotel.pricePerNight}/night (${bestHotel.rating}★).`
     );
   }
 
   if (avgTemp !== null) {
     parts.push(
-      `Expect ${avgTemp}°F highs${hasRain ? " with some rain — pack an umbrella" : ""}.`
+      `Expect ${avgTemp}°F highs${hasRain ? " with some rain - pack an umbrella" : ""}.`
     );
   }
 

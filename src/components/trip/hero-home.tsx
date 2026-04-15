@@ -6,10 +6,12 @@ interface HeroHomeProps {
   onSubmit: (query: string) => void;
   onShowSaved: () => void;
   onShowProfile: () => void;
+  onBackToTrip?: () => void;
+  hasExistingTrip?: boolean;
   error: string | null;
 }
 
-export function HeroHome({ onSubmit, onShowSaved, onShowProfile, error }: HeroHomeProps) {
+export function HeroHome({ onSubmit, onShowSaved, onShowProfile, onBackToTrip, hasExistingTrip, error }: HeroHomeProps) {
   const [query, setQuery] = useState("");
   const [isListening, setIsListening] = useState(false);
   const [voiceError, setVoiceError] = useState<string | null>(null);
@@ -146,8 +148,14 @@ export function HeroHome({ onSubmit, onShowSaved, onShowProfile, error }: HeroHo
           ClickLess AI
         </div>
         <nav className="hidden md:flex space-x-10">
-          <a className="font-bold text-[#002542] hover:text-[#006a61] transition-colors" href="#">New Trip</a>
+          <button className="font-bold text-[#002542] hover:text-[#006a61] transition-colors" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>New Trip</button>
           <button className="text-[#43474d] font-medium hover:text-[#006a61] transition-colors" onClick={onShowSaved}>Saved Trips</button>
+          {hasExistingTrip && onBackToTrip && (
+            <button className="text-[#006a61] font-semibold hover:text-[#002542] transition-colors flex items-center gap-1" onClick={onBackToTrip}>
+              <span className="material-symbols-outlined text-lg">arrow_back</span>
+              Back to Trip
+            </button>
+          )}
         </nav>
         <button onClick={onShowProfile} className="flex items-center gap-2 cursor-pointer text-[#002542] hover:text-[#006a61] transition-colors">
           <span className="material-symbols-outlined text-2xl" style={{ fontVariationSettings: "'FILL' 1" }}>account_circle</span>
@@ -335,7 +343,7 @@ export function HeroHome({ onSubmit, onShowSaved, onShowProfile, error }: HeroHo
             <a className="hover:opacity-100 transition-opacity" href="#">Terms of Service</a>
             <a className="hover:opacity-100 transition-opacity" href="#">Contact Us</a>
           </div>
-          <div className="text-sm opacity-50">© 2025 ClickLess AI. All rights reserved.</div>
+          <div className="text-sm opacity-50">© 2026 ClickLess AI. All rights reserved.</div>
         </div>
       </footer>
     </>

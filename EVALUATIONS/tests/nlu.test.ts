@@ -8,7 +8,7 @@ describe("NLU Parser", () => {
     );
     expect(intent.destination).toBe("Tokyo");
     expect(intent.origin).toBe("Phoenix");
-    expect(intent.duration).toBe(5);
+    expect(intent.duration).toBe(6); // 5 nights = 6 days
     expect(intent.budget).toBe(2000);
     expect(intent.activities).toContain("temples");
     expect(intent.activities).toContain("food tours");
@@ -18,7 +18,7 @@ describe("NLU Parser", () => {
     const intent = parseIntent("I want to fly from Phoenix to London for 7 nights");
     expect(intent.destination).toBe("London");
     expect(intent.origin).toBe("Phoenix");
-    expect(intent.duration).toBe(7);
+    expect(intent.duration).toBe(8); // 7 nights = 8 days
   });
 
   it("parses destination-only queries", () => {
@@ -41,6 +41,7 @@ describe("NLU Parser", () => {
     const intent = parseIntent("Family trip to New York for 3 nights");
     expect(intent.travelers).toBe(4); // "family" = 4
     expect(intent.destination).toBe("New York");
+    expect(intent.duration).toBe(4); // 3 nights = 4 days
   });
 
   it("handles dates in month format", () => {
