@@ -6,9 +6,10 @@ import { useAuth } from "@/lib/supabase/auth";
 interface ProfilePageProps {
   onNewTrip: () => void;
   onShowSaved: () => void;
+  onSignOut: () => void;
 }
 
-export function ProfilePage({ onNewTrip, onShowSaved }: ProfilePageProps) {
+export function ProfilePage({ onNewTrip, onShowSaved, onSignOut }: ProfilePageProps) {
   const { user, signOut, loading } = useAuth();
   const [savedCount, setSavedCount] = useState(0);
 
@@ -26,6 +27,7 @@ export function ProfilePage({ onNewTrip, onShowSaved }: ProfilePageProps) {
 
   const handleSignOut = async () => {
     await signOut();
+    onSignOut();
   };
 
   if (loading) {

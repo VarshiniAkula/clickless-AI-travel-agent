@@ -150,7 +150,13 @@ export default function Home() {
   }
 
   if (state === "profile") {
-    return <ProfilePage onNewTrip={handleNewTrip} onShowSaved={handleShowSaved} />;
+    return <ProfilePage onNewTrip={handleNewTrip} onShowSaved={handleShowSaved} onSignOut={() => {
+      setSkippedLogin(false);
+      setBrief(null);
+      setQuery("");
+      setError(null);
+      setState("login");
+    }} />;
   }
 
   return null;
