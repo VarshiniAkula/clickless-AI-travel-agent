@@ -808,7 +808,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Parliament Sq"
+      "location": "Parliament Sq",
+      "estimatedCost": 15
     },
     {
       "id": "wv-8",
@@ -816,7 +817,8 @@
       "category": "see",
       "description": "Upon entry, you pass through a metal detector, and are very thoroughly searched. You then proceed into St. Stephen's Hall, where you are seated to wait for admission. A representative of the Sergeant-at-Arms gives you a ",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-9",
@@ -824,7 +826,8 @@
       "category": "see",
       "description": "When called, you proceed from St. Stephen's Hall to the Central Hall, and then upstairs. You must leave all items (bags, cameras, mobile phones, writing and written material) outside and then proceed through to the Stran",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-10",
@@ -832,7 +835,8 @@
       "category": "see",
       "description": "If you head away from the Commons, you pass along a corridor towards the Lords. If you ask to visit the Strangers' Gallery, a representative of Black Rod asks you to complete another slip of paper with your name and addr",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-11",
@@ -840,7 +844,8 @@
       "category": "see",
       "description": "After visiting the two Houses, visitors pass back through St. Stephen's Hall, and through Westminster Hall. Westminster Hall is one of the few areas of Parliament in which photography is permitted, and it is a very impre",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-12",
@@ -848,7 +853,8 @@
       "category": "see",
       "description": "Probably the most colourful event in the UK's legislative calendar, this takes place in May or June every year, or after a general election, when the King travels to the Houses of Parliament to open the new parliamentary",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-13",
@@ -865,7 +871,8 @@
       "category": "see",
       "description": "Strictly limited numbers of tickets are available to climb the Elizabeth Tower, which was renamed from Clock Tower in 2012. It contains the Great Bell, commonly known as Big Ben. British visitors should write to their Me",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-15",
@@ -882,7 +889,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 40
     },
     {
       "id": "wv-17",
@@ -890,7 +898,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-18",
@@ -898,7 +907,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Wellington Barracks, Birdcage Walk, SW1E 6HQ"
+      "location": "Wellington Barracks, Birdcage Walk, SW1E 6HQ",
+      "estimatedCost": 0
     },
     {
       "id": "wv-19",
@@ -906,7 +916,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "197 Piccadilly, London W1J 9LL"
+      "location": "197 Piccadilly, London W1J 9LL",
+      "estimatedCost": 0
     },
     {
       "id": "wv-20",
@@ -914,7 +925,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-21",
@@ -922,7 +934,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Parliament Sq"
+      "location": "Parliament Sq",
+      "estimatedCost": 0
     },
     {
       "id": "wv-22",
@@ -930,7 +943,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 20
     },
     {
       "id": "wv-23",
@@ -938,7 +952,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Millbank"
+      "location": "Millbank",
+      "estimatedCost": 0
     },
     {
       "id": "wv-24",
@@ -946,7 +961,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-25",
@@ -954,7 +970,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-26",
@@ -962,7 +979,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Apsley Way, Hyde Park Corner, W1J 7JZ"
+      "location": "Apsley Way, Hyde Park Corner, W1J 7JZ",
+      "estimatedCost": 0
     },
     {
       "id": "wv-27",
@@ -970,7 +988,8 @@
       "category": "see",
       "description": "Equestrian statue of the Iron Duke, with four soldiers at each corner of the pedestal, representing regiments that fought under him: a Grenadier, Scottish Highlander, Irish Dragoon, and Welsh Fusilier. The bronze came fr",
       "duration": "2h",
-      "location": "North side"
+      "location": "North side",
+      "estimatedCost": 0
     },
     {
       "id": "wv-28",
@@ -978,7 +997,8 @@
       "category": "see",
       "description": "A stone howitzer by World War I veteran Charles Sargeant Jagger",
       "duration": "2h",
-      "location": "West side"
+      "location": "West side",
+      "estimatedCost": 0
     },
     {
       "id": "wv-29",
@@ -986,7 +1006,8 @@
       "category": "see",
       "description": "Created by Tonkin Zulaikha Greer and Janet Laurence to remember the Australians who died in both world wars. Made from Australian granite.",
       "duration": "2h",
-      "location": "South-west corner"
+      "location": "South-west corner",
+      "estimatedCost": 0
     },
     {
       "id": "wv-30",
@@ -994,7 +1015,8 @@
       "category": "see",
       "description": "A statue of David holding Goliath's sword by Francis Derwent Wood commemorating the dead of the World War I corps.",
       "duration": "2h",
-      "location": "North-east corner"
+      "location": "North-east corner",
+      "estimatedCost": 0
     },
     {
       "id": "wv-31",
@@ -1002,7 +1024,8 @@
       "category": "see",
       "description": "Sixteen cruciform bronze pillars designed by Paul Dibble and John Hardwick-Smith.",
       "duration": "2h",
-      "location": "east side"
+      "location": "east side",
+      "estimatedCost": 0
     },
     {
       "id": "wv-32",
@@ -1010,7 +1033,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Green Park, on the south side of Piccadilly close to Hyde Park Corner. Tube: {{station"
+      "location": "Green Park, on the south side of Piccadilly close to Hyde Park Corner. Tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-33",
@@ -1018,7 +1042,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "South-east corner, Belgrave Sq"
+      "location": "South-east corner, Belgrave Sq",
+      "estimatedCost": 0
     },
     {
       "id": "wv-34",
@@ -1026,7 +1051,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Corner of Denbigh St and St George's Drive"
+      "location": "Corner of Denbigh St and St George's Drive",
+      "estimatedCost": 0
     },
     {
       "id": "wv-35",
@@ -1034,7 +1060,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "42 Francis Street, SW1P 1QW"
+      "location": "42 Francis Street, SW1P 1QW",
+      "estimatedCost": 0
     },
     {
       "id": "wv-36",
@@ -1042,7 +1069,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Whitehall SW1A 2ER"
+      "location": "Whitehall SW1A 2ER",
+      "estimatedCost": 15
     },
     {
       "id": "wv-37",
@@ -1050,7 +1078,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Clive Steps, King Charles St, SW1A 2AQ"
+      "location": "Clive Steps, King Charles St, SW1A 2AQ",
+      "estimatedCost": 0
     },
     {
       "id": "wv-38",
@@ -1058,7 +1087,8 @@
       "category": "see",
       "description": "Site of the London residences for the Prime Minister (No. 10) and the Chancellor (No. 11).",
       "duration": "2h",
-      "location": "tube: Westminster"
+      "location": "tube: Westminster",
+      "estimatedCost": 0
     },
     {
       "id": "wv-39",
@@ -1066,7 +1096,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Horse Guards, Whitehall, SW1A 2AX"
+      "location": "Horse Guards, Whitehall, SW1A 2AX",
+      "estimatedCost": 20
     },
     {
       "id": "wv-40",
@@ -1074,7 +1105,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-41",
@@ -1082,7 +1114,8 @@
       "category": "do",
       "description": "Each morning between May and July at 11:30AM the guard changes outside Buckingham Palace. The rest of the year, the guard changes on alternate days, weather permitting. A board is placed outside the palace in the morning",
       "duration": "2h",
-      "location": "Buckingham Palace"
+      "location": "Buckingham Palace",
+      "estimatedCost": 15
     },
     {
       "id": "wv-43",
@@ -1090,7 +1123,8 @@
       "category": "do",
       "description": "In the late afternoon at Horse Guards an officer will inspect the guards, after which the mounted sentries return their horses to the stables for the night. They are replaced by two dismounted sentries. This ceremony was",
       "duration": "2h",
-      "location": "Horse Guards Parade, Whitehall"
+      "location": "Horse Guards Parade, Whitehall",
+      "estimatedCost": 15
     },
     {
       "id": "wv-44",
@@ -1107,7 +1141,8 @@
       "category": "do",
       "description": "Tickets are made available by the same ballot as Trooping the Colour.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 15
     },
     {
       "id": "wv-46",
@@ -1133,7 +1168,8 @@
       "category": "do",
       "description": "Slightly off the main area for cinemas and entertainment around Leicester Square and Theatreland this cinema offers projections of recent movies on three large screens.",
       "duration": "2h",
-      "location": "63-65 Haymarket, London SW1Y 4RL"
+      "location": "63-65 Haymarket, London SW1Y 4RL",
+      "estimatedCost": 15
     },
     {
       "id": "wv-49",
@@ -1141,7 +1177,8 @@
       "category": "do",
       "description": "Multi screen of the Vue network very close to Piccadilly Circus.",
       "duration": "2h",
-      "location": "19 Lower Regent Street London SW1Y 4LR"
+      "location": "19 Lower Regent Street London SW1Y 4LR",
+      "estimatedCost": 15
     },
     {
       "id": "wv-50",
@@ -1149,7 +1186,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "17 Wilton Rd, SW1V 1LG"
+      "location": "17 Wilton Rd, SW1V 1LG",
+      "estimatedCost": 40
     },
     {
       "id": "wv-51",
@@ -1157,7 +1195,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "14 Whitehall, SW1A 2DY"
+      "location": "14 Whitehall, SW1A 2DY",
+      "estimatedCost": 40
     },
     {
       "id": "wv-52",
@@ -1165,7 +1204,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Victoria St, SW1E 5EA"
+      "location": "Victoria St, SW1E 5EA",
+      "estimatedCost": 40
     },
     {
       "id": "wv-53",
@@ -1173,7 +1213,8 @@
       "category": "do",
       "description": "Former baroque church by Thomas Archer. From the 1960s, converted into a concert hall and featuring world class classical music performers with daily concerts from September to July.",
       "duration": "2h",
-      "location": "St John's Smith Square, London, SW1P 3HA"
+      "location": "St John's Smith Square, London, SW1P 3HA",
+      "estimatedCost": 0
     },
     {
       "id": "wv-54",
@@ -1181,7 +1222,8 @@
       "category": "do",
       "description": "There are a number of regular free walking tours in London but the most well known leaves from The Duke of Wellingon Arch twice daily and covers many of the important sights in Westminster. Duration about 2½ hours.",
       "duration": "2h",
-      "location": "Duke of Wellingon Arch"
+      "location": "Duke of Wellingon Arch",
+      "estimatedCost": 0
     },
     {
       "id": "wv-55",
@@ -1189,7 +1231,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "Victoria St"
+      "location": "Victoria St",
+      "estimatedCost": 0
     },
     {
       "id": "wv-56",
@@ -1197,7 +1240,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "71 Elizabeth St, SW1W 9PJ"
+      "location": "71 Elizabeth St, SW1W 9PJ",
+      "estimatedCost": 0
     },
     {
       "id": "wv-57",
@@ -1205,7 +1249,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "6 Upper Tachbrook St, SW1V 1SH"
+      "location": "6 Upper Tachbrook St, SW1V 1SH",
+      "estimatedCost": 0
     },
     {
       "id": "wv-58",
@@ -1213,7 +1258,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "53 Jermyn St, SW1Y 6LX"
+      "location": "53 Jermyn St, SW1Y 6LX",
+      "estimatedCost": 0
     },
     {
       "id": "wv-59",
@@ -1221,7 +1267,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "71 Jermyn St, SW1Y 6PF"
+      "location": "71 Jermyn St, SW1Y 6PF",
+      "estimatedCost": 0
     },
     {
       "id": "wv-60",
@@ -1229,7 +1276,8 @@
       "category": "buy",
       "description": "With another branch at {{marker",
       "duration": "2h",
-      "location": "37 Jermyn St, SW1 6DT"
+      "location": "37 Jermyn St, SW1 6DT",
+      "estimatedCost": 0
     },
     {
       "id": "wv-61",
@@ -1237,7 +1285,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "77 Jermyn St, SW1Y 6NP"
+      "location": "77 Jermyn St, SW1Y 6NP",
+      "estimatedCost": 0
     },
     {
       "id": "wv-62",
@@ -1245,7 +1294,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "100 Jermyn St, SW1Y 6EE"
+      "location": "100 Jermyn St, SW1Y 6EE",
+      "estimatedCost": 0
     },
     {
       "id": "wv-63",
@@ -1253,7 +1303,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "66 Jermyn St, SW1Y 6NY"
+      "location": "66 Jermyn St, SW1Y 6NY",
+      "estimatedCost": 0
     },
     {
       "id": "wv-64",
@@ -1261,7 +1312,8 @@
       "category": "buy",
       "description": "Budd, established in 1910, is the only Jermyn Street shirtmaker to still have a bespoke cutting room on site, where shirts are still made.",
       "duration": "2h",
-      "location": "Piccadilly Arcade, SW1Y 6NH"
+      "location": "Piccadilly Arcade, SW1Y 6NH",
+      "estimatedCost": 0
     },
     {
       "id": "wv-65",
@@ -1269,7 +1321,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "4 Palace St"
+      "location": "4 Palace St",
+      "estimatedCost": 5
     },
     {
       "id": "wv-66",
@@ -1277,7 +1330,8 @@
       "category": "eat",
       "description": "Pizza",
       "duration": "2h",
-      "location": "7 Sir Simon Milton Sq"
+      "location": "7 Sir Simon Milton Sq",
+      "estimatedCost": 10
     },
     {
       "id": "wv-67",
@@ -1285,7 +1339,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "78 Wilton Rd"
+      "location": "78 Wilton Rd",
+      "estimatedCost": 10
     },
     {
       "id": "wv-68",
@@ -1293,7 +1348,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "45 Warwick Way"
+      "location": "45 Warwick Way",
+      "estimatedCost": 10
     },
     {
       "id": "wv-69",
@@ -1301,7 +1357,8 @@
       "category": "eat",
       "description": "The cafe in the basement of Westminster Cathedral is one of the cheapest places to have lunch in the area. Simple tasty hot lunches (Jacket Potatoes etc) cost under £5. Get in through the Cathedral main entrance.",
       "duration": "2h",
-      "location": "42 Francis St, SW1P 1QW"
+      "location": "42 Francis St, SW1P 1QW",
+      "estimatedCost": 0
     },
     {
       "id": "wv-70",
@@ -1309,7 +1366,8 @@
       "category": "eat",
       "description": "The classic shop for fish and chips.",
       "duration": "2h",
-      "location": "38 Strutton Ground, SW1P 2HR"
+      "location": "38 Strutton Ground, SW1P 2HR",
+      "estimatedCost": 15
     },
     {
       "id": "wv-71",
@@ -1317,7 +1375,8 @@
       "category": "eat",
       "description": "Opened in 2021, Pataka serves modern Indian food.",
       "duration": "2h",
-      "location": "Grosvenor Gardens House, 50-52 Buckingham Palace Rd, SW1W 0RN"
+      "location": "Grosvenor Gardens House, 50-52 Buckingham Palace Rd, SW1W 0RN",
+      "estimatedCost": 10
     },
     {
       "id": "wv-73",
@@ -1325,7 +1384,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "139 Ebury St, SW1W 8NA"
+      "location": "139 Ebury St, SW1W 8NA",
+      "estimatedCost": 30
     },
     {
       "id": "wv-74",
@@ -1333,7 +1393,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "80–81 Wilton Rd, SW1V 1DL"
+      "location": "80–81 Wilton Rd, SW1V 1DL",
+      "estimatedCost": 20
     },
     {
       "id": "wv-75",
@@ -1341,7 +1402,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "10 Lower Belgrave St, SW1W 0LJ"
+      "location": "10 Lower Belgrave St, SW1W 0LJ",
+      "estimatedCost": 25
     },
     {
       "id": "wv-76",
@@ -1349,7 +1411,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "37 Pimlico Rd, SW1W 8NE"
+      "location": "37 Pimlico Rd, SW1W 8NE",
+      "estimatedCost": 20
     },
     {
       "id": "wv-77",
@@ -1357,7 +1420,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "16 Bury St, SW1Y 6AJ"
+      "location": "16 Bury St, SW1Y 6AJ",
+      "estimatedCost": 35
     },
     {
       "id": "wv-78",
@@ -1365,7 +1429,8 @@
       "category": "eat",
       "description": "A cozy Italian restaurant next to the Westminster Cathedral and Victoria Station, with a huge wood fired pizza oven that creates a welcome atmosphere on its own. Pizzas between £12 - £16, and various pasta dishes and sal",
       "duration": "2h",
-      "location": "15 Cardinal Walk, Westminster"
+      "location": "15 Cardinal Walk, Westminster",
+      "estimatedCost": 20
     },
     {
       "id": "wv-79",
@@ -1373,7 +1438,8 @@
       "category": "eat",
       "description": "Indian restaurant. Housed in a converted Grade II listed library.",
       "duration": "2h",
-      "location": "The Old Westminster Library, 30–32 Great Smith St, SW1P 3BU"
+      "location": "The Old Westminster Library, 30–32 Great Smith St, SW1P 3BU",
+      "estimatedCost": 40
     },
     {
       "id": "wv-80",
@@ -1381,7 +1447,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "51 Pimlico Rd, SW1W 8NE"
+      "location": "51 Pimlico Rd, SW1W 8NE",
+      "estimatedCost": 30
     },
     {
       "id": "wv-81",
@@ -1389,7 +1456,8 @@
       "category": "eat",
       "description": "Oyster bar, game and seafood restaurant. Traditional fine English dining in a restaurant established in 1742.",
       "duration": "2h",
-      "location": "55 Jermyn St, SW1Y 6LX"
+      "location": "55 Jermyn St, SW1Y 6LX",
+      "estimatedCost": 40
     },
     {
       "id": "wv-82",
@@ -1397,7 +1465,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Lambeth Palace Rd, SE1 7LB"
+      "location": "Lambeth Palace Rd, SE1 7LB",
+      "estimatedCost": 0
     },
     {
       "id": "wv-83",
@@ -1405,7 +1474,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Lambeth Palace, SE1 7JU"
+      "location": "Lambeth Palace, SE1 7JU",
+      "estimatedCost": 0
     },
     {
       "id": "wv-84",
@@ -1413,7 +1483,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-85",
@@ -1421,7 +1492,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Westminster Bridge, south east side"
+      "location": "Westminster Bridge, south east side",
+      "estimatedCost": 0
     },
     {
       "id": "wv-86",
@@ -1429,7 +1501,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Belvedere Rd"
+      "location": "Belvedere Rd",
+      "estimatedCost": 0
     },
     {
       "id": "wv-87",
@@ -1437,7 +1510,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "County Hall, Belvedere Rd"
+      "location": "County Hall, Belvedere Rd",
+      "estimatedCost": 25
     },
     {
       "id": "wv-88",
@@ -1445,7 +1519,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "County Hall, Westminster Bridge Rd, SE1 7PB"
+      "location": "County Hall, Westminster Bridge Rd, SE1 7PB",
+      "estimatedCost": 30
     },
     {
       "id": "wv-89",
@@ -1453,7 +1528,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Westminster Bridge Rd"
+      "location": "Westminster Bridge Rd",
+      "estimatedCost": 40
     },
     {
       "id": "wv-90",
@@ -1461,7 +1537,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Belvedere Rd"
+      "location": "Belvedere Rd",
+      "estimatedCost": 15
     },
     {
       "id": "wv-91",
@@ -1469,7 +1546,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 20
     },
     {
       "id": "wv-92",
@@ -1477,7 +1555,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Queen's Walk"
+      "location": "Queen's Walk",
+      "estimatedCost": 0
     },
     {
       "id": "wv-93",
@@ -1485,7 +1564,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Belvedere Rd"
+      "location": "Belvedere Rd",
+      "estimatedCost": 15
     },
     {
       "id": "wv-94",
@@ -1493,7 +1573,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Belvedere Rd"
+      "location": "Belvedere Rd",
+      "estimatedCost": 30
     },
     {
       "id": "wv-95",
@@ -1501,7 +1582,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "1 Charlie Chaplin Walk"
+      "location": "1 Charlie Chaplin Walk",
+      "estimatedCost": 20
     },
     {
       "id": "wv-96",
@@ -1509,7 +1591,8 @@
       "category": "see",
       "description": "Home to designer-marker boutiques, selling everything from hats and homeware to wedding dresses and jewellery. Modern gallery on the ground floor which is free and open every day, various cafes, a florists and hairdresse",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 20
     },
     {
       "id": "wv-97",
@@ -1517,7 +1600,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "The Queen's Walk"
+      "location": "The Queen's Walk",
+      "estimatedCost": 15
     },
     {
       "id": "wv-98",
@@ -1525,7 +1609,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Morgan's Ln"
+      "location": "Morgan's Ln",
+      "estimatedCost": 25
     },
     {
       "id": "wv-99",
@@ -1533,7 +1618,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "1 Clink St, SE1 9DG"
+      "location": "1 Clink St, SE1 9DG",
+      "estimatedCost": 20
     },
     {
       "id": "wv-100",
@@ -1541,7 +1627,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Corner of Clink St and Storey St"
+      "location": "Corner of Clink St and Storey St",
+      "estimatedCost": 20
     },
     {
       "id": "wv-101",
@@ -1549,7 +1636,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 20
     },
     {
       "id": "wv-102",
@@ -1557,7 +1645,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "London Bridge"
+      "location": "London Bridge",
+      "estimatedCost": 0
     },
     {
       "id": "wv-103",
@@ -1565,7 +1654,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "32 London Bridge Street, SE1 9SG"
+      "location": "32 London Bridge Street, SE1 9SG",
+      "estimatedCost": 40
     },
     {
       "id": "wv-104",
@@ -1573,7 +1663,8 @@
       "category": "see",
       "description": "This steel pedestrian bridge connecting Bankside with the City of London has all the lovely views of the Thames that you'd expect, but most of those who cross Millennium Bridge never notice its most distinctive feature. ",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-106",
@@ -1581,7 +1672,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "94a Southwark Bridge Rd, SE1 0EG"
+      "location": "94a Southwark Bridge Rd, SE1 0EG",
+      "estimatedCost": 15
     },
     {
       "id": "wv-107",
@@ -1589,7 +1681,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Concert Hall Approach, 150-152 Hungerford Arches"
+      "location": "Concert Hall Approach, 150-152 Hungerford Arches",
+      "estimatedCost": 20
     },
     {
       "id": "wv-108",
@@ -1606,7 +1699,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "2-4 Tooley St"
+      "location": "2-4 Tooley St",
+      "estimatedCost": 0
     },
     {
       "id": "wv-110",
@@ -1614,7 +1708,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 20
     },
     {
       "id": "wv-111",
@@ -1622,7 +1717,8 @@
       "category": "see",
       "description": "Founded by veteran designer Zandra Rhodes.",
       "duration": "2h",
-      "location": "83 Bermondsey St"
+      "location": "83 Bermondsey St",
+      "estimatedCost": 20
     },
     {
       "id": "wv-112",
@@ -1630,7 +1726,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "St Thomas' Hospital, Westminster Bridge Rd"
+      "location": "St Thomas' Hospital, Westminster Bridge Rd",
+      "estimatedCost": 20
     },
     {
       "id": "wv-113",
@@ -1638,7 +1735,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "51/53 Southwark St"
+      "location": "51/53 Southwark St",
+      "estimatedCost": 30
     },
     {
       "id": "wv-114",
@@ -1646,7 +1744,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "County Hall, Westminster Bridge Rd, SE1 7PB"
+      "location": "County Hall, Westminster Bridge Rd, SE1 7PB",
+      "estimatedCost": 30
     },
     {
       "id": "wv-115",
@@ -1654,7 +1753,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "The Cut, Waterloo"
+      "location": "The Cut, Waterloo",
+      "estimatedCost": 30
     },
     {
       "id": "wv-116",
@@ -1662,7 +1762,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "21 New Globe Walk"
+      "location": "21 New Globe Walk",
+      "estimatedCost": 40
     },
     {
       "id": "wv-117",
@@ -1670,7 +1771,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "The Cut, Waterloo"
+      "location": "The Cut, Waterloo",
+      "estimatedCost": 30
     },
     {
       "id": "wv-118",
@@ -1678,7 +1780,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-119",
@@ -1686,7 +1789,8 @@
       "category": "do",
       "description": "Along the Thames and through the streets of London in an amphibious vehicle. Operated by Capital Frogs Ltd, County Hall, on the south side of Westminster Bridge.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 40
     },
     {
       "id": "wv-120",
@@ -1694,7 +1798,8 @@
       "category": "buy",
       "description": "One of London's favourite wholesale working food markets, on Fridays and Saturdays offering a general retail market with specialties sold directly from the producers, organic products, delicatessen, cheese, wines, fish a",
       "duration": "2h",
-      "location": "off Borough High St"
+      "location": "off Borough High St",
+      "estimatedCost": 10
     },
     {
       "id": "wv-121",
@@ -1702,7 +1807,8 @@
       "category": "buy",
       "description": "An eclectic mix of shops and restaurants, the design shops at Gabriel's Wharf are exclusively run by small businesses who design and manufacture their own products, the majority of work available will have been made by t",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 10
     },
     {
       "id": "wv-122",
@@ -1710,7 +1816,8 @@
       "category": "buy",
       "description": "A beautiful converted wharf on the Jubilee Walk which, since 1987, has been home to cafés, shops and traditional barrows. Originally a warehouse and associated wharf (Hay's Wharf) for the port of London, it was redevelop",
       "duration": "2h",
-      "location": "tube: London Bridge"
+      "location": "tube: London Bridge",
+      "estimatedCost": 10
     },
     {
       "id": "wv-123",
@@ -1718,7 +1825,8 @@
       "category": "buy",
       "description": "Second-hand book sale near the bank of the Thames. A nice place to just browse for books (classic and modern), maps and prints.",
       "duration": "2h",
-      "location": "Queen's Walk"
+      "location": "Queen's Walk",
+      "estimatedCost": 10
     },
     {
       "id": "wv-124",
@@ -1726,7 +1834,8 @@
       "category": "buy",
       "description": "Huge galleria.",
       "duration": "2h",
-      "location": "Barges House St"
+      "location": "Barges House St",
+      "estimatedCost": 10
     },
     {
       "id": "wv-125",
@@ -1734,7 +1843,8 @@
       "category": "eat",
       "description": "Dozens of market stalls selling fresh food. Each trader at this market is required to produce both ethical and sustainable products.",
       "duration": "2h",
-      "location": "Southbank Centre Square"
+      "location": "Southbank Centre Square",
+      "estimatedCost": 5
     },
     {
       "id": "wv-126",
@@ -1742,7 +1852,8 @@
       "category": "eat",
       "description": "Lower Marsh Street has diverse food stalls, including Korean, Cuban, Nigerian, Peruvian and Ethiopian cuisines.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-127",
@@ -1759,7 +1870,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "5 Mepham St"
+      "location": "5 Mepham St",
+      "estimatedCost": 10
     },
     {
       "id": "wv-129",
@@ -1767,7 +1879,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "113 Waterloo Rd"
+      "location": "113 Waterloo Rd",
+      "estimatedCost": 15
     },
     {
       "id": "wv-130",
@@ -1775,7 +1888,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "82 Lower Marsh"
+      "location": "82 Lower Marsh",
+      "estimatedCost": 15
     },
     {
       "id": "wv-131",
@@ -1783,7 +1897,8 @@
       "category": "eat",
       "description": "Korean",
       "duration": "2h",
-      "location": "30 Lower Marsh"
+      "location": "30 Lower Marsh",
+      "estimatedCost": 10
     },
     {
       "id": "wv-132",
@@ -1791,7 +1906,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "133-135 Westminster Bridge Rd"
+      "location": "133-135 Westminster Bridge Rd",
+      "estimatedCost": 15
     },
     {
       "id": "wv-133",
@@ -1799,7 +1915,8 @@
       "category": "eat",
       "description": "Large Polish restaurant.",
       "duration": "2h",
-      "location": "9 Addington St, SE1 7RY"
+      "location": "9 Addington St, SE1 7RY",
+      "estimatedCost": 20
     },
     {
       "id": "wv-134",
@@ -1816,7 +1933,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "King's Head Yard"
+      "location": "King's Head Yard",
+      "estimatedCost": 20
     },
     {
       "id": "wv-137",
@@ -1824,7 +1942,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "57 Borough High St"
+      "location": "57 Borough High St",
+      "estimatedCost": 10
     },
     {
       "id": "wv-138",
@@ -1832,7 +1951,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "59-61 Borough High St"
+      "location": "59-61 Borough High St",
+      "estimatedCost": 20
     },
     {
       "id": "wv-139",
@@ -1840,7 +1960,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "125 Borough High St"
+      "location": "125 Borough High St",
+      "estimatedCost": 20
     },
     {
       "id": "wv-140",
@@ -1848,7 +1969,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "90 Tooley St"
+      "location": "90 Tooley St",
+      "estimatedCost": 0
     },
     {
       "id": "wv-141",
@@ -1856,7 +1978,8 @@
       "category": "eat",
       "description": "Try a crepe here",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 15
     },
     {
       "id": "wv-142",
@@ -1864,7 +1987,8 @@
       "category": "eat",
       "description": "Small but unique burger restaurant and bar. Good student discounts. Good selection of burgers, and tastes great for the price. The restaurant has a lot of character, hosting memorabilia and knicknacks from the 1950s-mode",
       "duration": "2h",
-      "location": "243 Union St, SE1 0LR"
+      "location": "243 Union St, SE1 0LR",
+      "estimatedCost": 20
     },
     {
       "id": "wv-143",
@@ -1872,7 +1996,8 @@
       "category": "eat",
       "description": "Delightful Turkish restaurant specialising in \"pide\", boat-shaped flatbreads. Plenty of vegetarian options. Sample the free Turkish delights at the front desk.",
       "duration": "2h",
-      "location": "22 New Globe Walk, SE1 9DR"
+      "location": "22 New Globe Walk, SE1 9DR",
+      "estimatedCost": 15
     },
     {
       "id": "wv-144",
@@ -1880,7 +2005,8 @@
       "category": "eat",
       "description": "Gastro-pub with fine-dining and cinema downstairs. Mains come in between £10-25.",
       "duration": "2h",
-      "location": "99-101 Bermondsey St"
+      "location": "99-101 Bermondsey St",
+      "estimatedCost": 25
     },
     {
       "id": "wv-145",
@@ -1888,7 +2014,8 @@
       "category": "eat",
       "description": "Dim Sum Restaurant",
       "duration": "2h",
-      "location": "Festival Terrace, Southbank Centre, Belvedere Rd"
+      "location": "Festival Terrace, Southbank Centre, Belvedere Rd",
+      "estimatedCost": 20
     },
     {
       "id": "wv-146",
@@ -1896,7 +2023,8 @@
       "category": "eat",
       "description": "Offers spectacular views and the complete dining experience with mouthwatering dishes and indulgent wines to match.",
       "duration": "2h",
-      "location": "8th Floor, Oxo Tower Wharf, Bargehouse Street, SE1 9PH"
+      "location": "8th Floor, Oxo Tower Wharf, Bargehouse Street, SE1 9PH",
+      "estimatedCost": 60
     },
     {
       "id": "wv-147",
@@ -1904,7 +2032,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "Belvedere Rd, Royal Festival Hall"
+      "location": "Belvedere Rd, Royal Festival Hall",
+      "estimatedCost": 60
     },
     {
       "id": "wv-148",
@@ -1912,7 +2041,8 @@
       "category": "see",
       "description": "This enormous arch was built in front of Buckingham Palace. In 1851 the expansion of the palace meant the arch could no longer remain where it was, so it was moved to this point on Hyde Park. It now stands rather sadly o",
       "duration": "2h",
-      "location": "Where the north-eastern point of Hyde Park meets the south-western tip of Marylebone"
+      "location": "Where the north-eastern point of Hyde Park meets the south-western tip of Marylebone",
+      "estimatedCost": 0
     },
     {
       "id": "wv-149",
@@ -1920,7 +2050,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-150",
@@ -1928,7 +2059,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Outer Circle, Regent's Pk, NW1 4RY"
+      "location": "Outer Circle, Regent's Pk, NW1 4RY",
+      "estimatedCost": 30
     },
     {
       "id": "wv-151",
@@ -1936,7 +2068,8 @@
       "category": "see",
       "description": "Islamic Cultural Centre and the main mosque in London. Visitors are welcome but must be suitably attired. The Mosque runs classes, prayers, talks and events.",
       "duration": "2h",
-      "location": "146 Park Rd NW1"
+      "location": "146 Park Rd NW1",
+      "estimatedCost": 0
     },
     {
       "id": "wv-152",
@@ -1944,7 +2077,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "24 South Audley St, London W1K 2PA"
+      "location": "24 South Audley St, London W1K 2PA",
+      "estimatedCost": 0
     },
     {
       "id": "wv-153",
@@ -1952,7 +2086,8 @@
       "category": "see",
       "description": "Nicknamed Little America, it was the long-time home of the American Embassy (which in 2018 moved to Nine Elms across the river), and a statue of President Franklin D. Roosevelt.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-154",
@@ -1960,7 +2095,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "The Vestry, 2A Mill St, London W1S 1FX (office)"
+      "location": "The Vestry, 2A Mill St, London W1S 1FX (office)",
+      "estimatedCost": 0
     },
     {
       "id": "wv-155",
@@ -1968,7 +2104,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "17 Marylebone Road, London NW1 5LT"
+      "location": "17 Marylebone Road, London NW1 5LT",
+      "estimatedCost": 0
     },
     {
       "id": "wv-157",
@@ -1976,7 +2113,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "149 Piccadilly, Hyde Park Corner, London, W1J 7NT"
+      "location": "149 Piccadilly, Hyde Park Corner, London, W1J 7NT",
+      "estimatedCost": 15
     },
     {
       "id": "wv-158",
@@ -1984,7 +2122,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "25 Brook St W1K 4HB"
+      "location": "25 Brook St W1K 4HB",
+      "estimatedCost": 15
     },
     {
       "id": "wv-159",
@@ -1992,7 +2131,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Marylebone Rd, NW1 5LR"
+      "location": "Marylebone Rd, NW1 5LR",
+      "estimatedCost": 30
     },
     {
       "id": "wv-160",
@@ -2000,7 +2140,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Burlington House, Piccadilly"
+      "location": "Burlington House, Piccadilly",
+      "estimatedCost": 20
     },
     {
       "id": "wv-161",
@@ -2008,7 +2149,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "239 Baker St, NW1 6XE"
+      "location": "239 Baker St, NW1 6XE",
+      "estimatedCost": 15
     },
     {
       "id": "wv-162",
@@ -2016,7 +2158,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Manchester Square, W1U 3BN"
+      "location": "Manchester Square, W1U 3BN",
+      "estimatedCost": 15
     },
     {
       "id": "wv-163",
@@ -2024,7 +2167,8 @@
       "category": "do",
       "description": "Retro 1970s decor, a relaxing bar area and comfortable seating combine with a great art-house billing, easily one of the best cinemas in London.",
       "duration": "2h",
-      "location": "38 Curzon St"
+      "location": "38 Curzon St",
+      "estimatedCost": 20
     },
     {
       "id": "wv-164",
@@ -2032,7 +2176,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 10
     },
     {
       "id": "wv-165",
@@ -2040,7 +2185,8 @@
       "category": "do",
       "description": "Group street skate.",
       "duration": "2h",
-      "location": "Serpentine Rd"
+      "location": "Serpentine Rd",
+      "estimatedCost": 0
     },
     {
       "id": "wv-166",
@@ -2048,7 +2194,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-167",
@@ -2056,7 +2203,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "36 Wigmore St, W1U 2BP"
+      "location": "36 Wigmore St, W1U 2BP",
+      "estimatedCost": 0
     },
     {
       "id": "wv-168",
@@ -2064,7 +2212,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "400 Oxford St, W1A 1AB"
+      "location": "400 Oxford St, W1A 1AB",
+      "estimatedCost": 15
     },
     {
       "id": "wv-169",
@@ -2072,7 +2221,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "300 Oxford St, W1C 1DX"
+      "location": "300 Oxford St, W1C 1DX",
+      "estimatedCost": 15
     },
     {
       "id": "wv-170",
@@ -2080,7 +2230,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "51 Piccadilly, Mayfair, London W1J 0QJ"
+      "location": "51 Piccadilly, Mayfair, London W1J 0QJ",
+      "estimatedCost": 15
     },
     {
       "id": "wv-171",
@@ -2088,7 +2239,8 @@
       "category": "buy",
       "description": "Outfitter for the upmarket country set, including colourful corduroy trousers for men.",
       "duration": "2h",
-      "location": "19 Piccadilly, Mayfair, W1J 0LA"
+      "location": "19 Piccadilly, Mayfair, W1J 0LA",
+      "estimatedCost": 15
     },
     {
       "id": "wv-172",
@@ -2096,7 +2248,8 @@
       "category": "buy",
       "description": "World famous as grocers to the British Royal Family, Fortnum's original store has been here in Piccadilly since 1707.",
       "duration": "2h",
-      "location": "181 Piccadilly, W1A 1ER"
+      "location": "181 Piccadilly, W1A 1ER",
+      "estimatedCost": 15
     },
     {
       "id": "wv-173",
@@ -2104,7 +2257,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "188-196 Regent St, W1B 5BT"
+      "location": "188-196 Regent St, W1B 5BT",
+      "estimatedCost": 15
     },
     {
       "id": "wv-174",
@@ -2112,7 +2266,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "Great Marlborough St, W1B 5AH"
+      "location": "Great Marlborough St, W1B 5AH",
+      "estimatedCost": 15
     },
     {
       "id": "wv-175",
@@ -2129,7 +2284,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "236 Oxford St, London W1C 1DE"
+      "location": "236 Oxford St, London W1C 1DE",
+      "estimatedCost": 15
     },
     {
       "id": "wv-177",
@@ -2137,7 +2293,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "167 New Bond St, W1S 4AY"
+      "location": "167 New Bond St, W1S 4AY",
+      "estimatedCost": 15
     },
     {
       "id": "wv-178",
@@ -2145,7 +2302,8 @@
       "category": "buy",
       "description": "Visit the flagship store on Bond St to examine the famous check.",
       "duration": "2h",
-      "location": "21-23 New Bond St, W1S 2RE"
+      "location": "21-23 New Bond St, W1S 2RE",
+      "estimatedCost": 15
     },
     {
       "id": "wv-179",
@@ -2153,7 +2311,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "58 Davies St & 1-7 Davies Mews, W1K 5AB"
+      "location": "58 Davies St & 1-7 Davies Mews, W1K 5AB",
+      "estimatedCost": 15
     },
     {
       "id": "wv-180",
@@ -2161,7 +2320,8 @@
       "category": "buy",
       "description": "Souvenirs and memorabilia.",
       "duration": "2h",
-      "location": "231-233 Baker St, London NW1 6XE"
+      "location": "231-233 Baker St, London NW1 6XE",
+      "estimatedCost": 15
     },
     {
       "id": "wv-181",
@@ -2169,7 +2329,8 @@
       "category": "eat",
       "description": "Mediterranean restaurant with counter service",
       "duration": "2h",
-      "location": "275 Regent St."
+      "location": "275 Regent St.",
+      "estimatedCost": 0
     },
     {
       "id": "wv-182",
@@ -2177,7 +2338,8 @@
       "category": "eat",
       "description": "A casual Mexican restaurant",
       "duration": "2h",
-      "location": "12 Great Castle St"
+      "location": "12 Great Castle St",
+      "estimatedCost": 20
     },
     {
       "id": "wv-183",
@@ -2185,7 +2347,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "52 Margaret St"
+      "location": "52 Margaret St",
+      "estimatedCost": 20
     },
     {
       "id": "wv-185",
@@ -2193,7 +2356,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "15 Argyll St"
+      "location": "15 Argyll St",
+      "estimatedCost": 0
     },
     {
       "id": "wv-186",
@@ -2201,7 +2365,8 @@
       "category": "eat",
       "description": "A chain of Middle Eastern food; belly dancing at night.",
       "duration": "2h",
-      "location": "21 Edgware Rd, W2 2JE"
+      "location": "21 Edgware Rd, W2 2JE",
+      "estimatedCost": 20
     },
     {
       "id": "wv-187",
@@ -2209,7 +2374,8 @@
       "category": "eat",
       "description": "French patisserie and bakery with some seating available.",
       "duration": "2h",
-      "location": "115 Marylebone High St"
+      "location": "115 Marylebone High St",
+      "estimatedCost": 25
     },
     {
       "id": "wv-188",
@@ -2217,7 +2383,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "49-51 Lisson Grove, NW1 6UH"
+      "location": "49-51 Lisson Grove, NW1 6UH",
+      "estimatedCost": 25
     },
     {
       "id": "wv-189",
@@ -2243,7 +2410,8 @@
       "category": "eat",
       "description": "World food at great prices. Great for children",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 25
     },
     {
       "id": "wv-192",
@@ -2251,7 +2419,8 @@
       "category": "eat",
       "description": "With the more formal Providores restaurant upstairs.",
       "duration": "2h",
-      "location": "Marylebone High St"
+      "location": "Marylebone High St",
+      "estimatedCost": 25
     },
     {
       "id": "wv-193",
@@ -2259,7 +2428,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "74 Welbeck St, W1G 0BA"
+      "location": "74 Welbeck St, W1G 0BA",
+      "estimatedCost": 25
     },
     {
       "id": "wv-194",
@@ -2267,7 +2437,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "150 Old Park Lane, W1K 1QZ"
+      "location": "150 Old Park Lane, W1K 1QZ",
+      "estimatedCost": 30
     },
     {
       "id": "wv-195",
@@ -2275,7 +2446,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "6 New Quebec St, W1H 7RQ"
+      "location": "6 New Quebec St, W1H 7RQ",
+      "estimatedCost": 30
     },
     {
       "id": "wv-196",
@@ -2283,7 +2455,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "160 Piccadilly, W1J 9EB"
+      "location": "160 Piccadilly, W1J 9EB",
+      "estimatedCost": 50
     },
     {
       "id": "wv-197",
@@ -2291,7 +2464,8 @@
       "category": "eat",
       "description": "Lebanese, opened in 2021.",
       "duration": "2h",
-      "location": "55 Baker St, W1U 7EW"
+      "location": "55 Baker St, W1U 7EW",
+      "estimatedCost": 30
     },
     {
       "id": "wv-198",
@@ -2299,7 +2473,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "31 Dover St, W1S 4ND"
+      "location": "31 Dover St, W1S 4ND",
+      "estimatedCost": 40
     },
     {
       "id": "wv-199",
@@ -2316,7 +2491,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Nearest tube: {{station"
+      "location": "Nearest tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-201",
@@ -2324,7 +2500,8 @@
       "category": "see",
       "description": "Houses the British national collection of western European art dating from the 13th to 19th centuries. A truly awe-inspiring collection, notable works include Hans Holbein's The Ambassadors, Van Gogh's Sunflowers and Con",
       "duration": "2h",
-      "location": "Trafalgar Sq, WC2 5DN"
+      "location": "Trafalgar Sq, WC2 5DN",
+      "estimatedCost": 20
     },
     {
       "id": "wv-202",
@@ -2332,7 +2509,8 @@
       "category": "see",
       "description": "The National Portrait Gallery is just around the corner from the National Gallery and is an entertaining way to learn about British history since the Tudors. Visitors walk around the gallery chronologically, viewing port",
       "duration": "2h",
-      "location": "St Martin’s Pl, WC2H 0HE"
+      "location": "St Martin’s Pl, WC2H 0HE",
+      "estimatedCost": 20
     },
     {
       "id": "wv-203",
@@ -2340,7 +2518,8 @@
       "category": "see",
       "description": "The High Commission of Canada immediately opposite to Trafalgar Square maintains a regular art exhibition featuring Canadian artists.",
       "duration": "2h",
-      "location": "just off Trafalgar Sq"
+      "location": "just off Trafalgar Sq",
+      "estimatedCost": 20
     },
     {
       "id": "wv-204",
@@ -2348,7 +2527,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-205",
@@ -2356,7 +2536,8 @@
       "category": "see",
       "description": "Relax and unwind in the garden, and gaze at the activity going on all around, while listening to the buskers, street entertainers and preachers performing in the area. At the centre of the square is a fountain with a sta",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-206",
@@ -2364,7 +2545,8 @@
       "category": "see",
       "description": "The main sights to see in London's Chinatown are the expressions of Chinese culture and Eastern ambience in Chinatown, and for a good Chinese meal. There are few souvenir shops for tourists and no museums or temples.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-207",
@@ -2372,7 +2554,8 @@
       "category": "see",
       "description": "The three ornamental Chinese arches are worth a look.",
       "duration": "2h",
-      "location": "at each end of Gerrard St and at the entrance to Macclesfield St"
+      "location": "at each end of Gerrard St and at the entrance to Macclesfield St",
+      "estimatedCost": 0
     },
     {
       "id": "wv-208",
@@ -2380,7 +2563,8 @@
       "category": "see",
       "description": "Chinatown does incorporate some entertaining combinations of British and Chinese culture, such as the phone booths with pagoda-style sloping roofs.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-209",
@@ -2388,7 +2572,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "5-6 Leicester Sq, WC2"
+      "location": "5-6 Leicester Sq, WC2",
+      "estimatedCost": 30
     },
     {
       "id": "wv-210",
@@ -2396,7 +2581,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Leicester Sq, WC2"
+      "location": "Leicester Sq, WC2",
+      "estimatedCost": 0
     },
     {
       "id": "wv-211",
@@ -2404,7 +2590,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Leicester Sq, WC2"
+      "location": "Leicester Sq, WC2",
+      "estimatedCost": 20
     },
     {
       "id": "wv-212",
@@ -2412,7 +2599,8 @@
       "category": "do",
       "description": "Voted \"London's Number 1 Cinema\" by Time Out readers, great bar and a fantastic art-house program.",
       "duration": "2h",
-      "location": "99 Shaftesbury Ave, W1D 5DY"
+      "location": "99 Shaftesbury Ave, W1D 5DY",
+      "estimatedCost": 20
     },
     {
       "id": "wv-213",
@@ -2429,7 +2617,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Leicester Square"
+      "location": "Leicester Square",
+      "estimatedCost": 20
     },
     {
       "id": "wv-215",
@@ -2437,7 +2626,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "2 Jermyn St, SW1Y 4XA"
+      "location": "2 Jermyn St, SW1Y 4XA",
+      "estimatedCost": 50
     },
     {
       "id": "wv-216",
@@ -2445,7 +2635,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "6 Panton St, SW1Y 4DN"
+      "location": "6 Panton St, SW1Y 4DN",
+      "estimatedCost": 50
     },
     {
       "id": "wv-217",
@@ -2453,7 +2644,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "57 Haymarket, SW1Y 4QL"
+      "location": "57 Haymarket, SW1Y 4QL",
+      "estimatedCost": 50
     },
     {
       "id": "wv-218",
@@ -2461,7 +2653,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "6 Leicester Pl, WC2H 7BX"
+      "location": "6 Leicester Pl, WC2H 7BX",
+      "estimatedCost": 0
     },
     {
       "id": "wv-219",
@@ -2469,7 +2662,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Denman St, W1D 7DY"
+      "location": "Denman St, W1D 7DY",
+      "estimatedCost": 50
     },
     {
       "id": "wv-220",
@@ -2477,7 +2671,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Coventry St, W1D 6AS"
+      "location": "Coventry St, W1D 6AS",
+      "estimatedCost": 50
     },
     {
       "id": "wv-221",
@@ -2485,7 +2680,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "18 Suffolk St, SW1Y 4HT"
+      "location": "18 Suffolk St, SW1Y 4HT",
+      "estimatedCost": 50
     },
     {
       "id": "wv-222",
@@ -2493,7 +2689,8 @@
       "category": "do",
       "description": "A former theatre, now home to a large casino with live cabaret shows and a steakhouse restaurant. Also sells souvenirs, poker chips and plaque keyrings that can be purchased from the cashier. If you stay here long have a",
       "duration": "2h",
-      "location": "Cranbourn St, Leicester Square, WC2H 7JH"
+      "location": "Cranbourn St, Leicester Square, WC2H 7JH",
+      "estimatedCost": 50
     },
     {
       "id": "wv-223",
@@ -2501,7 +2698,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "1 Swiss Ct, WC2H 7DG"
+      "location": "1 Swiss Ct, WC2H 7DG",
+      "estimatedCost": 20
     },
     {
       "id": "wv-224",
@@ -2509,7 +2707,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "3 Swiss Ct, W1D 6AP"
+      "location": "3 Swiss Ct, W1D 6AP",
+      "estimatedCost": 20
     },
     {
       "id": "wv-225",
@@ -2517,7 +2716,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "203–206 Piccadilly, W1J 9HD"
+      "location": "203–206 Piccadilly, W1J 9HD",
+      "estimatedCost": 20
     },
     {
       "id": "wv-226",
@@ -2525,7 +2725,8 @@
       "category": "eat",
       "description": "A Chinatown institution. Popular with Londoners and visitors alike and possibly the best value Chinese restaurant in the whole of London. Spread across four floors, this restaurant is infamous for its surly, abrupt servi",
       "duration": "2h",
-      "location": "41-43 Wardour St, W1"
+      "location": "41-43 Wardour St, W1",
+      "estimatedCost": 15
     },
     {
       "id": "wv-227",
@@ -2533,7 +2734,8 @@
       "category": "eat",
       "description": "A buffet restaurant",
       "duration": "2h",
-      "location": "58-60 Shaftesbury Ave, W1D 6LS"
+      "location": "58-60 Shaftesbury Ave, W1D 6LS",
+      "estimatedCost": 15
     },
     {
       "id": "wv-228",
@@ -2541,7 +2743,8 @@
       "category": "eat",
       "description": "Japanese",
       "duration": "2h",
-      "location": "11 Wardour St"
+      "location": "11 Wardour St",
+      "estimatedCost": 20
     },
     {
       "id": "wv-229",
@@ -2549,7 +2752,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "6 Dansey Pl"
+      "location": "6 Dansey Pl",
+      "estimatedCost": 10
     },
     {
       "id": "wv-230",
@@ -2557,7 +2761,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "62 Shaftesbury Ave"
+      "location": "62 Shaftesbury Ave",
+      "estimatedCost": 10
     },
     {
       "id": "wv-231",
@@ -2565,7 +2770,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "28 Leicester Square"
+      "location": "28 Leicester Square",
+      "estimatedCost": 10
     },
     {
       "id": "wv-232",
@@ -2573,7 +2779,8 @@
       "category": "eat",
       "description": "Offers spectacular food accompanied by spectacular art on the 5th floor of the National Portrait Gallery. A must-do dining experience.",
       "duration": "2h",
-      "location": "at the National Portrait Gallery"
+      "location": "at the National Portrait Gallery",
+      "estimatedCost": 50
     },
     {
       "id": "wv-233",
@@ -2581,7 +2788,8 @@
       "category": "eat",
       "description": "Offers excellent and well-priced Japanese food.",
       "duration": "2h",
-      "location": "2 Newport Pl"
+      "location": "2 Newport Pl",
+      "estimatedCost": 15
     },
     {
       "id": "wv-234",
@@ -2598,7 +2806,8 @@
       "category": "eat",
       "description": "Serves Taiwanese fare. Chilli crab and omelette dishes are specialities.",
       "duration": "2h",
-      "location": "39 Gerrard St, W1D 5QD"
+      "location": "39 Gerrard St, W1D 5QD",
+      "estimatedCost": 15
     },
     {
       "id": "wv-236",
@@ -2606,7 +2815,8 @@
       "category": "eat",
       "description": "Worth checking out for cheap Malaysian-Singaporean eats.",
       "duration": "2h",
-      "location": "4 Rupert Ct, W1D 6DY"
+      "location": "4 Rupert Ct, W1D 6DY",
+      "estimatedCost": 10
     },
     {
       "id": "wv-237",
@@ -2614,7 +2824,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "14 Lisle St, WC2H 7BE"
+      "location": "14 Lisle St, WC2H 7BE",
+      "estimatedCost": 15
     },
     {
       "id": "wv-238",
@@ -2622,7 +2833,8 @@
       "category": "eat",
       "description": "Place Chinese cakes on a tray and take them to the cashier.",
       "duration": "2h",
-      "location": "13 Macclesfield St, W1D 5BR"
+      "location": "13 Macclesfield St, W1D 5BR",
+      "estimatedCost": 10
     },
     {
       "id": "wv-239",
@@ -2630,7 +2842,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-240",
@@ -2638,7 +2851,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-241",
@@ -2646,7 +2860,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-242",
@@ -2654,7 +2869,8 @@
       "category": "see",
       "description": "Medieval Grade I listed church. This church played a key role in the English Revolution and was the parish church of some of the most decisive Puritans: Oliver Cromwell was married and this is where John Milton was burie",
       "duration": "2h",
-      "location": "Fore St, Cripplegate, EC2Y 8DA"
+      "location": "Fore St, Cripplegate, EC2Y 8DA",
+      "estimatedCost": 0
     },
     {
       "id": "wv-243",
@@ -2662,7 +2878,8 @@
       "category": "see",
       "description": "Grade I listed Saxon church founded before the 12th century. The exterior was mostly constructed in the 15th century, and the interior in the 19th. The north side of the church houses a musician's chapel opened in 1955. ",
       "duration": "2h",
-      "location": "Holborn Viaduct"
+      "location": "Holborn Viaduct",
+      "estimatedCost": 0
     },
     {
       "id": "wv-244",
@@ -2670,7 +2887,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "between Holborn Circus and St Paul's Cathedral, tube: {{station"
+      "location": "between Holborn Circus and St Paul's Cathedral, tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-245",
@@ -2678,7 +2896,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Ludgate Hill"
+      "location": "Ludgate Hill",
+      "estimatedCost": 0
     },
     {
       "id": "wv-246",
@@ -2686,7 +2905,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "not in the City; tube: {{station"
+      "location": "not in the City; tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-248",
@@ -2694,7 +2914,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Byward St, EC3R 5BJ"
+      "location": "Byward St, EC3R 5BJ",
+      "estimatedCost": 0
     },
     {
       "id": "wv-249",
@@ -2711,7 +2932,8 @@
       "category": "see",
       "description": "A medieval church that was rebuilt in the late 18th century, noted for its well-preserved interior. The former churchyard was converted into a public space in 1880, called Postman's Park as it was frequented by workers f",
       "duration": "2h",
-      "location": "Aldersgate St, EC1A 4EU"
+      "location": "Aldersgate St, EC1A 4EU",
+      "estimatedCost": 0
     },
     {
       "id": "wv-251",
@@ -2719,7 +2941,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Little Britain, City of London"
+      "location": "Little Britain, City of London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-252",
@@ -2727,7 +2950,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Guildhall Yard, London EC2V 5AA"
+      "location": "Guildhall Yard, London EC2V 5AA",
+      "estimatedCost": 0
     },
     {
       "id": "wv-253",
@@ -2735,7 +2959,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Lower Thames St, EC3R 6DN"
+      "location": "Lower Thames St, EC3R 6DN",
+      "estimatedCost": 0
     },
     {
       "id": "wv-254",
@@ -2743,7 +2968,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Rood Ln and Eastcheap EC3"
+      "location": "Rood Ln and Eastcheap EC3",
+      "estimatedCost": 0
     },
     {
       "id": "wv-255",
@@ -2751,7 +2977,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "St Mary at Hill, EC3R 8EE"
+      "location": "St Mary at Hill, EC3R 8EE",
+      "estimatedCost": 0
     },
     {
       "id": "wv-256",
@@ -2759,7 +2986,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "1 Bow Lane, EC4M 9EE"
+      "location": "1 Bow Lane, EC4M 9EE",
+      "estimatedCost": 0
     },
     {
       "id": "wv-257",
@@ -2767,7 +2995,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "39 Walbrook, EC4N 8BN"
+      "location": "39 Walbrook, EC4N 8BN",
+      "estimatedCost": 0
     },
     {
       "id": "wv-258",
@@ -2775,7 +3004,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Inner Temple Ln, EC4Y 7BB"
+      "location": "Inner Temple Ln, EC4Y 7BB",
+      "estimatedCost": 0
     },
     {
       "id": "wv-259",
@@ -2783,7 +3013,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "St. Dunstan's Hill, EC3"
+      "location": "St. Dunstan's Hill, EC3",
+      "estimatedCost": 0
     },
     {
       "id": "wv-260",
@@ -2791,7 +3022,8 @@
       "category": "see",
       "description": "Now permanently closed, will be replaced by new museum at the former Smithfield market site in 2026. The Museum of London Docklands remains open.",
       "duration": "2h",
-      "location": "London Wall (NB: this is a street!)"
+      "location": "London Wall (NB: this is a street!)",
+      "estimatedCost": 15
     },
     {
       "id": "wv-261",
@@ -2799,7 +3031,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Guildhall Yard (off Gresham St)"
+      "location": "Guildhall Yard (off Gresham St)",
+      "estimatedCost": 15
     },
     {
       "id": "wv-262",
@@ -2816,7 +3049,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Threadneedle St"
+      "location": "Threadneedle St",
+      "estimatedCost": 15
     },
     {
       "id": "wv-264",
@@ -2824,7 +3058,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Silk St"
+      "location": "Silk St",
+      "estimatedCost": 15
     },
     {
       "id": "wv-265",
@@ -2832,7 +3067,8 @@
       "category": "see",
       "description": "The London Mithraeum is a 3rd century Roman mithraeum that was discovered in Walbrook during construction work in 1954. The entire site was relocated several times before being returned to its original site as part of th",
       "duration": "2h",
-      "location": "12 Walbrook London, EC4N 8AA"
+      "location": "12 Walbrook London, EC4N 8AA",
+      "estimatedCost": 15
     },
     {
       "id": "wv-266",
@@ -2840,7 +3076,8 @@
       "category": "see",
       "description": "Quirky medical museum. Only open to the public for scheduled evening events.",
       "duration": "2h",
-      "location": "3F, Robin Brook Centre, EC1A 7BE"
+      "location": "3F, Robin Brook Centre, EC1A 7BE",
+      "estimatedCost": 15
     },
     {
       "id": "wv-267",
@@ -2848,7 +3085,8 @@
       "category": "see",
       "description": "The second biggest greenhouse in London, containing over 2,000 species of tropical plants as well as birds and fish.",
       "duration": "2h",
-      "location": "Silk St, EC2Y 8DS"
+      "location": "Silk St, EC2Y 8DS",
+      "estimatedCost": 15
     },
     {
       "id": "wv-268",
@@ -2856,7 +3094,8 @@
       "category": "see",
       "description": "The first of tens of thousands of bombs to hit London in World War II fell here in 1940.",
       "duration": "2h",
-      "location": "Fore St"
+      "location": "Fore St",
+      "estimatedCost": 15
     },
     {
       "id": "wv-269",
@@ -2864,7 +3103,8 @@
       "category": "see",
       "description": "The world's main marketplace for ship broking.",
       "duration": "2h",
-      "location": "St. Mary Axe"
+      "location": "St. Mary Axe",
+      "estimatedCost": 15
     },
     {
       "id": "wv-270",
@@ -2872,7 +3112,8 @@
       "category": "see",
       "description": "Remains of the wall that surrounded the City of London for almost two thousand years. The parts around the Barbican are mostly Tudor due to maintenance (Roman remains can be seen in and around the Tower of London). Other",
       "duration": "2h",
-      "location": "Near the street called \"London Wall\""
+      "location": "Near the street called \"London Wall\"",
+      "estimatedCost": 15
     },
     {
       "id": "wv-271",
@@ -2880,7 +3121,8 @@
       "category": "see",
       "description": "The headquarters of world's most famous insurance market, housed in a revolutionary (at the time) bizarre, Matrix-like glass-and-steel building designed by Richard Rogers, with all support services (lifts, ventilation, e",
       "duration": "2h",
-      "location": "1 Lime St"
+      "location": "1 Lime St",
+      "estimatedCost": 15
     },
     {
       "id": "wv-272",
@@ -2888,7 +3130,8 @@
       "category": "see",
       "description": "After leaving its brutalist skyscraper on Old Broad St, the London Stock Exchange now resides on Paternoster Sq. Dating back to 1698, it is one of the world's oldest and largest stock markets.",
       "duration": "2h",
-      "location": "10 Paternoster Square, EC4M 7LS"
+      "location": "10 Paternoster Square, EC4M 7LS",
+      "estimatedCost": 15
     },
     {
       "id": "wv-273",
@@ -2896,7 +3139,8 @@
       "category": "see",
       "description": "This is where the world gold price is set twice a day.",
       "duration": "2h",
-      "location": "13-14 Basinghall St"
+      "location": "13-14 Basinghall St",
+      "estimatedCost": 15
     },
     {
       "id": "wv-274",
@@ -2904,7 +3148,8 @@
       "category": "see",
       "description": "The LME is the leading centre for non-ferrous metals trading. It is also the last financial market in London which still retains open outcry trading.",
       "duration": "2h",
-      "location": "56 Leadenhall St"
+      "location": "56 Leadenhall St",
+      "estimatedCost": 15
     },
     {
       "id": "wv-275",
@@ -2912,7 +3157,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Cannon St"
+      "location": "Cannon St",
+      "estimatedCost": 15
     },
     {
       "id": "wv-276",
@@ -2920,7 +3166,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "14 Bride Ln, EC4Y 8EE"
+      "location": "14 Bride Ln, EC4Y 8EE",
+      "estimatedCost": 15
     },
     {
       "id": "wv-277",
@@ -2928,7 +3175,8 @@
       "category": "see",
       "description": "Designed by one of Britain's leading architects, Sir Norman Foster, this curved glass skyscraper was the 2004 recipient of the Stirling Architectural Prize for Best Building. It was built on the site of the Baltic Exchan",
       "duration": "2h",
-      "location": "30 St. Mary Axe"
+      "location": "30 St. Mary Axe",
+      "estimatedCost": 0
     },
     {
       "id": "wv-278",
@@ -2936,7 +3184,8 @@
       "category": "see",
       "description": "Completed in 2008 opposite Lloyd's of London.",
       "duration": "2h",
-      "location": "51 Lime St"
+      "location": "51 Lime St",
+      "estimatedCost": 0
     },
     {
       "id": "wv-279",
@@ -2944,7 +3193,8 @@
       "category": "see",
       "description": "Another Richard Rogers creation, nicknamed the Cheesegrater. Completed in 2014. Also opposite Lloyd's.",
       "duration": "2h",
-      "location": "122 Leadenhall"
+      "location": "122 Leadenhall",
+      "estimatedCost": 0
     },
     {
       "id": "wv-280",
@@ -2952,7 +3202,8 @@
       "category": "see",
       "description": "The unusual \"walkie scorchie\" profile of this skyscraper by Rafael Vinoly has seen it grab the headlines, as did the \"death rays\" caused by the sun's heat reflecting off the building onto the street below when it was fir",
       "duration": "2h",
-      "location": "20 Fenchurch St"
+      "location": "20 Fenchurch St",
+      "estimatedCost": 0
     },
     {
       "id": "wv-281",
@@ -2960,7 +3211,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "London Bridge, EC4 9EL"
+      "location": "London Bridge, EC4 9EL",
+      "estimatedCost": 0
     },
     {
       "id": "wv-282",
@@ -2968,7 +3220,8 @@
       "category": "see",
       "description": "London's highest viewing platform that is free to the public. Sitting at the 58th floor of an office building, and the tallest building in City of London proper, it gives visitors a 300-degree view of London.",
       "duration": "2h",
-      "location": "22 Bishopsgate"
+      "location": "22 Bishopsgate",
+      "estimatedCost": 0
     },
     {
       "id": "wv-283",
@@ -3003,7 +3256,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Barnard's Inn Hall, Holborn"
+      "location": "Barnard's Inn Hall, Holborn",
+      "estimatedCost": 15
     },
     {
       "id": "wv-287",
@@ -3011,7 +3265,8 @@
       "category": "do",
       "description": "The ceremony celebrates the appointment of the new Lord Mayor of the City of London. It is one of the great annual processions held in all London.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 40
     },
     {
       "id": "wv-288",
@@ -3019,7 +3274,8 @@
       "category": "do",
       "description": "Consider going along on one of the many excellent guided tours of the City, often with an evocative theme for example ghosts or Jack the Ripper.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-289",
@@ -3027,7 +3283,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 20
     },
     {
       "id": "wv-290",
@@ -3035,7 +3292,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Departing from Coach stop 3, Bulleid Way"
+      "location": "Departing from Coach stop 3, Bulleid Way",
+      "estimatedCost": 30
     },
     {
       "id": "wv-291",
@@ -3052,7 +3310,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "off Cheapside, tube: {{station"
+      "location": "off Cheapside, tube: {{station",
+      "estimatedCost": 15
     },
     {
       "id": "wv-293",
@@ -3060,7 +3319,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "off Gracechurch St, tube: {{station"
+      "location": "off Gracechurch St, tube: {{station",
+      "estimatedCost": 10
     },
     {
       "id": "wv-294",
@@ -3068,7 +3328,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 15
     },
     {
       "id": "wv-295",
@@ -3076,7 +3337,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "225 Central Markets, EC1A 9LH"
+      "location": "225 Central Markets, EC1A 9LH",
+      "estimatedCost": 10
     },
     {
       "id": "wv-296",
@@ -3084,7 +3346,8 @@
       "category": "buy",
       "description": "Small, local branch of the supermarket",
       "duration": "2h",
-      "location": "131 Aldersgate St, EC1A 4JQ"
+      "location": "131 Aldersgate St, EC1A 4JQ",
+      "estimatedCost": 5
     },
     {
       "id": "wv-298",
@@ -3092,7 +3355,8 @@
       "category": "buy",
       "description": "Small, local branch of the supermarket. In a pedestrian square near St. Paul's Cathedral.",
       "duration": "2h",
-      "location": "10 Paternoster Square, EC4M 7DX"
+      "location": "10 Paternoster Square, EC4M 7DX",
+      "estimatedCost": 5
     },
     {
       "id": "wv-299",
@@ -3100,7 +3364,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "19 Vine St"
+      "location": "19 Vine St",
+      "estimatedCost": 20
     },
     {
       "id": "wv-300",
@@ -3108,7 +3373,8 @@
       "category": "eat",
       "description": "South American cuisine",
       "duration": "2h",
-      "location": "19-21 Great Tower St"
+      "location": "19-21 Great Tower St",
+      "estimatedCost": 25
     },
     {
       "id": "wv-301",
@@ -3116,7 +3382,8 @@
       "category": "eat",
       "description": "Italian cuisine",
       "duration": "2h",
-      "location": "42-47 Minories"
+      "location": "42-47 Minories",
+      "estimatedCost": 30
     },
     {
       "id": "wv-302",
@@ -3124,7 +3391,8 @@
       "category": "eat",
       "description": "Temporarily closed as of May 2022",
       "duration": "2h",
-      "location": "4 Adam's Ct, Old Broad St"
+      "location": "4 Adam's Ct, Old Broad St",
+      "estimatedCost": 20
     },
     {
       "id": "wv-303",
@@ -3132,7 +3400,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "7 Cullum St"
+      "location": "7 Cullum St",
+      "estimatedCost": 15
     },
     {
       "id": "wv-304",
@@ -3149,7 +3418,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "48 Carter Ln"
+      "location": "48 Carter Ln",
+      "estimatedCost": 10
     },
     {
       "id": "wv-306",
@@ -3157,7 +3427,8 @@
       "category": "eat",
       "description": "A falafel restaurant.",
       "duration": "2h",
-      "location": "5 Queens Head Passage, Paternoster Row"
+      "location": "5 Queens Head Passage, Paternoster Row",
+      "estimatedCost": 15
     },
     {
       "id": "wv-307",
@@ -3165,7 +3436,8 @@
       "category": "eat",
       "description": "An Italian food hall and eatery opened in 2021 along the lines of the Turin original. It's east side of Liverpool St station.",
       "duration": "2h",
-      "location": "135 Bishopsgate, EC2M 3YD"
+      "location": "135 Bishopsgate, EC2M 3YD",
+      "estimatedCost": 40
     },
     {
       "id": "wv-308",
@@ -3173,7 +3445,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "176 Bishopsgate, EC2M 4NQ"
+      "location": "176 Bishopsgate, EC2M 4NQ",
+      "estimatedCost": 30
     },
     {
       "id": "wv-309",
@@ -3181,7 +3454,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "Ball Court, 38½ Cornhill, EC3V 9DR"
+      "location": "Ball Court, 38½ Cornhill, EC3V 9DR",
+      "estimatedCost": 40
     },
     {
       "id": "wv-310",
@@ -3189,7 +3463,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "67-77 Charterhouse Street, EC1M 6HJ"
+      "location": "67-77 Charterhouse Street, EC1M 6HJ",
+      "estimatedCost": 35
     },
     {
       "id": "wv-311",
@@ -3197,7 +3472,8 @@
       "category": "eat",
       "description": "Temporarily closed as of May 2022. French restaurant and delicatessen.",
       "duration": "2h",
-      "location": "63 Charterhouse St, EC1M 6HJ"
+      "location": "63 Charterhouse St, EC1M 6HJ",
+      "estimatedCost": 35
     },
     {
       "id": "wv-312",
@@ -3223,7 +3499,8 @@
       "category": "eat",
       "description": "Italian restaurant.",
       "duration": "2h",
-      "location": "50 Long Lane, EC1A 9EJ"
+      "location": "50 Long Lane, EC1A 9EJ",
+      "estimatedCost": 40
     },
     {
       "id": "wv-315",
@@ -3231,7 +3508,8 @@
       "category": "eat",
       "description": "Tearoom.",
       "duration": "2h",
-      "location": "14 Farringdon St, EC4A 4AB"
+      "location": "14 Farringdon St, EC4A 4AB",
+      "estimatedCost": 20
     },
     {
       "id": "wv-316",
@@ -3239,7 +3517,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "Swedeland Court, 202 Bishopsgate, EC2M 4NR"
+      "location": "Swedeland Court, 202 Bishopsgate, EC2M 4NR",
+      "estimatedCost": 60
     },
     {
       "id": "wv-317",
@@ -3247,7 +3526,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "57 West Smithfield, EC1A 9DS"
+      "location": "57 West Smithfield, EC1A 9DS",
+      "estimatedCost": 20
     },
     {
       "id": "wv-318",
@@ -3273,7 +3553,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "65 Wells St, W1A 3AE"
+      "location": "65 Wells St, W1A 3AE",
+      "estimatedCost": 20
     },
     {
       "id": "wv-322",
@@ -3281,7 +3562,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "48 Doughty St, WC1N 2LX"
+      "location": "48 Doughty St, WC1N 2LX",
+      "estimatedCost": 15
     },
     {
       "id": "wv-323",
@@ -3289,7 +3571,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "40 Brunswick Sq, WC1N 1AZ"
+      "location": "40 Brunswick Sq, WC1N 1AZ",
+      "estimatedCost": 15
     },
     {
       "id": "wv-324",
@@ -3297,7 +3580,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "35/37 Fitzroy St, W1T 6DX"
+      "location": "35/37 Fitzroy St, W1T 6DX",
+      "estimatedCost": 15
     },
     {
       "id": "wv-325",
@@ -3305,7 +3589,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Malet Pl, WC1E 6BT"
+      "location": "Malet Pl, WC1E 6BT",
+      "estimatedCost": 10
     },
     {
       "id": "wv-326",
@@ -3313,7 +3598,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "1 Scala St, W1T 2HL"
+      "location": "1 Scala St, W1T 2HL",
+      "estimatedCost": 15
     },
     {
       "id": "wv-327",
@@ -3321,7 +3607,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "183 Euston Road, NW1 2BE"
+      "location": "183 Euston Road, NW1 2BE",
+      "estimatedCost": 10
     },
     {
       "id": "wv-328",
@@ -3338,7 +3625,8 @@
       "category": "see",
       "description": "An exhibition space that hosts a programme of changing contemporary and historical exhibitions from Asia, Africa and the Middle East, aiming to present and promote cultures from these regions and to be a student resource",
       "duration": "2h",
-      "location": "Thornhaugh Street, Russell Square, WC1H 0XG"
+      "location": "Thornhaugh Street, Russell Square, WC1H 0XG",
+      "estimatedCost": 10
     },
     {
       "id": "wv-330",
@@ -3346,7 +3634,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Margaret Street, London W1"
+      "location": "Margaret Street, London W1",
+      "estimatedCost": 0
     },
     {
       "id": "wv-331",
@@ -3354,7 +3643,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "2 All Souls Place, London W1B 3DA"
+      "location": "2 All Souls Place, London W1B 3DA",
+      "estimatedCost": 0
     },
     {
       "id": "wv-332",
@@ -3362,7 +3652,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "WC1"
+      "location": "WC1",
+      "estimatedCost": 0
     },
     {
       "id": "wv-333",
@@ -3370,7 +3661,8 @@
       "category": "see",
       "description": "191-m (627-ft) skyscraper can be seen from far away and is the sixth highest building in UK.",
       "duration": "2h",
-      "location": "Maple St, W1T 4BG"
+      "location": "Maple St, W1T 4BG",
+      "estimatedCost": 0
     },
     {
       "id": "wv-334",
@@ -3378,7 +3670,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Bloomsbury Sq, WC1A 2LS"
+      "location": "Bloomsbury Sq, WC1A 2LS",
+      "estimatedCost": 0
     },
     {
       "id": "wv-335",
@@ -3386,7 +3679,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "93 Guilford St, WC1N 1DN"
+      "location": "93 Guilford St, WC1N 1DN",
+      "estimatedCost": 0
     },
     {
       "id": "wv-336",
@@ -3394,7 +3688,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "WC1B"
+      "location": "WC1B",
+      "estimatedCost": 0
     },
     {
       "id": "wv-337",
@@ -3402,7 +3697,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Malet St, WC1E 7HU"
+      "location": "Malet St, WC1E 7HU",
+      "estimatedCost": 0
     },
     {
       "id": "wv-338",
@@ -3410,7 +3706,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Heathcote St, WC1N 1AB"
+      "location": "Heathcote St, WC1N 1AB",
+      "estimatedCost": 0
     },
     {
       "id": "wv-339",
@@ -3418,7 +3715,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Mecklenburgh Sq, WC1N 2AB"
+      "location": "Mecklenburgh Sq, WC1N 2AB",
+      "estimatedCost": 0
     },
     {
       "id": "wv-340",
@@ -3426,7 +3724,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Gower St, WC1E 6BT"
+      "location": "Gower St, WC1E 6BT",
+      "estimatedCost": 0
     },
     {
       "id": "wv-341",
@@ -3434,7 +3733,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Portland Place"
+      "location": "Portland Place",
+      "estimatedCost": 0
     },
     {
       "id": "wv-342",
@@ -3442,7 +3742,8 @@
       "category": "do",
       "description": "Cinema owned by Birkbeck, University of London, featuring screenings and lectures. Most events are free but pre-booking is advised.",
       "duration": "2h",
-      "location": "43 Gordon Sq, Birkbeck, University of London, WC1H 0PD"
+      "location": "43 Gordon Sq, Birkbeck, University of London, WC1H 0PD",
+      "estimatedCost": 30
     },
     {
       "id": "wv-343",
@@ -3450,7 +3751,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "15 Gordon St, WC1H 0AH"
+      "location": "15 Gordon St, WC1H 0AH",
+      "estimatedCost": 30
     },
     {
       "id": "wv-344",
@@ -3458,7 +3760,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "268-269 Tottenham Court Rd, W1T 7AQ"
+      "location": "268-269 Tottenham Court Rd, W1T 7AQ",
+      "estimatedCost": 50
     },
     {
       "id": "wv-345",
@@ -3466,7 +3769,8 @@
       "category": "do",
       "description": "Based on Russell Square, they give lectures and exhibitions, for those numerically inclined.",
       "duration": "2h",
-      "location": "De Morgan House, 57-58 Russell Square, WC1B 4HS"
+      "location": "De Morgan House, 57-58 Russell Square, WC1B 4HS",
+      "estimatedCost": 20
     },
     {
       "id": "wv-346",
@@ -3474,7 +3778,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Brunswick Sq, WC1N 1AW"
+      "location": "Brunswick Sq, WC1N 1AW",
+      "estimatedCost": 20
     },
     {
       "id": "wv-347",
@@ -3482,7 +3787,8 @@
       "category": "do",
       "description": "Bloomsbury has a number of famous walks that cover the lives and works of the Bloomsbury Group.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-348",
@@ -3490,7 +3796,8 @@
       "category": "do",
       "description": "Takes place in the Summer around the environs of Bloomsbury, concentrated in Russell Square, and hosts arts and crafts fair, children's painting classes and dance workshops. The food stalls are good value too.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 20
     },
     {
       "id": "wv-349",
@@ -3498,7 +3805,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "66 Marchmont St, WC1N 1AB"
+      "location": "66 Marchmont St, WC1N 1AB",
+      "estimatedCost": 20
     },
     {
       "id": "wv-350",
@@ -3506,7 +3814,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "82 Marchmont St, WC1N 1AG"
+      "location": "82 Marchmont St, WC1N 1AG",
+      "estimatedCost": 20
     },
     {
       "id": "wv-351",
@@ -3514,7 +3823,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "59 Lamb's Conduit St, WC1N 3NB"
+      "location": "59 Lamb's Conduit St, WC1N 3NB",
+      "estimatedCost": 20
     },
     {
       "id": "wv-352",
@@ -3522,7 +3832,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "66 The Brunswick, WC1N 1AE"
+      "location": "66 The Brunswick, WC1N 1AE",
+      "estimatedCost": 20
     },
     {
       "id": "wv-353",
@@ -3530,7 +3841,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "13 Leigh Street, WC1H 9EW"
+      "location": "13 Leigh Street, WC1H 9EW",
+      "estimatedCost": 20
     },
     {
       "id": "wv-354",
@@ -3538,7 +3850,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "33 Store Street, WC1E 7BS London"
+      "location": "33 Store Street, WC1E 7BS London",
+      "estimatedCost": 20
     },
     {
       "id": "wv-355",
@@ -3546,7 +3859,8 @@
       "category": "buy",
       "description": "Bespoke tailoring services and luxury accessories.",
       "duration": "2h",
-      "location": "Savva Tailors Workroom, Shropshire House, 179 Tottenham Court Rd, W1T 7NZ"
+      "location": "Savva Tailors Workroom, Shropshire House, 179 Tottenham Court Rd, W1T 7NZ",
+      "estimatedCost": 20
     },
     {
       "id": "wv-356",
@@ -3554,7 +3868,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "147 Oxford St, W1D 7GE"
+      "location": "147 Oxford St, W1D 7GE",
+      "estimatedCost": 20
     },
     {
       "id": "wv-357",
@@ -3562,7 +3877,8 @@
       "category": "buy",
       "description": "The centre for electronics retailers in London. If you are visiting the city and need to buy or replace an electronic item, you will not find a better selection nor better prices than here. Explore both sides of the stre",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-358",
@@ -3570,7 +3886,8 @@
       "category": "buy",
       "description": "Shopping centre with a large Waitrose supermarket and some other shops.",
       "duration": "2h",
-      "location": "between Brunswick Square and Russell Square"
+      "location": "between Brunswick Square and Russell Square",
+      "estimatedCost": 0
     },
     {
       "id": "wv-359",
@@ -3587,7 +3904,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "37 Tottenham Court Road, W1T 1BY"
+      "location": "37 Tottenham Court Road, W1T 1BY",
+      "estimatedCost": 15
     },
     {
       "id": "wv-361",
@@ -3595,7 +3913,8 @@
       "category": "eat",
       "description": "Korean food.",
       "duration": "2h",
-      "location": "14 Great Russell St"
+      "location": "14 Great Russell St",
+      "estimatedCost": 15
     },
     {
       "id": "wv-362",
@@ -3603,7 +3922,8 @@
       "category": "eat",
       "description": "Italian cuisine.",
       "duration": "2h",
-      "location": "76 Tottenham Court Rd"
+      "location": "76 Tottenham Court Rd",
+      "estimatedCost": 15
     },
     {
       "id": "wv-363",
@@ -3611,7 +3931,8 @@
       "category": "eat",
       "description": "Moroccan cuisine",
       "duration": "2h",
-      "location": "6 Windmill St"
+      "location": "6 Windmill St",
+      "estimatedCost": 15
     },
     {
       "id": "wv-364",
@@ -3619,7 +3940,8 @@
       "category": "eat",
       "description": "A Thai restaurant",
       "duration": "2h",
-      "location": "14 Charlotte St."
+      "location": "14 Charlotte St.",
+      "estimatedCost": 15
     },
     {
       "id": "wv-365",
@@ -3627,7 +3949,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "46 Goodge St"
+      "location": "46 Goodge St",
+      "estimatedCost": 15
     },
     {
       "id": "wv-366",
@@ -3635,7 +3958,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "38 Charlotte St."
+      "location": "38 Charlotte St.",
+      "estimatedCost": 15
     },
     {
       "id": "wv-367",
@@ -3643,7 +3967,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "42 Queen Sq, WC1N 3AQ"
+      "location": "42 Queen Sq, WC1N 3AQ",
+      "estimatedCost": 15
     },
     {
       "id": "wv-368",
@@ -3651,7 +3976,8 @@
       "category": "eat",
       "description": "The hostel's restaurant is open to the public.",
       "duration": "2h",
-      "location": "41 Fitzroy Square"
+      "location": "41 Fitzroy Square",
+      "estimatedCost": 15
     },
     {
       "id": "wv-369",
@@ -3659,7 +3985,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "133-135 Drummond St, NW1 2HL"
+      "location": "133-135 Drummond St, NW1 2HL",
+      "estimatedCost": 15
     },
     {
       "id": "wv-370",
@@ -3667,7 +3994,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "53 Warren St"
+      "location": "53 Warren St",
+      "estimatedCost": 15
     },
     {
       "id": "wv-371",
@@ -3675,7 +4003,8 @@
       "category": "eat",
       "description": "Traditional fish 'n' chips restaurant.",
       "duration": "2h",
-      "location": "82 Cleveland St"
+      "location": "82 Cleveland St",
+      "estimatedCost": 15
     },
     {
       "id": "wv-372",
@@ -3683,7 +4012,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "27A Foley Street, W1W 6DY"
+      "location": "27A Foley Street, W1W 6DY",
+      "estimatedCost": 15
     },
     {
       "id": "wv-373",
@@ -3691,7 +4021,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "68 Millman St, WC1N 3EF"
+      "location": "68 Millman St, WC1N 3EF",
+      "estimatedCost": 15
     },
     {
       "id": "wv-374",
@@ -3699,7 +4030,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "The British Museum, Great Russell St, WC1B 3DG"
+      "location": "The British Museum, Great Russell St, WC1B 3DG",
+      "estimatedCost": 40
     },
     {
       "id": "wv-375",
@@ -3707,7 +4039,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "37–41 Mortimer Street, W1T 3JH"
+      "location": "37–41 Mortimer Street, W1T 3JH",
+      "estimatedCost": 40
     },
     {
       "id": "wv-376",
@@ -3715,7 +4048,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "7-8 Leigh St, WC1H 9EW"
+      "location": "7-8 Leigh St, WC1H 9EW",
+      "estimatedCost": 40
     },
     {
       "id": "wv-377",
@@ -3723,7 +4057,8 @@
       "category": "eat",
       "description": "Northern Chinese restaurant, specializing in authentic Xi'an dishes. Try the biangbiang noodles or the steamed dumplings.",
       "duration": "2h",
-      "location": "13 Cosmo Pl WC1N 3AP"
+      "location": "13 Cosmo Pl WC1N 3AP",
+      "estimatedCost": 40
     },
     {
       "id": "wv-378",
@@ -3731,7 +4066,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "13 Percy St, W1T 1DP"
+      "location": "13 Percy St, W1T 1DP",
+      "estimatedCost": 100
     },
     {
       "id": "wv-379",
@@ -3739,7 +4075,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "8 Hanway Pl, W1T 1HD"
+      "location": "8 Hanway Pl, W1T 1HD",
+      "estimatedCost": 100
     },
     {
       "id": "wv-380",
@@ -3747,7 +4084,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "34 Charlotte St, W1T 2NH"
+      "location": "34 Charlotte St, W1T 2NH",
+      "estimatedCost": 100
     },
     {
       "id": "wv-381",
@@ -3755,7 +4093,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Cromwell Rd"
+      "location": "Cromwell Rd",
+      "estimatedCost": 20
     },
     {
       "id": "wv-382",
@@ -3763,7 +4102,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Cromwell Rd"
+      "location": "Cromwell Rd",
+      "estimatedCost": 20
     },
     {
       "id": "wv-383",
@@ -3771,7 +4111,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Exhibition Rd"
+      "location": "Exhibition Rd",
+      "estimatedCost": 20
     },
     {
       "id": "wv-384",
@@ -3779,7 +4120,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Cromwell Rd"
+      "location": "Cromwell Rd",
+      "estimatedCost": 20
     },
     {
       "id": "wv-385",
@@ -3787,7 +4129,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Royal Hospital Road, SW3 4HT"
+      "location": "Royal Hospital Road, SW3 4HT",
+      "estimatedCost": 20
     },
     {
       "id": "wv-386",
@@ -3795,7 +4138,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "3rd floor, Kent House, Rutland Gardens, SW7 1BX"
+      "location": "3rd floor, Kent House, Rutland Gardens, SW7 1BX",
+      "estimatedCost": 0
     },
     {
       "id": "wv-387",
@@ -3812,7 +4156,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-389",
@@ -3820,7 +4165,8 @@
       "category": "see",
       "description": "More of an artificial stream than a fountain, flowing in an oval through an open grassy area which, in normal summers, is a popular paddling spot for children and grown-ups alike.",
       "duration": "2h",
-      "location": "south of the Serpentine, by the bridge"
+      "location": "south of the Serpentine, by the bridge",
+      "estimatedCost": 0
     },
     {
       "id": "wv-390",
@@ -3828,7 +4174,8 @@
       "category": "see",
       "description": "The roses are mixed with herbaceous plants and bedding flowers so there's always some horticultural interest no matter the time of year, though the roses' peak is in June. Two interesting fountains depict Diana the huntr",
       "duration": "2h",
-      "location": "close to Hyde Park Corner"
+      "location": "close to Hyde Park Corner",
+      "estimatedCost": 0
     },
     {
       "id": "wv-391",
@@ -3836,7 +4183,8 @@
       "category": "see",
       "description": "A quiet birch wood surrounds an understated memorial stone inscribed with a quotation from the Book of Lamentation: \"For these I weep. Streams of tears flow from my eyes because of the destruction of my people.\".",
       "duration": "2h",
-      "location": "between the rose garden and the Serpentine"
+      "location": "between the rose garden and the Serpentine",
+      "estimatedCost": 0
     },
     {
       "id": "wv-392",
@@ -3844,7 +4192,8 @@
       "category": "see",
       "description": "The Serpentine is a long, thin artificial lake within Hyde Park which contains a range of waterfowl and fish. It was first made by damming the River Westbourne but it is now fed by three boreholes. The western end of the",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-393",
@@ -3852,7 +4201,8 @@
       "category": "see",
       "description": "By custom, in this far northeastern corner of the park (by the Marble Arch Tube stop near [[London/Mayfair-Marylebone",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-394",
@@ -3860,7 +4210,8 @@
       "category": "see",
       "description": "A memorial made out of 52 stainless steel columns representing each of the 52 victims who died in a series of terrorist attacks in the London bombings on July 7th, 2005.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-395",
@@ -3868,7 +4219,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-396",
@@ -3876,7 +4228,8 @@
       "category": "see",
       "description": "Highly detailed, Gothic-style monument to commemorate Prince Albert, husband of Queen Victoria. Opposite the Royal Albert Hall.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-397",
@@ -3884,7 +4237,8 @@
       "category": "see",
       "description": "Diana, Princess of Wales Memorial Playground",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-398",
@@ -3892,7 +4246,8 @@
       "category": "see",
       "description": "A 900-year-old tree stump carved and painted to feature elves and small animals.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-399",
@@ -3900,7 +4255,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-400",
@@ -3908,7 +4264,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Palace Green, W8 4PX"
+      "location": "Palace Green, W8 4PX",
+      "estimatedCost": 0
     },
     {
       "id": "wv-401",
@@ -3916,7 +4273,8 @@
       "category": "see",
       "description": "Full of swans, geese, gulls, and other birds. Deckchairs can be hired for £1.50. The park benches and grassy areas are free.",
       "duration": "2h",
-      "location": "half way along the Broad Walk"
+      "location": "half way along the Broad Walk",
+      "estimatedCost": 0
     },
     {
       "id": "wv-402",
@@ -3924,7 +4282,8 @@
       "category": "see",
       "description": "A nice modern art gallery, near to the Serpentine. Too small to host a permanent collection, instead hosts temporary exhibitions which can last anything from a few weeks to over a year. Each summer a pavilion next to the",
       "duration": "2h",
-      "location": "Kensington Gardens, W2 3XA"
+      "location": "Kensington Gardens, W2 3XA",
+      "estimatedCost": 15
     },
     {
       "id": "wv-403",
@@ -3932,7 +4291,8 @@
       "category": "see",
       "description": "Small green area, with benches, by the Thames. Created in the crater of a World War II bomb site, it contains an ancient cherry tree to commemorate the visit of Gunji Koizumi, the man who introduced judo to the country. ",
       "duration": "2h",
-      "location": "Cheyne Walk"
+      "location": "Cheyne Walk",
+      "estimatedCost": 0
     },
     {
       "id": "wv-404",
@@ -3940,7 +4300,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "153 Cromwell Road, SW5 0TQ"
+      "location": "153 Cromwell Road, SW5 0TQ",
+      "estimatedCost": 15
     },
     {
       "id": "wv-405",
@@ -3948,7 +4309,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "18 St Leonard’s Terrace, SW3 4QG"
+      "location": "18 St Leonard’s Terrace, SW3 4QG",
+      "estimatedCost": 15
     },
     {
       "id": "wv-406",
@@ -3956,7 +4318,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "23 Tedworth Square, SW3 5DR"
+      "location": "23 Tedworth Square, SW3 5DR",
+      "estimatedCost": 15
     },
     {
       "id": "wv-407",
@@ -3964,7 +4327,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "34 Tite Street, SW3 4JA"
+      "location": "34 Tite Street, SW3 4JA",
+      "estimatedCost": 15
     },
     {
       "id": "wv-408",
@@ -3972,7 +4336,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Donovan Court, Drayton Gardens, SW10 9QS"
+      "location": "Donovan Court, Drayton Gardens, SW10 9QS",
+      "estimatedCost": 15
     },
     {
       "id": "wv-409",
@@ -3980,7 +4345,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "18 Kensington Court Place, W8 5QF"
+      "location": "18 Kensington Court Place, W8 5QF",
+      "estimatedCost": 15
     },
     {
       "id": "wv-410",
@@ -3988,7 +4354,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "39 Harrington Gardens, SW7 4JU"
+      "location": "39 Harrington Gardens, SW7 4JU",
+      "estimatedCost": 15
     },
     {
       "id": "wv-411",
@@ -3996,7 +4363,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "28 Hyde Park Gate, SW7 5DJ"
+      "location": "28 Hyde Park Gate, SW7 5DJ",
+      "estimatedCost": 0
     },
     {
       "id": "wv-412",
@@ -4004,7 +4372,8 @@
       "category": "see",
       "description": "One of the most expensive residential streets on the planet! Most of the buildings here are embassies or ambassadorial residences but the rest of the mansions belong to some of the richest people in the country (or elsew",
       "duration": "2h",
-      "location": "tube: High Street Kensington or Notting Hill Gate"
+      "location": "tube: High Street Kensington or Notting Hill Gate",
+      "estimatedCost": 15
     },
     {
       "id": "wv-413",
@@ -4012,7 +4381,8 @@
       "category": "see",
       "description": "Beautiful Italianate church created during the Catholic revival of the 19th century.",
       "duration": "2h",
-      "location": "Brompton Rd, SW7 2RP"
+      "location": "Brompton Rd, SW7 2RP",
+      "estimatedCost": 15
     },
     {
       "id": "wv-414",
@@ -4029,7 +4399,8 @@
       "category": "see",
       "description": "This church on the bank of the Thames was built in 1157. It is the only church in London with chained books. A statue of Thomas More sits in front of the church.",
       "duration": "2h",
-      "location": "64 Cheyne Walk, SW3 5LT"
+      "location": "64 Cheyne Walk, SW3 5LT",
+      "estimatedCost": 0
     },
     {
       "id": "wv-416",
@@ -4037,7 +4408,8 @@
       "category": "see",
       "description": "All that remains of a Tudor mansion built in the [[London/City of London",
       "duration": "2h",
-      "location": "Cheyne Walk, SW3 5AZ"
+      "location": "Cheyne Walk, SW3 5AZ",
+      "estimatedCost": 15
     },
     {
       "id": "wv-417",
@@ -4045,7 +4417,8 @@
       "category": "see",
       "description": "From their website: \"In common with the aims of the Arts & Crafts Movement, the architect of Holy Trinity Church, John Dando Sedding, believed that a church should be 'wrought and painted over with everything that has li",
       "duration": "2h",
-      "location": "Sloane St, SW1X 9BZ"
+      "location": "Sloane St, SW1X 9BZ",
+      "estimatedCost": 0
     },
     {
       "id": "wv-418",
@@ -4062,7 +4435,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "67 Ennismore Gardens, SW7 1NH"
+      "location": "67 Ennismore Gardens, SW7 1NH",
+      "estimatedCost": 0
     },
     {
       "id": "wv-420",
@@ -4070,7 +4444,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "entrances on Old Brompton Road and Fulham Rd"
+      "location": "entrances on Old Brompton Road and Fulham Rd",
+      "estimatedCost": 0
     },
     {
       "id": "wv-421",
@@ -4078,7 +4453,8 @@
       "category": "see",
       "description": "One of the few Victorian hexagonal Penfold post boxes still in use. Although there are others in this district, this one in notable for a narrow escape during World War II: minor bomb damage can still be seen in the base",
       "duration": "2h",
-      "location": "Kensington High Street, W8"
+      "location": "Kensington High Street, W8",
+      "estimatedCost": 0
     },
     {
       "id": "wv-422",
@@ -4086,7 +4462,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Earls Court Road, outside Earl's Court station"
+      "location": "Earls Court Road, outside Earl's Court station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-423",
@@ -4094,7 +4471,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Kensington Gore, SW7 2EU"
+      "location": "Kensington Gore, SW7 2EU",
+      "estimatedCost": 15
     },
     {
       "id": "wv-424",
@@ -4102,7 +4480,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Prince Consort Rd, SW7 2BS"
+      "location": "Prince Consort Rd, SW7 2BS",
+      "estimatedCost": 15
     },
     {
       "id": "wv-425",
@@ -4110,7 +4489,8 @@
       "category": "see",
       "description": "The UK learned society of geographers, founded in 1830. Hosts weekly lectures and other gatherings, many of which are free to attend to any member of the public. The RGS has funded many British expeditions over the years",
       "duration": "2h",
-      "location": "1 Kensington Gore, SW7 2AR"
+      "location": "1 Kensington Gore, SW7 2AR",
+      "estimatedCost": 15
     },
     {
       "id": "wv-426",
@@ -4118,7 +4498,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Duke Of York's HQ, King's Road, SW3 4RY"
+      "location": "Duke Of York's HQ, King's Road, SW3 4RY",
+      "estimatedCost": 15
     },
     {
       "id": "wv-427",
@@ -4135,7 +4516,8 @@
       "category": "do",
       "description": "Since opening in 1871 as part of Queen Victoria's memorial to her late husband it has become one of the most famous venues in the UK, and remains one of London's main concert halls. It still mainly caters for a classical",
       "duration": "2h",
-      "location": "Kensington Gore"
+      "location": "Kensington Gore",
+      "estimatedCost": 40
     },
     {
       "id": "wv-429",
@@ -4143,7 +4525,8 @@
       "category": "do",
       "description": "Britain's leading national theatre company dedicated to new work by innovative writers from the UK and around the world. Productions that have transferred to great acclaim include Enron by Lucy Prebble and Jerusalem by J",
       "duration": "2h",
-      "location": "Sloane Sq, SW1W 8AS"
+      "location": "Sloane Sq, SW1W 8AS",
+      "estimatedCost": 40
     },
     {
       "id": "wv-430",
@@ -4160,7 +4543,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "142 Fulham Rd, SW10 9QR"
+      "location": "142 Fulham Rd, SW10 9QR",
+      "estimatedCost": 20
     },
     {
       "id": "wv-432",
@@ -4168,7 +4552,8 @@
       "category": "do",
       "description": "IMAX cinema screen at the Science Museum showing documentary films and blockbusters.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 20
     },
     {
       "id": "wv-433",
@@ -4176,7 +4561,8 @@
       "category": "do",
       "description": "The first in a worldwide network of institutes to promote and present the best of French culture. The site includes a café-restaurant, a cinema showing French films, the largest French library in the UK and a French lang",
       "duration": "2h",
-      "location": "17 Queensberry Pl, SW7 2DT"
+      "location": "17 Queensberry Pl, SW7 2DT",
+      "estimatedCost": 20
     },
     {
       "id": "wv-434",
@@ -4184,7 +4570,8 @@
       "category": "do",
       "description": "French café.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 100
     },
     {
       "id": "wv-435",
@@ -4192,7 +4579,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "32 Harrington Rd, SW7 2DT"
+      "location": "32 Harrington Rd, SW7 2DT",
+      "estimatedCost": 5
     },
     {
       "id": "wv-436",
@@ -4218,7 +4606,8 @@
       "category": "do",
       "description": "The largest French library in the UK. Read and borrow French books from the library. Non-members are free to browse; members can borrow books.",
       "duration": "2h",
-      "location": "17 Queensberry Pl, SW7 2DT"
+      "location": "17 Queensberry Pl, SW7 2DT",
+      "estimatedCost": 5
     },
     {
       "id": "wv-439",
@@ -4235,7 +4624,8 @@
       "category": "do",
       "description": "Famous swimming club in Hyde Park's lake. The winter months are members-only (hardy club members traditionally take part in a swim on Christmas Day), but during the summer months the lido is open to the general public. A",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 20
     },
     {
       "id": "wv-441",
@@ -4252,7 +4642,8 @@
       "category": "buy",
       "description": "Has a range of spacious branches of popular fashion chains, but lacks some of the road's character, however the small adjoining public space of Duke of York square is a welcome place for a rest between shopping, and a po",
       "duration": "2h",
-      "location": "just off King's Road, near Sloane Square"
+      "location": "just off King's Road, near Sloane Square",
+      "estimatedCost": 0
     },
     {
       "id": "wv-443",
@@ -4260,7 +4651,8 @@
       "category": "buy",
       "description": "The most famous store in London, favoured by the British establishment and Arab royalty and owned by the state of Qatar. As of 2023, their [https://www.harrods.com/en-us/faqs/visiting-our-store website FAQ] says about dr",
       "duration": "2h",
-      "location": "87–135 Brompton Rd SW1X 7XL"
+      "location": "87–135 Brompton Rd SW1X 7XL",
+      "estimatedCost": 100
     },
     {
       "id": "wv-444",
@@ -4268,7 +4660,8 @@
       "category": "buy",
       "description": "Large department store full of designer goods and an excellent cafe.",
       "duration": "2h",
-      "location": "109-125 Knightsbridge, SW1X 7RJ"
+      "location": "109-125 Knightsbridge, SW1X 7RJ",
+      "estimatedCost": 100
     },
     {
       "id": "wv-445",
@@ -4285,7 +4678,8 @@
       "category": "buy",
       "description": "If the expensive clothes and products in other shops don't appeal, expensive cars are also available in this area.",
       "duration": "2h",
-      "location": "125 Old Brompton Rd, SW7 3RP"
+      "location": "125 Old Brompton Rd, SW7 3RP",
+      "estimatedCost": 0
     },
     {
       "id": "wv-447",
@@ -4293,7 +4687,8 @@
       "category": "buy",
       "description": "One of London's smartest fashion streets, having evolved from the cutting-edge of bohemia and innovative fashion in the 1960s to a more genteel place to indulge in retail therapy, albeit with a notable presence of trendy",
       "duration": "2h",
-      "location": "tube: Sloane Square, for north-east end"
+      "location": "tube: Sloane Square, for north-east end",
+      "estimatedCost": 0
     },
     {
       "id": "wv-448",
@@ -4301,7 +4696,8 @@
       "category": "buy",
       "description": "If you fancy a new car and have a lot of spare change, it might be worth a look. Poorer people are allowed to look at the shiny cars too.",
       "duration": "2h",
-      "location": "27 Old Brompton Rd, SW7 3TD"
+      "location": "27 Old Brompton Rd, SW7 3TD",
+      "estimatedCost": 0
     },
     {
       "id": "wv-449",
@@ -4309,7 +4705,8 @@
       "category": "buy",
       "description": "Lined with high-end designer label stores, such as Chanel, Dior, Fendi, Gucci, Hermès, Jimmy Choo, Louis Vitton, and many more.",
       "duration": "2h",
-      "location": "tube: Sloane Square or Knightsbridge"
+      "location": "tube: Sloane Square or Knightsbridge",
+      "estimatedCost": 0
     },
     {
       "id": "wv-450",
@@ -4317,7 +4714,8 @@
       "category": "buy",
       "description": "The Kensington branch of this American chain of natural food supermarkets is the largest in the world.",
       "duration": "2h",
-      "location": "63-97 Kensington High Street, W8 5SE"
+      "location": "63-97 Kensington High Street, W8 5SE",
+      "estimatedCost": 0
     },
     {
       "id": "wv-451",
@@ -4325,7 +4723,8 @@
       "category": "buy",
       "description": "Fancy dress stocking an extensive range of budget to mid-range costumes, masks and acessories, staff are very approachable and prepared to answer queries.",
       "duration": "2h",
-      "location": "95 Hammersmith Road, W14 0QH"
+      "location": "95 Hammersmith Road, W14 0QH",
+      "estimatedCost": 0
     },
     {
       "id": "wv-452",
@@ -4333,7 +4732,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "59 Old Brompton Rd"
+      "location": "59 Old Brompton Rd",
+      "estimatedCost": 15
     },
     {
       "id": "wv-453",
@@ -4341,7 +4741,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "31 Kensington High St"
+      "location": "31 Kensington High St",
+      "estimatedCost": 15
     },
     {
       "id": "wv-454",
@@ -4349,7 +4750,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "119 Kensington Church St"
+      "location": "119 Kensington Church St",
+      "estimatedCost": 0
     },
     {
       "id": "wv-455",
@@ -4357,7 +4759,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "The Courtyard, 151 Sydney St"
+      "location": "The Courtyard, 151 Sydney St",
+      "estimatedCost": 15
     },
     {
       "id": "wv-456",
@@ -4365,7 +4768,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "417 King's Rd"
+      "location": "417 King's Rd",
+      "estimatedCost": 15
     },
     {
       "id": "wv-457",
@@ -4391,7 +4795,8 @@
       "category": "eat",
       "description": "Modern restaurant/bar at the Sloane Square Hotel serving French cuisine. Popular lunch place for people working in the area.",
       "duration": "2h",
-      "location": "7-12 Sloane Sq, SW1W 8EG"
+      "location": "7-12 Sloane Sq, SW1W 8EG",
+      "estimatedCost": 30
     },
     {
       "id": "wv-460",
@@ -4408,7 +4813,8 @@
       "category": "eat",
       "description": "The aptly name café on the fifth floor of Harvey Nichols. A roof terrace gives a view of the rooftops of Knightsbridge.",
       "duration": "2h",
-      "location": "109-125 Knightsbridge SW1X 7RJ"
+      "location": "109-125 Knightsbridge SW1X 7RJ",
+      "estimatedCost": 40
     },
     {
       "id": "wv-462",
@@ -4416,7 +4822,8 @@
       "category": "eat",
       "description": "One of Chelsea's most popular restaurants. Established by Satir Ahmed in 1960.",
       "duration": "2h",
-      "location": "79 Lower Sloane St, SW1 W8DA"
+      "location": "79 Lower Sloane St, SW1 W8DA",
+      "estimatedCost": 15
     },
     {
       "id": "wv-463",
@@ -4433,7 +4840,8 @@
       "category": "eat",
       "description": "The original, flagship branch of the Ramsay empire. You are highly unlikely to find the man himself behind the stove these days, but this triple Michelin-starred eatery deserves its reputation as one of the finest on the",
       "duration": "2h",
-      "location": "68 Royal Hospital Road, SW3 4HP"
+      "location": "68 Royal Hospital Road, SW3 4HP",
+      "estimatedCost": 40
     },
     {
       "id": "wv-465",
@@ -4441,7 +4849,8 @@
       "category": "see",
       "description": "Old train station with an enormous office and shopping complex in glass and pale stone. A lavish hotel is also on the site. The name comes from the Queen Eleanor (13th century) gothic pillar outside the station, which is",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-466",
@@ -4449,7 +4858,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Victoria Embankment, along the Thames"
+      "location": "Victoria Embankment, along the Thames",
+      "estimatedCost": 0
     },
     {
       "id": "wv-467",
@@ -4457,7 +4867,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Tube: {{station"
+      "location": "Tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-468",
@@ -4465,7 +4876,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Bedford St WC2"
+      "location": "Bedford St WC2",
+      "estimatedCost": 0
     },
     {
       "id": "wv-469",
@@ -4473,7 +4885,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Tube: {{station"
+      "location": "Tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-470",
@@ -4481,7 +4894,8 @@
       "category": "see",
       "description": "A neoclassical church that stands opposite the National Gallery. Since World War I, the homeless have sought shelter at this church, a tradition that continues to this day.",
       "duration": "2h",
-      "location": "8 St Martin's Pl, WC2"
+      "location": "8 St Martin's Pl, WC2",
+      "estimatedCost": 0
     },
     {
       "id": "wv-471",
@@ -4489,7 +4903,8 @@
       "category": "see",
       "description": "Statue in honour of the World War I nursing heroine.",
       "duration": "2h",
-      "location": "St Martin's Pl WC2"
+      "location": "St Martin's Pl WC2",
+      "estimatedCost": 0
     },
     {
       "id": "wv-472",
@@ -4497,7 +4912,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "36 Craven St, WC2N 5NF"
+      "location": "36 Craven St, WC2N 5NF",
+      "estimatedCost": 0
     },
     {
       "id": "wv-473",
@@ -4505,7 +4921,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Covent Garden Piazza"
+      "location": "Covent Garden Piazza",
+      "estimatedCost": 20
     },
     {
       "id": "wv-474",
@@ -4522,7 +4939,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Strand, WC2E 7NA"
+      "location": "Strand, WC2E 7NA",
+      "estimatedCost": 40
     },
     {
       "id": "wv-476",
@@ -4530,7 +4948,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Aldwych, WC2B 4DF"
+      "location": "Aldwych, WC2B 4DF",
+      "estimatedCost": 40
     },
     {
       "id": "wv-477",
@@ -4538,7 +4957,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "West St, WC2H 9ND"
+      "location": "West St, WC2H 9ND",
+      "estimatedCost": 40
     },
     {
       "id": "wv-478",
@@ -4546,7 +4966,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "32-34 Earlham St, WC2 9HU"
+      "location": "32-34 Earlham St, WC2 9HU",
+      "estimatedCost": 0
     },
     {
       "id": "wv-479",
@@ -4554,7 +4975,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Earlham St, WC2H 9LX"
+      "location": "Earlham St, WC2H 9LX",
+      "estimatedCost": 40
     },
     {
       "id": "wv-480",
@@ -4562,7 +4984,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "St. Martin's Ln, WC2N 4BG"
+      "location": "St. Martin's Ln, WC2N 4BG",
+      "estimatedCost": 40
     },
     {
       "id": "wv-481",
@@ -4570,7 +4993,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Russell Street,Covent Garden, WC2B 5HH"
+      "location": "Russell Street,Covent Garden, WC2B 5HH",
+      "estimatedCost": 40
     },
     {
       "id": "wv-482",
@@ -4578,7 +5002,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "21 Wellington Street, WC2E 7RQ"
+      "location": "21 Wellington Street, WC2E 7RQ",
+      "estimatedCost": 40
     },
     {
       "id": "wv-483",
@@ -4586,7 +5011,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Drury Ln, WC2B 5PW"
+      "location": "Drury Ln, WC2B 5PW",
+      "estimatedCost": 40
     },
     {
       "id": "wv-484",
@@ -4594,7 +5020,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "St. Martin's Ln, WC2N 4AA"
+      "location": "St. Martin's Ln, WC2N 4AA",
+      "estimatedCost": 40
     },
     {
       "id": "wv-485",
@@ -4602,7 +5029,8 @@
       "category": "do",
       "description": "Home of Mamma Mia since 1999.",
       "duration": "2h",
-      "location": "5 Aldwych, WC2B 4LD"
+      "location": "5 Aldwych, WC2B 4LD",
+      "estimatedCost": 40
     },
     {
       "id": "wv-486",
@@ -4610,7 +5038,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Northumberland Ave, WC2N 5DE"
+      "location": "Northumberland Ave, WC2N 5DE",
+      "estimatedCost": 40
     },
     {
       "id": "wv-487",
@@ -4618,7 +5047,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Strand, WC2R 0ET"
+      "location": "Strand, WC2R 0ET",
+      "estimatedCost": 40
     },
     {
       "id": "wv-488",
@@ -4626,7 +5056,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "210 Shaftesbury Ave, WC2H 8DP"
+      "location": "210 Shaftesbury Ave, WC2H 8DP",
+      "estimatedCost": 40
     },
     {
       "id": "wv-489",
@@ -4634,7 +5065,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Catherine St, WC2B 5JF"
+      "location": "Catherine St, WC2B 5JF",
+      "estimatedCost": 40
     },
     {
       "id": "wv-490",
@@ -4642,7 +5074,8 @@
       "category": "do",
       "description": "The theatre which has been showing Agatha Christie's The Mousetrap continuously since 1952!",
       "duration": "2h",
-      "location": "West St, WC2H 9NZ"
+      "location": "West St, WC2H 9NZ",
+      "estimatedCost": 40
     },
     {
       "id": "wv-491",
@@ -4650,7 +5083,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Charing Cross Rd, WC2H 0JP"
+      "location": "Charing Cross Rd, WC2H 0JP",
+      "estimatedCost": 40
     },
     {
       "id": "wv-492",
@@ -4658,7 +5092,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "32-36 Charing Cross Rd, WC2H 0DA"
+      "location": "32-36 Charing Cross Rd, WC2H 0DA",
+      "estimatedCost": 40
     },
     {
       "id": "wv-493",
@@ -4666,7 +5101,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "2 Charing Cross Rd, WC2H 0HH"
+      "location": "2 Charing Cross Rd, WC2H 0HH",
+      "estimatedCost": 40
     },
     {
       "id": "wv-494",
@@ -4674,7 +5110,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Covent Garden, WC2E 9DD"
+      "location": "Covent Garden, WC2E 9DD",
+      "estimatedCost": 80
     },
     {
       "id": "wv-495",
@@ -4682,7 +5119,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "London Coliseum, St. Martin's Lane, WC2N 4ES"
+      "location": "London Coliseum, St. Martin's Lane, WC2N 4ES",
+      "estimatedCost": 80
     },
     {
       "id": "wv-496",
@@ -4690,7 +5128,8 @@
       "category": "do",
       "description": "Independent cinema specialising in cult classics and arthouse films",
       "duration": "2h",
-      "location": "39-41 Parker St, WC2B 5PQ"
+      "location": "39-41 Parker St, WC2B 5PQ",
+      "estimatedCost": 0
     },
     {
       "id": "wv-497",
@@ -4698,7 +5137,8 @@
       "category": "buy",
       "description": "The place to buy astrology books and tarot cards.",
       "duration": "2h",
-      "location": "78 Neal St, London WC2H 9PA"
+      "location": "78 Neal St, London WC2H 9PA",
+      "estimatedCost": 10
     },
     {
       "id": "wv-498",
@@ -4706,7 +5146,8 @@
       "category": "buy",
       "description": "Very nice cookies - try their white chocolate with macadamia cookies. Price is about £1 per cookie, and the cookies here are almost twice as big as those at Millie's. They also have branches at 12 Kensington Arcade, Kens",
       "duration": "2h",
-      "location": "13a The Piazza"
+      "location": "13a The Piazza",
+      "estimatedCost": 10
     },
     {
       "id": "wv-499",
@@ -4714,7 +5155,8 @@
       "category": "buy",
       "description": "Some people say this is the best coffee in London. Primarily a venue for quality coffee roasters, the shop on Monmouth street has a tasting room, i.e. a café, where you can marvel at the fact that not everywhere in Londo",
       "duration": "2h",
-      "location": "27 Monmouth St, West End, WC2H 9EU"
+      "location": "27 Monmouth St, West End, WC2H 9EU",
+      "estimatedCost": 10
     },
     {
       "id": "wv-500",
@@ -4722,7 +5164,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "11 Shorts Gardens, WC2H 9AT"
+      "location": "11 Shorts Gardens, WC2H 9AT",
+      "estimatedCost": 15
     },
     {
       "id": "wv-501",
@@ -4730,7 +5173,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "7 Mercer Walk, WC2H 9FA"
+      "location": "7 Mercer Walk, WC2H 9FA",
+      "estimatedCost": 15
     },
     {
       "id": "wv-502",
@@ -4738,7 +5182,8 @@
       "category": "buy",
       "description": "A nice shopping plaza with clothes shops, design shops and cafes.",
       "duration": "2h",
-      "location": "29-41 Earlham St"
+      "location": "29-41 Earlham St",
+      "estimatedCost": 15
     },
     {
       "id": "wv-503",
@@ -4746,7 +5191,8 @@
       "category": "buy",
       "description": "The place to go in Britain for fans of the Belgian reporter. Sells non-fiction books, clothes, posters, figurines and memorabilia, as well as each of Hergé's 24 Adventures of Tintin comic books in English, the original F",
       "duration": "2h",
-      "location": "34 Floral Street, WC2E 9DJ"
+      "location": "34 Floral Street, WC2E 9DJ",
+      "estimatedCost": 10
     },
     {
       "id": "wv-504",
@@ -4754,7 +5200,8 @@
       "category": "buy",
       "description": "This is where the professionals buy make-up, so on the pricey side, but the range of products kept is large. Staff are highly approachable even on specialist queries.",
       "duration": "2h",
-      "location": "7-8 Langley Court, WC2E 9JY"
+      "location": "7-8 Langley Court, WC2E 9JY",
+      "estimatedCost": 15
     },
     {
       "id": "wv-505",
@@ -4762,7 +5209,8 @@
       "category": "buy",
       "description": "Massive \"geek supplies\" store for London and the South-East. Merchandise (T-shirts, toys, figurines, etc.) on the ground floor, comics and manga (all genres) and SF, fantasy and horror books in the basement. Lots of U.S.",
       "duration": "2h",
-      "location": "179 Shaftesbury Avenue, WC2H 8JR"
+      "location": "179 Shaftesbury Avenue, WC2H 8JR",
+      "estimatedCost": 15
     },
     {
       "id": "wv-506",
@@ -4770,7 +5218,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "56 Charing Cross Rd, WC2H 0QA"
+      "location": "56 Charing Cross Rd, WC2H 0QA",
+      "estimatedCost": 10
     },
     {
       "id": "wv-507",
@@ -4778,7 +5227,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "11 Cecil Ct WC2N 4EZ"
+      "location": "11 Cecil Ct WC2N 4EZ",
+      "estimatedCost": 15
     },
     {
       "id": "wv-508",
@@ -4786,7 +5236,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "7 Cecil Ct, WC2N 4EZ"
+      "location": "7 Cecil Ct, WC2N 4EZ",
+      "estimatedCost": 15
     },
     {
       "id": "wv-509",
@@ -4794,7 +5245,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "12 Cecil Ct, WC2N 4HE"
+      "location": "12 Cecil Ct, WC2N 4HE",
+      "estimatedCost": 15
     },
     {
       "id": "wv-510",
@@ -4802,7 +5254,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "58-60 Charing Cross Rd, WC2H 0BB"
+      "location": "58-60 Charing Cross Rd, WC2H 0BB",
+      "estimatedCost": 15
     },
     {
       "id": "wv-511",
@@ -4810,7 +5263,8 @@
       "category": "buy",
       "description": "Huge collection. Francis Edwards have been in business here since 1856.",
       "duration": "2h",
-      "location": "72 Charing Cross Rd, WC2H 0BB"
+      "location": "72 Charing Cross Rd, WC2H 0BB",
+      "estimatedCost": 15
     },
     {
       "id": "wv-512",
@@ -4818,7 +5272,8 @@
       "category": "buy",
       "description": "A quite unusual shop for the centre of London. A marine supply store which sells numerous items related to yachting: from clothing to sailing hardware and accessories. The shop has been at its current location for over 1",
       "duration": "2h",
-      "location": "194 Shaftesbury Avenue, WC2H 8JP"
+      "location": "194 Shaftesbury Avenue, WC2H 8JP",
+      "estimatedCost": 15
     },
     {
       "id": "wv-513",
@@ -4826,7 +5281,8 @@
       "category": "buy",
       "description": "Watersports-related items.",
       "duration": "2h",
-      "location": "11-14 Northumberland Avenue, WC2N 5AQ"
+      "location": "11-14 Northumberland Avenue, WC2N 5AQ",
+      "estimatedCost": 15
     },
     {
       "id": "wv-514",
@@ -4834,7 +5290,8 @@
       "category": "eat",
       "description": "Sandwiches",
       "duration": "2h",
-      "location": "47 Bedford St"
+      "location": "47 Bedford St",
+      "estimatedCost": 30
     },
     {
       "id": "wv-515",
@@ -4842,7 +5299,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "232 Shaftesbury Ave"
+      "location": "232 Shaftesbury Ave",
+      "estimatedCost": 20
     },
     {
       "id": "wv-516",
@@ -4850,7 +5308,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "200 Shaftesbury Ave"
+      "location": "200 Shaftesbury Ave",
+      "estimatedCost": 20
     },
     {
       "id": "wv-517",
@@ -4858,7 +5317,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "92-93 St Martin's Ln"
+      "location": "92-93 St Martin's Ln",
+      "estimatedCost": 20
     },
     {
       "id": "wv-518",
@@ -4866,7 +5326,8 @@
       "category": "eat",
       "description": "An Egyptian restaurant",
       "duration": "2h",
-      "location": "56 St Martin's Ln"
+      "location": "56 St Martin's Ln",
+      "estimatedCost": 0
     },
     {
       "id": "wv-519",
@@ -4874,7 +5335,8 @@
       "category": "eat",
       "description": "A casual Mexican restaurant",
       "duration": "2h",
-      "location": "19 New Row"
+      "location": "19 New Row",
+      "estimatedCost": 0
     },
     {
       "id": "wv-520",
@@ -4882,7 +5344,8 @@
       "category": "eat",
       "description": "Chinese",
       "duration": "2h",
-      "location": "33 Cranbourn St"
+      "location": "33 Cranbourn St",
+      "estimatedCost": 0
     },
     {
       "id": "wv-521",
@@ -4890,7 +5353,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "22 Cranbourn St"
+      "location": "22 Cranbourn St",
+      "estimatedCost": 0
     },
     {
       "id": "wv-522",
@@ -4898,7 +5362,8 @@
       "category": "eat",
       "description": "Always buzzing, this popular restaurant is frequented by hip (often single) clientele, who are served by attentive staff. Meals are good, the braised lamb shank is especially tasty.",
       "duration": "2h",
-      "location": "82-84 St. Martin's Ln"
+      "location": "82-84 St. Martin's Ln",
+      "estimatedCost": 0
     },
     {
       "id": "wv-523",
@@ -4906,7 +5371,8 @@
       "category": "eat",
       "description": "Serves really delicious crêpes among other things. Perfect for a break while shopping!",
       "duration": "2h",
-      "location": "63 Neal St"
+      "location": "63 Neal St",
+      "estimatedCost": 0
     },
     {
       "id": "wv-524",
@@ -4914,7 +5380,8 @@
       "category": "eat",
       "description": "London's original Mexican Cantina, serving all your typical Mexican food along with a good range of margaritas and tequila.",
       "duration": "2h",
-      "location": "5 Langley St, WC2H 9JA"
+      "location": "5 Langley St, WC2H 9JA",
+      "estimatedCost": 0
     },
     {
       "id": "wv-525",
@@ -4922,7 +5389,8 @@
       "category": "eat",
       "description": "Another of Cafe Pacifico's venues, this one is slightly smaller with more of a bar feeling.",
       "duration": "2h",
-      "location": "28 Maiden Ln"
+      "location": "28 Maiden Ln",
+      "estimatedCost": 0
     },
     {
       "id": "wv-526",
@@ -4939,7 +5407,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "Trafalgar Square, WC2N 4JJ"
+      "location": "Trafalgar Square, WC2N 4JJ",
+      "estimatedCost": 0
     },
     {
       "id": "wv-528",
@@ -4947,7 +5416,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "1 West St"
+      "location": "1 West St",
+      "estimatedCost": 0
     },
     {
       "id": "wv-529",
@@ -4955,7 +5425,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "13 Exeter St, WC2E 7DT"
+      "location": "13 Exeter St, WC2E 7DT",
+      "estimatedCost": 0
     },
     {
       "id": "wv-530",
@@ -4963,7 +5434,8 @@
       "category": "eat",
       "description": "Claims to the oldest restaurant still-going in London dating back to 1798. It's high-class decor matches its posh diners. Rules has a dress code: \"jacket or tie not required, but smart casual preferred. No shorts.\"",
       "duration": "2h",
-      "location": "35 Maiden Lane"
+      "location": "35 Maiden Lane",
+      "estimatedCost": 0
     },
     {
       "id": "wv-531",
@@ -4971,7 +5443,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Tube: {{station"
+      "location": "Tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-532",
@@ -4979,7 +5452,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Fournier St"
+      "location": "Fournier St",
+      "estimatedCost": 0
     },
     {
       "id": "wv-533",
@@ -4987,7 +5461,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "18 Folgate Street, E1 6BX"
+      "location": "18 Folgate Street, E1 6BX",
+      "estimatedCost": 15
     },
     {
       "id": "wv-534",
@@ -4995,7 +5470,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "No 1 Warehouse, West India Quay"
+      "location": "No 1 Warehouse, West India Quay",
+      "estimatedCost": 20
     },
     {
       "id": "wv-535",
@@ -5003,7 +5479,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "196 Brick Ln"
+      "location": "196 Brick Ln",
+      "estimatedCost": 10
     },
     {
       "id": "wv-536",
@@ -5011,7 +5488,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Cambridge Heath Road, E2 9PA"
+      "location": "Cambridge Heath Road, E2 9PA",
+      "estimatedCost": 15
     },
     {
       "id": "wv-537",
@@ -5019,7 +5497,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "tube: {{station"
+      "location": "tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-538",
@@ -5027,7 +5506,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "80-82 Whitechapel High St"
+      "location": "80-82 Whitechapel High St",
+      "estimatedCost": 10
     },
     {
       "id": "wv-539",
@@ -5035,7 +5515,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Graces Alley off Ensign St"
+      "location": "Graces Alley off Ensign St",
+      "estimatedCost": 20
     },
     {
       "id": "wv-540",
@@ -5043,7 +5524,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "12 Cable St, Tower Hill, Whitechapel, E1 8JG"
+      "location": "12 Cable St, Tower Hill, Whitechapel, E1 8JG",
+      "estimatedCost": 20
     },
     {
       "id": "wv-542",
@@ -5051,7 +5533,8 @@
       "category": "do",
       "description": "Walk up the Regent's Canal to Islington via Haggerston.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-543",
@@ -5059,7 +5542,8 @@
       "category": "do",
       "description": "Walk over the Green Bridge, a unique structure that joins Mile End Park together with its urban nature reserve, taking the park over the busy A11 road, ensuring uninterrupted greenery for several miles, from Limehouse to",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-544",
@@ -5067,7 +5551,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "11 Hertsmere Rd"
+      "location": "11 Hertsmere Rd",
+      "estimatedCost": 15
     },
     {
       "id": "wv-545",
@@ -5075,7 +5560,8 @@
       "category": "do",
       "description": "Hire a bike and cycle around the island. There are lots of cycle paths and great riverside views of the [[London/City of London",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 20
     },
     {
       "id": "wv-546",
@@ -5083,7 +5569,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Tube: {{station"
+      "location": "Tube: {{station",
+      "estimatedCost": 25
     },
     {
       "id": "wv-547",
@@ -5100,7 +5587,8 @@
       "category": "do",
       "description": "Paintballing centre.",
       "duration": "2h",
-      "location": "62-64 Globe Rd London E1 4DS"
+      "location": "62-64 Globe Rd London E1 4DS",
+      "estimatedCost": 50
     },
     {
       "id": "wv-549",
@@ -5108,7 +5596,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "DLR: {{station"
+      "location": "DLR: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-550",
@@ -5125,7 +5614,8 @@
       "category": "buy",
       "description": "Traditionally the East End market where nearly anything could be found (legal or not) now mostly cheaper mainstream clothes. Main market Sunday, smaller market M-F in Wentworth St.",
       "duration": "2h",
-      "location": "Middlesex St"
+      "location": "Middlesex St",
+      "estimatedCost": 0
     },
     {
       "id": "wv-553",
@@ -5133,7 +5623,8 @@
       "category": "buy",
       "description": "The Whitechapel end of Brick Lane is filled with South Asian (mainly Bangladeshi) shops and restaurants, selling music, spices, tasty sweets and sari material.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-554",
@@ -5141,7 +5632,8 @@
       "category": "buy",
       "description": "Secondhand clothing (male and female).",
       "duration": "2h",
-      "location": "110-112 Cheshire St"
+      "location": "110-112 Cheshire St",
+      "estimatedCost": 0
     },
     {
       "id": "wv-555",
@@ -5149,7 +5641,8 @@
       "category": "buy",
       "description": "Secondhand clothing (male and female).",
       "duration": "2h",
-      "location": "101&107 Brick Ln"
+      "location": "101&107 Brick Ln",
+      "estimatedCost": 0
     },
     {
       "id": "wv-556",
@@ -5157,7 +5650,8 @@
       "category": "buy",
       "description": "Selling second hand clothes, bric-a-brac, books, household goods and electronics.",
       "duration": "2h",
-      "location": "overground: Shoreditch High St, running from Shoreditch High St Overground Stn to Bethnal Green Rd and spreading out into Sclater and Cheshire Sts"
+      "location": "overground: Shoreditch High St, running from Shoreditch High St Overground Stn to Bethnal Green Rd and spreading out into Sclater and Cheshire Sts",
+      "estimatedCost": 0
     },
     {
       "id": "wv-557",
@@ -5174,7 +5668,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "Tube: {{station"
+      "location": "Tube: {{station",
+      "estimatedCost": 0
     },
     {
       "id": "wv-559",
@@ -5182,7 +5677,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "1 Canada Sq, E14 5AB"
+      "location": "1 Canada Sq, E14 5AB",
+      "estimatedCost": 20
     },
     {
       "id": "wv-560",
@@ -5190,7 +5686,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "Roman Rd, Old Ford"
+      "location": "Roman Rd, Old Ford",
+      "estimatedCost": 0
     },
     {
       "id": "wv-561",
@@ -5198,7 +5695,8 @@
       "category": "buy",
       "description": "Boasts a large vinyl selection, books, merchandise, and hosts live events 7 days a week.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-562",
@@ -5206,7 +5704,8 @@
       "category": "eat",
       "description": "Lunchtime menus include a mixture of continental and international meals. A snack menu is available in the evening. Two mezzanine areas at the bar for private party bookings.",
       "duration": "2h",
-      "location": "Fishermans Walk, 10 Cabot Square"
+      "location": "Fishermans Walk, 10 Cabot Square",
+      "estimatedCost": 20
     },
     {
       "id": "wv-563",
@@ -5214,7 +5713,8 @@
       "category": "eat",
       "description": "The Argentinian cowboy, the gaucho, made famous the tradition of cooking fresh meat over charcoal grills. The large horseshoe bar offers traditional South American cocktails and beer.",
       "duration": "2h",
-      "location": "Westferry Circus, Canary Riverside"
+      "location": "Westferry Circus, Canary Riverside",
+      "estimatedCost": 50
     },
     {
       "id": "wv-564",
@@ -5222,7 +5722,8 @@
       "category": "eat",
       "description": "Modern French restaurant, part of the Conran restaurants group. More informal Bar and Grill includes steak grills and hearty regional French dishes. Two bars.",
       "duration": "2h",
-      "location": "4F, Canada Place, E14 5ER"
+      "location": "4F, Canada Place, E14 5ER",
+      "estimatedCost": 40
     },
     {
       "id": "wv-565",
@@ -5230,7 +5731,8 @@
       "category": "eat",
       "description": "International classics for breakfast and northern Italian cuisine for lunch and dinner. The Tuscan Sunday Brunch and cocktails at bar Quadrato should not be missed. Watching chef Sebastiano Spriveri at work is a main att",
       "duration": "2h",
-      "location": "46 Westferry Circus, E14 8RS"
+      "location": "46 Westferry Circus, E14 8RS",
+      "estimatedCost": 30
     },
     {
       "id": "wv-566",
@@ -5238,7 +5740,8 @@
       "category": "eat",
       "description": "Popular restaurant with a great view of the Thames River. Decorated with Royal China gives a contemporary feel. Enjoy dim-sum and an extensive menu.",
       "duration": "2h",
-      "location": "Westferry Circus, Canary Riverside"
+      "location": "Westferry Circus, Canary Riverside",
+      "estimatedCost": 30
     },
     {
       "id": "wv-568",
@@ -5255,7 +5758,8 @@
       "category": "eat",
       "description": "Remarkable gastropub.",
       "duration": "2h",
-      "location": "223 Grove Road"
+      "location": "223 Grove Road",
+      "estimatedCost": 40
     },
     {
       "id": "wv-570",
@@ -5263,7 +5767,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "2 Midlothian Rd"
+      "location": "2 Midlothian Rd",
+      "estimatedCost": 50
     },
     {
       "id": "wv-571",
@@ -5271,7 +5776,8 @@
       "category": "eat",
       "description": "A good place for chilled-out lunches.",
       "duration": "2h",
-      "location": "63 Burdett Rd"
+      "location": "63 Burdett Rd",
+      "estimatedCost": 60
     },
     {
       "id": "wv-572",
@@ -5279,7 +5785,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "626 Roman Rd"
+      "location": "626 Roman Rd",
+      "estimatedCost": 15
     },
     {
       "id": "wv-573",
@@ -5287,7 +5794,8 @@
       "category": "eat",
       "description": "Good food, good value, pleasant atmosphere and good service.",
       "duration": "2h",
-      "location": "75 Brick Ln"
+      "location": "75 Brick Ln",
+      "estimatedCost": 20
     },
     {
       "id": "wv-574",
@@ -5295,7 +5803,8 @@
       "category": "eat",
       "description": "A local institution, Beigel Bake is more celebrated of the two and rated by some as the freshest most delicious beigel you will ever have. Their salt beef is more highly rated than Beigel Shop and a salt beef beigel with",
       "duration": "2h",
-      "location": "159 Brick Ln"
+      "location": "159 Brick Ln",
+      "estimatedCost": 10
     },
     {
       "id": "wv-575",
@@ -5303,7 +5812,8 @@
       "category": "eat",
       "description": "While less celebrated than its near neighbour, Beigel Shop is still well worth a visit. While Beigel Bake is a local institution, it is reflected in its limited range. As a result, Beigel Shop works harder for your cash,",
       "duration": "2h",
-      "location": "155 Brick Ln"
+      "location": "155 Brick Ln",
+      "estimatedCost": 10
     },
     {
       "id": "wv-576",
@@ -5311,7 +5821,8 @@
       "category": "eat",
       "description": "Long established and arguably the best South Asian restaurant in the Whitechapel area. Serves traditional food in a pleasant if slightly frenetic atmosphere. Good value and fast efficient service. Particularly recommende",
       "duration": "2h",
-      "location": "83-89, Fieldgate St"
+      "location": "83-89, Fieldgate St",
+      "estimatedCost": 25
     },
     {
       "id": "wv-577",
@@ -5319,7 +5830,8 @@
       "category": "eat",
       "description": "Good value, extremely friendly staff and is able to cater to big groups (up to 20 people). Plus, it has a BYOB licence, keeping costs down.",
       "duration": "2h",
-      "location": "2-10, Umberston St, E1 1PY"
+      "location": "2-10, Umberston St, E1 1PY",
+      "estimatedCost": 20
     },
     {
       "id": "wv-578",
@@ -5327,7 +5839,8 @@
       "category": "eat",
       "description": "Indoor weekend market with lots of stalls serving cuisine from all over the world, from Tibetan dumplings to Venezuelan arepas. Has a lively street food atmosphere and an excellent array of vegan options.",
       "duration": "2h",
-      "location": "91 Brick Ln"
+      "location": "91 Brick Ln",
+      "estimatedCost": 60
     },
     {
       "id": "wv-579",
@@ -5335,7 +5848,8 @@
       "category": "eat",
       "description": "Great Turkish grilled food.",
       "duration": "2h",
-      "location": "160 Bethnal Green Rd E2 6BG"
+      "location": "160 Bethnal Green Rd E2 6BG",
+      "estimatedCost": 40
     },
     {
       "id": "wv-580",
@@ -5352,7 +5866,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "332 Bethnal Green Rd E2 0AG"
+      "location": "332 Bethnal Green Rd E2 0AG",
+      "estimatedCost": 30
     },
     {
       "id": "wv-582",
@@ -5360,7 +5875,8 @@
       "category": "eat",
       "description": "Expensive Indian cuisine. Tandooris, Biryanis, and other specialties. View of the docks, full bar.",
       "duration": "2h",
-      "location": "2 Marble Quay, St. Katherine's Dock"
+      "location": "2 Marble Quay, St. Katherine's Dock",
+      "estimatedCost": 60
     },
     {
       "id": "wv-583",
@@ -5368,7 +5884,8 @@
       "category": "eat",
       "description": "Family-run Spanish restaurant established in 1982. Amazing Spanish food. Great for lunch when at the flower market.",
       "duration": "2h",
-      "location": "93 Columbia Rd, E2 7RG"
+      "location": "93 Columbia Rd, E2 7RG",
+      "estimatedCost": 40
     },
     {
       "id": "wv-584",
@@ -5376,7 +5893,8 @@
       "category": "eat",
       "description": "A trendy mall built out of shipping containers, full of hipsters and groups of twentysomethings at the weekend.",
       "duration": "2h",
-      "location": "2-10 Bethnal Green Rd"
+      "location": "2-10 Bethnal Green Rd",
+      "estimatedCost": 0
     },
     {
       "id": "wv-585",
@@ -5384,7 +5902,8 @@
       "category": "eat",
       "description": "Restaurant where motorcycles ride past you at your table. You can ride in and park your motorbike near the tables, or come without a bike just for the atmosphere.",
       "duration": "2h",
-      "location": "384 Old St, EC1V 9LT"
+      "location": "384 Old St, EC1V 9LT",
+      "estimatedCost": 30
     },
     {
       "id": "wv-586",
@@ -5392,7 +5911,8 @@
       "category": "eat",
       "description": "Authentic northern Chinese cuisine. The specialty is a classic Shaanxi dish, the thick biang biang noodles in the restaurant's name.",
       "duration": "2h",
-      "location": "62 Wentworth St, E1 7TF"
+      "location": "62 Wentworth St, E1 7TF",
+      "estimatedCost": 25
     },
     {
       "id": "wv-587",
@@ -5400,7 +5920,8 @@
       "category": "eat",
       "description": "Delicious brunch spot and coffee shop. No reservations on weekends, walk-ins only. Well-behaved dogs welcome.",
       "duration": "2h",
-      "location": "Emma St, E2 9AP"
+      "location": "Emma St, E2 9AP",
+      "estimatedCost": 15
     },
     {
       "id": "wv-588",
@@ -5426,7 +5947,8 @@
       "category": "see",
       "description": "Situated on a hill rising up from Greenwich town centre, the park offers impressive views from the hilltop across the River Thames to Docklands and the City of London. The park also provides a setting for several histori",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-591",
@@ -5434,7 +5956,8 @@
       "category": "see",
       "description": "with 2 herds (Red and Fallow)",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-592",
@@ -5442,7 +5965,8 @@
       "category": "see",
       "description": "The home of Greenwich Mean Time and the Prime Meridian line, this is one of the most important historic scientific sites in the world. It was founded by Charles II in 1675 and is, by international decree, the official st",
       "duration": "2h",
-      "location": "Flamsteed House"
+      "location": "Flamsteed House",
+      "estimatedCost": 20
     },
     {
       "id": "wv-593",
@@ -5450,7 +5974,8 @@
       "category": "see",
       "description": "Museum devoted to the maritime role in Britain's history. Contains the UK's national collection of Maritime artefacts (although do not expect much in the way of whole ships). One of the buildings housing the museum is th",
       "duration": "2h",
-      "location": "Romney Rd, SE10 9NF"
+      "location": "Romney Rd, SE10 9NF",
+      "estimatedCost": 20
     },
     {
       "id": "wv-594",
@@ -5458,7 +5983,8 @@
       "category": "see",
       "description": "Built by Christopher Wren in 1694 as the Greenwich Hospital for the relief and support of seamen and their dependents and for the improvement of navigation. It became the Royal Naval College in 1869. In 1999 the Universi",
       "duration": "2h",
-      "location": "Old Royal Naval College, 2 Cutty Sark Gdns, SE10 9NN"
+      "location": "Old Royal Naval College, 2 Cutty Sark Gdns, SE10 9NN",
+      "estimatedCost": 20
     },
     {
       "id": "wv-595",
@@ -5466,7 +5992,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Highbridge Wharf"
+      "location": "Highbridge Wharf",
+      "estimatedCost": 0
     },
     {
       "id": "wv-596",
@@ -5483,7 +6010,8 @@
       "category": "see",
       "description": "A hidden-away green space and wildlife haven in the middle of urban Greenwich. Comes alive in the summer with brightly coloured insects and birds.",
       "duration": "2h",
-      "location": "The Ecology Park Gatehouse, Thames Path, John Harrison Way, SE10 0QZ"
+      "location": "The Ecology Park Gatehouse, Thames Path, John Harrison Way, SE10 0QZ",
+      "estimatedCost": 0
     },
     {
       "id": "wv-598",
@@ -5500,7 +6028,8 @@
       "category": "see",
       "description": "Completed in 1612, the finest and best preserved Jacobean mansion in London.",
       "duration": "2h",
-      "location": "Charlton House, Charlton Road, SE7 8RE"
+      "location": "Charlton House, Charlton Road, SE7 8RE",
+      "estimatedCost": 0
     },
     {
       "id": "wv-600",
@@ -5517,7 +6046,8 @@
       "category": "do",
       "description": "Operated by the Greenwich Tour Guides Association, the original guiding organisation that has operated in Greenwich for 25 years. Walking tours take place twice a day (every day, excluding 24-26 Dec, 1 Jan and London Mar",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 40
     },
     {
       "id": "wv-602",
@@ -5525,7 +6055,8 @@
       "category": "do",
       "description": "Runs a range of more in-depth tours including Greenwich Day Tour, Greenwich Highlights Half Day Tour, Greenwich Food Tour and National Maritime Museum Tour. Tickets must be booked in advance and tours leave from outside ",
       "duration": "2h",
-      "location": "meets outside the Greenwich Visitors Centre"
+      "location": "meets outside the Greenwich Visitors Centre",
+      "estimatedCost": 0
     },
     {
       "id": "wv-603",
@@ -5533,7 +6064,8 @@
       "category": "do",
       "description": "A range of different bus tours, including to some destinations outside of Greenwich town centre which are harder to reach.",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 20
     },
     {
       "id": "wv-604",
@@ -5550,7 +6082,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Peninsula Square, SE10 0DX"
+      "location": "Peninsula Square, SE10 0DX",
+      "estimatedCost": 40
     },
     {
       "id": "wv-606",
@@ -5558,7 +6091,8 @@
       "category": "do",
       "description": "An internationally renowned school for music and dance training based in the Old Royal Naval College and a contemporary site by Deptford Creek. Put on musical and dance performances across Greenwich throughout the year -",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-607",
@@ -5566,7 +6100,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Greenwich Church St, SE10 9BJ"
+      "location": "Greenwich Church St, SE10 9BJ",
+      "estimatedCost": 0
     },
     {
       "id": "wv-608",
@@ -5574,7 +6109,8 @@
       "category": "do",
       "description": "Tends to show art-house films.",
       "duration": "2h",
-      "location": "180 Greenwich High Rd, SE10 8NN"
+      "location": "180 Greenwich High Rd, SE10 8NN",
+      "estimatedCost": 15
     },
     {
       "id": "wv-609",
@@ -5582,7 +6118,8 @@
       "category": "do",
       "description": "The large Odeon multiplex has 18-screens, but is a bit out-of-the way, at Bugsby Way, on the way to the O2 Arena.",
       "duration": "2h",
-      "location": "Bugsby Way, SE10 0QJ"
+      "location": "Bugsby Way, SE10 0QJ",
+      "estimatedCost": 15
     },
     {
       "id": "wv-610",
@@ -5590,7 +6127,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Croom's Hill, SE10 8ES"
+      "location": "Croom's Hill, SE10 8ES",
+      "estimatedCost": 25
     },
     {
       "id": "wv-611",
@@ -5598,7 +6136,8 @@
       "category": "do",
       "description": "Comedy club. Hosts hilarious stand-up as well as music nights.",
       "duration": "2h",
-      "location": "302 Creek Rd, SE10 9SW"
+      "location": "302 Creek Rd, SE10 9SW",
+      "estimatedCost": 30
     },
     {
       "id": "wv-612",
@@ -5606,7 +6145,8 @@
       "category": "do",
       "description": "Concert Hall",
       "duration": "2h",
-      "location": "23 Lee Rd, SE3 9RQ"
+      "location": "23 Lee Rd, SE3 9RQ",
+      "estimatedCost": 25
     },
     {
       "id": "wv-613",
@@ -5614,7 +6154,8 @@
       "category": "do",
       "description": "Every Guy Fawkes night (5th of November) Lewisham council put on a spectacular free fireworks display. In the past few years crowds of over 100,000 have amassed, so arrive early to secure a good spot. The heath also host",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-614",
@@ -5622,7 +6163,8 @@
       "category": "do",
       "description": "Annual festival held at the start of July. Tall sailing ships cruise down the Thames from Woolwich, with Greenwich town centre being a fantasic place to view them. Each evening of the festival concludes with a spectacula",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 0
     },
     {
       "id": "wv-615",
@@ -5630,7 +6172,8 @@
       "category": "do",
       "description": "The London Marathon takes place annually, usually on the last Sunday of April. For both wheelchair racers and runners (elite, club and fun - many in fancy dress), it starts from the south side of Greenwich Park, on the c",
       "duration": "2h",
-      "location": "London"
+      "location": "London",
+      "estimatedCost": 50
     },
     {
       "id": "wv-616",
@@ -5638,7 +6181,8 @@
       "category": "do",
       "description": "They play soccer in the Championship, England's second tier. The women's team play in the Championship, their second tier, at Bexleyheath in Dartford.",
       "duration": "2h",
-      "location": "The Valley, Floyd Rd, SE7 8BL"
+      "location": "The Valley, Floyd Rd, SE7 8BL",
+      "estimatedCost": 30
     },
     {
       "id": "wv-617",
@@ -5664,7 +6208,8 @@
       "category": "do",
       "description": "Greenwich is home to the last 4 miles (6.4 km) of the 184-mile-long Thames Path, organised by National Trails. From Cutty Sark, the path follows the river up and around the Greenwich Peninsula before ending at the Thames",
       "duration": "2h",
-      "location": "between Cutty Sark and the Thames Barrier"
+      "location": "between Cutty Sark and the Thames Barrier",
+      "estimatedCost": 0
     },
     {
       "id": "wv-620",
@@ -5672,7 +6217,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "5B Greenwich Market, SE10 9HZ"
+      "location": "5B Greenwich Market, SE10 9HZ",
+      "estimatedCost": 10
     },
     {
       "id": "wv-621",
@@ -5680,7 +6226,8 @@
       "category": "buy",
       "description": "Selling what you would expect.",
       "duration": "2h",
-      "location": "Thames St"
+      "location": "Thames St",
+      "estimatedCost": 10
     },
     {
       "id": "wv-622",
@@ -5688,7 +6235,8 @@
       "category": "buy",
       "description": "The name is a bit deceptive but it does have plenty of old books, music, clothes and jewellery.",
       "duration": "2h",
-      "location": "2 Greenwich Church St, SE10 9BQ"
+      "location": "2 Greenwich Church St, SE10 9BQ",
+      "estimatedCost": 10
     },
     {
       "id": "wv-623",
@@ -5696,7 +6244,8 @@
       "category": "buy",
       "description": "The largest part of the market that sells homeware, furniture and books.",
       "duration": "2h",
-      "location": "Stockwell St"
+      "location": "Stockwell St",
+      "estimatedCost": 10
     },
     {
       "id": "wv-624",
@@ -5713,7 +6262,8 @@
       "category": "eat",
       "description": "This restaurant provides excellent Nepalese and Northern Indian cuisine in an unusual and interesting setting (as long as you get seated downstairs, below street level).",
       "duration": "2h",
-      "location": "10 Greenwich Church St"
+      "location": "10 Greenwich Church St",
+      "estimatedCost": 20
     },
     {
       "id": "wv-626",
@@ -5721,7 +6271,8 @@
       "category": "eat",
       "description": "Offers budget Chinese cuisine, at a budget price if you're after a bargain rather than quality. They only take cash. Noodle Time and Saigon are located around the street, facing each other, and offer similar fare/price.",
       "duration": "2h",
-      "location": "near Cutty Sark DLR"
+      "location": "near Cutty Sark DLR",
+      "estimatedCost": 15
     },
     {
       "id": "wv-627",
@@ -5729,7 +6280,8 @@
       "category": "eat",
       "description": "Part of the local Meantime Brewery's growing empire with a massive enclosed outdoor area - great in the summer months. Part of the same building as the tourist information centre, and perhaps more popular with tourists t",
       "duration": "2h",
-      "location": "Pepys Building"
+      "location": "Pepys Building",
+      "estimatedCost": 20
     },
     {
       "id": "wv-628",
@@ -5737,7 +6289,8 @@
       "category": "eat",
       "description": "Expanded in 2016, Greenwich Market's outdoor food court is now a dedicated section of the market. Dozens of street food stalls offer a range of cuisines from around the world. Seating is limited, so it is best to buy you",
       "duration": "2h",
-      "location": "Greenwich Market, SE10 9HZ"
+      "location": "Greenwich Market, SE10 9HZ",
+      "estimatedCost": 15
     },
     {
       "id": "wv-629",
@@ -5745,7 +6298,8 @@
       "category": "eat",
       "description": "Casual Argentinian cafe with steaks, Spanish-themed food and brunch. Relaxing orangery and garden at the rear.",
       "duration": "2h",
-      "location": "15 Nelson Rd, SE10 9JB"
+      "location": "15 Nelson Rd, SE10 9JB",
+      "estimatedCost": 20
     },
     {
       "id": "wv-630",
@@ -5753,7 +6307,8 @@
       "category": "eat",
       "description": "Modern British food with seasonal ingredients. Next door to the Greenwich Picture House.",
       "duration": "2h",
-      "location": "178 Greenwich High Road, SE10 8NN"
+      "location": "178 Greenwich High Road, SE10 8NN",
+      "estimatedCost": 30
     },
     {
       "id": "wv-631",
@@ -5761,7 +6316,8 @@
       "category": "eat",
       "description": "Open since 1890, London's most famous pie and mash restaurant. Enjoy the capital's traditional meal - handmade fresh every day. Footballer David Beckham is known to be a fan and makes occasional visits.",
       "duration": "2h",
-      "location": "22 King William Walk, SE10 9HU"
+      "location": "22 King William Walk, SE10 9HU",
+      "estimatedCost": 30
     },
     {
       "id": "wv-632",
@@ -5769,7 +6325,8 @@
       "category": "eat",
       "description": "Eritrean-Italian café and restaurant.",
       "duration": "2h",
-      "location": "73 Woolwich New Road, SE18 6ED"
+      "location": "73 Woolwich New Road, SE18 6ED",
+      "estimatedCost": 40
     },
     {
       "id": "wv-633",
@@ -5777,7 +6334,8 @@
       "category": "eat",
       "description": "Japanese fusion restaurant. Food more impressive than the basic decor. You can bring your own alcohol.",
       "duration": "2h",
-      "location": "96 Trafalgar Road, SE10 9UW"
+      "location": "96 Trafalgar Road, SE10 9UW",
+      "estimatedCost": 40
     },
     {
       "id": "wv-634",
@@ -5785,7 +6343,8 @@
       "category": "eat",
       "description": "Fish and chip shop. Traditional no-frills 'chippy' - takeaway or eat in.",
       "duration": "2h",
-      "location": "62 Greenwich High Road, SE10 8LF"
+      "location": "62 Greenwich High Road, SE10 8LF",
+      "estimatedCost": 20
     },
     {
       "id": "wv-635",
@@ -5793,7 +6352,8 @@
       "category": "eat",
       "description": "A covered market from the 1930s has been transformed into an epic indoor space, with rainbow roof, pool tables and massive seating area. Home to eight of street-food traders, five bars and South-East London vibes.",
       "duration": "2h",
-      "location": "Plumstead Rd, SE18 7BZ"
+      "location": "Plumstead Rd, SE18 7BZ",
+      "estimatedCost": 0
     },
     {
       "id": "wv-636",
@@ -5801,7 +6361,8 @@
       "category": "eat",
       "description": "A hut that has been serving tea to travellers on the A2 since 1924.",
       "duration": "2h",
-      "location": "Shooters Hill Rd, SE3 0UA"
+      "location": "Shooters Hill Rd, SE3 0UA",
+      "estimatedCost": 10
     },
     {
       "id": "wv-637",
@@ -5809,7 +6370,8 @@
       "category": "eat",
       "description": "British classics - great for brunch, afternoon tea or dinner. Reserve in advance if you're planning to be in the area!",
       "duration": "2h",
-      "location": "43-45 Montpelier Vale, SE3 0TJ"
+      "location": "43-45 Montpelier Vale, SE3 0TJ",
+      "estimatedCost": 30
     },
     {
       "id": "wv-638",
@@ -5817,7 +6379,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "2 Willow Rd, NW3 1TH"
+      "location": "2 Willow Rd, NW3 1TH",
+      "estimatedCost": 15
     },
     {
       "id": "wv-639",
@@ -5825,7 +6388,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "New End Sq, NW3 1LT"
+      "location": "New End Sq, NW3 1LT",
+      "estimatedCost": 0
     },
     {
       "id": "wv-640",
@@ -5833,7 +6397,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Arkwright Rd, NW3 6DG"
+      "location": "Arkwright Rd, NW3 6DG",
+      "estimatedCost": 0
     },
     {
       "id": "wv-641",
@@ -5841,7 +6406,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Hampstead Gr, NW3 6SP"
+      "location": "Hampstead Gr, NW3 6SP",
+      "estimatedCost": 0
     },
     {
       "id": "wv-642",
@@ -5849,7 +6415,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "20 Maresfield Gdns, NW3 5SX"
+      "location": "20 Maresfield Gdns, NW3 5SX",
+      "estimatedCost": 0
     },
     {
       "id": "wv-643",
@@ -5857,7 +6424,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Church Row, NW3 6UU"
+      "location": "Church Row, NW3 6UU",
+      "estimatedCost": 0
     },
     {
       "id": "wv-644",
@@ -5865,7 +6433,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Swain's Ln, N6 6JP"
+      "location": "Swain's Ln, N6 6JP",
+      "estimatedCost": 0
     },
     {
       "id": "wv-645",
@@ -5873,7 +6442,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Keats Gr, NW3 2RR"
+      "location": "Keats Gr, NW3 2RR",
+      "estimatedCost": 0
     },
     {
       "id": "wv-646",
@@ -5881,7 +6451,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "off Regent's Park Rd, NW1"
+      "location": "off Regent's Park Rd, NW1",
+      "estimatedCost": 0
     },
     {
       "id": "wv-647",
@@ -5889,7 +6460,8 @@
       "category": "see",
       "description": "A secret jewel of a park. Beautifully landscaped grounds, hills, mature trees, lakes, a walled garden, visitor's centre, café, tennis courts, and children's playgrounds. Bequeathed to the public as a \"garden for the gard",
       "duration": "2h",
-      "location": "Swain's Ln N6"
+      "location": "Swain's Ln N6",
+      "estimatedCost": 0
     },
     {
       "id": "wv-648",
@@ -5906,7 +6478,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "North End Way, NW3"
+      "location": "North End Way, NW3",
+      "estimatedCost": 0
     },
     {
       "id": "wv-650",
@@ -5914,7 +6487,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "N End Way, NW3"
+      "location": "N End Way, NW3",
+      "estimatedCost": 0
     },
     {
       "id": "wv-651",
@@ -5922,7 +6496,8 @@
       "category": "see",
       "description": "see in London",
       "duration": "2h",
-      "location": "Hampstead Ln, NW3 7JR"
+      "location": "Hampstead Ln, NW3 7JR",
+      "estimatedCost": 15
     },
     {
       "id": "wv-652",
@@ -5930,7 +6505,8 @@
       "category": "see",
       "description": "This is a high part of the Heath with clear open vistas, and the views looking south over the city are quite wonderful. Highly recommended on a clear morning, when you can see from Canary Wharf in the east all the way to",
       "duration": "2h",
-      "location": "southern side of the Heath between Hampstead and Highgate Ponds"
+      "location": "southern side of the Heath between Hampstead and Highgate Ponds",
+      "estimatedCost": 0
     },
     {
       "id": "wv-653",
@@ -5938,7 +6514,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "5 Hollybush Vale, NW3 6TX"
+      "location": "5 Hollybush Vale, NW3 6TX",
+      "estimatedCost": 15
     },
     {
       "id": "wv-654",
@@ -5946,7 +6523,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "Eton Ave, NW3 3EU"
+      "location": "Eton Ave, NW3 3EU",
+      "estimatedCost": 20
     },
     {
       "id": "wv-655",
@@ -5954,7 +6532,8 @@
       "category": "do",
       "description": "do in London",
       "duration": "2h",
-      "location": "28 Heath St, NW3 6TE"
+      "location": "28 Heath St, NW3 6TE",
+      "estimatedCost": 20
     },
     {
       "id": "wv-656",
@@ -5962,7 +6541,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "193 Haverstock Hill, NW3 4QL"
+      "location": "193 Haverstock Hill, NW3 4QL",
+      "estimatedCost": 10
     },
     {
       "id": "wv-657",
@@ -5970,7 +6550,8 @@
       "category": "buy",
       "description": "A regular farmer's market selling fresh organic produce every Saturday",
       "duration": "2h",
-      "location": "Parliament Hill Fields"
+      "location": "Parliament Hill Fields",
+      "estimatedCost": 10
     },
     {
       "id": "wv-658",
@@ -5978,7 +6559,8 @@
       "category": "buy",
       "description": "More than 30 antique dealers permanently occupy this small arcade and adjacent courtyard. Several genres represented including furniture, paintings, toys and textiles.",
       "duration": "2h",
-      "location": "12 Heath St, NW3 6TE"
+      "location": "12 Heath St, NW3 6TE",
+      "estimatedCost": 20
     },
     {
       "id": "wv-659",
@@ -5986,7 +6568,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "78 Hampstead High St, NW3 1RE"
+      "location": "78 Hampstead High St, NW3 1RE",
+      "estimatedCost": 0
     },
     {
       "id": "wv-660",
@@ -5994,7 +6577,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "1–3 Flask Walk, NW3 1HJ"
+      "location": "1–3 Flask Walk, NW3 1HJ",
+      "estimatedCost": 10
     },
     {
       "id": "wv-661",
@@ -6002,7 +6586,8 @@
       "category": "buy",
       "description": "buy in London",
       "duration": "2h",
-      "location": "Hardy Building, West Hampstead Square, 6, Heritage Ln, NW6 2BR"
+      "location": "Hardy Building, West Hampstead Square, 6, Heritage Ln, NW6 2BR",
+      "estimatedCost": 10
     },
     {
       "id": "wv-662",
@@ -6010,7 +6595,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "77 Hampstead High St, NW3 1RE"
+      "location": "77 Hampstead High St, NW3 1RE",
+      "estimatedCost": 20
     },
     {
       "id": "wv-663",
@@ -6018,7 +6604,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "73 Heath St, NW3 6UG"
+      "location": "73 Heath St, NW3 6UG",
+      "estimatedCost": 20
     },
     {
       "id": "wv-664",
@@ -6026,7 +6613,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "27-29 Fortune Green Rd, NW6 1DT"
+      "location": "27-29 Fortune Green Rd, NW6 1DT",
+      "estimatedCost": 25
     },
     {
       "id": "wv-665",
@@ -6034,7 +6622,8 @@
       "category": "eat",
       "description": "The only cafe actually on Hampstead Heath, and a nice place to stop for a drink or quick bite after exploring the heath.",
       "duration": "2h",
-      "location": "off Highgate Rd between the tennis courts/bowling green and the bandstand"
+      "location": "off Highgate Rd between the tennis courts/bowling green and the bandstand",
+      "estimatedCost": 15
     },
     {
       "id": "wv-666",
@@ -6042,7 +6631,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "1 Hampstead High St, NW3 1UN"
+      "location": "1 Hampstead High St, NW3 1UN",
+      "estimatedCost": 10
     },
     {
       "id": "wv-668",
@@ -6050,7 +6640,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "74 West End Ln, West Hampstead, NW6 2LX"
+      "location": "74 West End Ln, West Hampstead, NW6 2LX",
+      "estimatedCost": 30
     },
     {
       "id": "wv-669",
@@ -6058,7 +6649,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "32 Downshire Hill, NW3 1NT"
+      "location": "32 Downshire Hill, NW3 1NT",
+      "estimatedCost": 0
     },
     {
       "id": "wv-670",
@@ -6066,7 +6658,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "228 Belsize Rd, NW6 4BT"
+      "location": "228 Belsize Rd, NW6 4BT",
+      "estimatedCost": 20
     },
     {
       "id": "wv-671",
@@ -6074,7 +6667,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "4 Erskine Rd, NW3 3AJ"
+      "location": "4 Erskine Rd, NW3 3AJ",
+      "estimatedCost": 30
     },
     {
       "id": "wv-672",
@@ -6082,7 +6676,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "45a S End Rd, NW3 2QB"
+      "location": "45a S End Rd, NW3 2QB",
+      "estimatedCost": 25
     },
     {
       "id": "wv-673",
@@ -6090,7 +6685,8 @@
       "category": "eat",
       "description": "eat in London",
       "duration": "2h",
-      "location": "130 Regent's Park Rd, NW1 8XL"
+      "location": "130 Regent's Park Rd, NW1 8XL",
+      "estimatedCost": 40
     }
   ],
   "cultural": [
